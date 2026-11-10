@@ -1,0 +1,865 @@
+{
+  "source_sha256": "21f520eeb0b37e3f4c315049358ea658dcc64d365bb68291978eb1a080d18074",
+  "bond_source_sha256": "3a8b96f9cd3d6a84ef3d90642ac84e3951daf8052f63288aacb8ac06e8f91b64",
+  "method": {
+    "reference": "Earlier fractional coordinates mapped through later lattice; wrapped displacements; continued B-Se bond identities and images.",
+    "network": "4 Sc, 12 Sb, 32 Se; exclude 8 Mg atoms because the selected constraints contain no Mg.",
+    "translation": "Remove mean displacement of the 48-atom network before Euclidean projection.",
+    "decomposition": "u_stretch=J^+Ju; u_preserve=(I-J^+J)u; J has rows (-e_ij,+e_ij) on bonded Cartesian atom coordinates.",
+    "fraction": "Squared Euclidean network displacement fraction; not an energy fraction or statistical significance.",
+    "species": "Species components are not separately orthogonal; cross terms are reported.",
+    "scope": "First-order kinematics of the selected 96 bonds, not force constants, energy soft modes, rigid octahedra, or causes of electronic crossings."
+  },
+  "new_first_principles_calculation": false,
+  "cumulative": [
+    {
+      "reference_pressure_GPa": 0.0,
+      "final_pressure_GPa": 0.0,
+      "network_atom_count": 48,
+      "constraint_count": 96,
+      "cartesian_dimension": 144,
+      "rank": 96,
+      "nullity_including_translations": 48,
+      "nullity_excluding_translations": 45,
+      "smallest_singular_value": 0.948911421179372,
+      "largest_singular_value": 1.8131813454610763,
+      "condition_number_nonzero": 1.9108014773470958,
+      "removed_translation_norm_A": 0.0,
+      "network_total_rms_A": 0.0,
+      "stretching_rms_A": 0.0,
+      "preserving_rms_A": 0.0,
+      "preserving_squared_fraction": null,
+      "actual_internal_bond_change_rms_A": 0.0,
+      "linearization_error_rms_A": 0.0,
+      "relative_linearization_error": null,
+      "reference_direction_sensitivity": {
+        "affine": null,
+        "midpoint": null,
+        "relaxed": null
+      },
+      "tolerance_checks": [
+        {
+          "relative_tolerance": 1e-12,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-10,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-08,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-06,
+          "rank": 96
+        }
+      ],
+      "species": {
+        "Sc": {
+          "atom_count": 4,
+          "total_rms_A": 0.0,
+          "stretching_rms_A": 0.0,
+          "preserving_rms_A": 0.0,
+          "twice_cross_term_A2_per_atom": 0.0,
+          "norm_identity_residual_A2_per_atom": 0.0
+        },
+        "Sb": {
+          "atom_count": 12,
+          "total_rms_A": 0.0,
+          "stretching_rms_A": 0.0,
+          "preserving_rms_A": 0.0,
+          "twice_cross_term_A2_per_atom": 0.0,
+          "norm_identity_residual_A2_per_atom": 0.0
+        },
+        "Se": {
+          "atom_count": 32,
+          "total_rms_A": 0.0,
+          "stretching_rms_A": 0.0,
+          "preserving_rms_A": 0.0,
+          "twice_cross_term_A2_per_atom": 0.0,
+          "norm_identity_residual_A2_per_atom": 0.0
+        }
+      },
+      "checks": {
+        "reconstruction_max_A": 0.0,
+        "preserving_bond_change_max_A": 0.0,
+        "orthogonality_A2": 0.0,
+        "norm_identity_residual_A2": 0.0,
+        "minimal_image_max_difference_A": 0.0
+      }
+    },
+    {
+      "reference_pressure_GPa": 0.0,
+      "final_pressure_GPa": 2.0,
+      "network_atom_count": 48,
+      "constraint_count": 96,
+      "cartesian_dimension": 144,
+      "rank": 96,
+      "nullity_including_translations": 48,
+      "nullity_excluding_translations": 45,
+      "smallest_singular_value": 0.9487218606189697,
+      "largest_singular_value": 1.8133807972097233,
+      "condition_number_nonzero": 1.9113934994884894,
+      "removed_translation_norm_A": 0.0005221967593369788,
+      "network_total_rms_A": 0.012261582316260828,
+      "stretching_rms_A": 0.010421842209788567,
+      "preserving_rms_A": 0.006460000452996086,
+      "preserving_squared_fraction": 0.2775697030546115,
+      "actual_internal_bond_change_rms_A": 0.00766502449838766,
+      "linearization_error_rms_A": 3.250674533865358e-05,
+      "relative_linearization_error": 0.004240918648791192,
+      "reference_direction_sensitivity": {
+        "affine": 0.2775697030546115,
+        "midpoint": 0.27632900295149654,
+        "relaxed": 0.27509799934224705
+      },
+      "tolerance_checks": [
+        {
+          "relative_tolerance": 1e-12,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-10,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-08,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-06,
+          "rank": 96
+        }
+      ],
+      "species": {
+        "Sc": {
+          "atom_count": 4,
+          "total_rms_A": 0.009420608061319523,
+          "stretching_rms_A": 0.0017810062870139611,
+          "preserving_rms_A": 0.008454914599456456,
+          "twice_cross_term_A2_per_atom": 1.4090291966513177e-05,
+          "norm_identity_residual_A2_per_atom": 1.3552527156068805e-20
+        },
+        "Sb": {
+          "atom_count": 12,
+          "total_rms_A": 0.006811108070508495,
+          "stretching_rms_A": 0.004212627315710926,
+          "preserving_rms_A": 0.005583031780569405,
+          "twice_cross_term_A2_per_atom": -2.5252796157758653e-06,
+          "norm_identity_residual_A2_per_atom": -1.1434944787933055e-20
+        },
+        "Se": {
+          "atom_count": 32,
+          "total_rms_A": 0.01403671691979577,
+          "stretching_rms_A": 0.012484825141202234,
+          "preserving_rms_A": 0.006478647213730943,
+          "twice_cross_term_A2_per_atom": -8.143066398982437e-07,
+          "norm_identity_residual_A2_per_atom": 7.623296525288703e-21
+        }
+      },
+      "checks": {
+        "reconstruction_max_A": 0.0,
+        "preserving_bond_change_max_A": 4.933119884809045e-17,
+        "orthogonality_A2": -6.844026213814747e-19,
+        "norm_identity_residual_A2": -8.673617379884035e-19,
+        "minimal_image_max_difference_A": 1.3322676295501878e-15
+      }
+    },
+    {
+      "reference_pressure_GPa": 0.0,
+      "final_pressure_GPa": 3.0,
+      "network_atom_count": 48,
+      "constraint_count": 96,
+      "cartesian_dimension": 144,
+      "rank": 96,
+      "nullity_including_translations": 48,
+      "nullity_excluding_translations": 45,
+      "smallest_singular_value": 0.9486362355302194,
+      "largest_singular_value": 1.8134790542385548,
+      "condition_number_nonzero": 1.911669601388303,
+      "removed_translation_norm_A": 0.0007964137815594457,
+      "network_total_rms_A": 0.018117457807371434,
+      "stretching_rms_A": 0.015071092930837308,
+      "preserving_rms_A": 0.010055070127649536,
+      "preserving_squared_fraction": 0.30801771201508754,
+      "actual_internal_bond_change_rms_A": 0.010992380767003977,
+      "linearization_error_rms_A": 7.059535091379966e-05,
+      "relative_linearization_error": 0.006422207564507496,
+      "reference_direction_sensitivity": {
+        "affine": 0.30801771201508754,
+        "midpoint": 0.306134726114992,
+        "relaxed": 0.30427091867277206
+      },
+      "tolerance_checks": [
+        {
+          "relative_tolerance": 1e-12,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-10,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-08,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-06,
+          "rank": 96
+        }
+      ],
+      "species": {
+        "Sc": {
+          "atom_count": 4,
+          "total_rms_A": 0.014507562138419266,
+          "stretching_rms_A": 0.002316815867502064,
+          "preserving_rms_A": 0.013362401658475395,
+          "twice_cross_term_A2_per_atom": 2.6547945353760878e-05,
+          "norm_identity_residual_A2_per_atom": -2.710505431213761e-20
+        },
+        "Sb": {
+          "atom_count": 12,
+          "total_rms_A": 0.009693256601770539,
+          "stretching_rms_A": 0.005479183350764958,
+          "preserving_rms_A": 0.008583883798759184,
+          "twice_cross_term_A2_per_atom": -9.745287714132166e-06,
+          "norm_identity_residual_A2_per_atom": -2.541098841762901e-20
+        },
+        "Se": {
+          "atom_count": 32,
+          "total_rms_A": 0.02075620479211942,
+          "stretching_rms_A": 0.01813223000357858,
+          "preserving_rms_A": 0.010084953284281821,
+          "twice_cross_term_A2_per_atom": 3.359897235791265e-07,
+          "norm_identity_residual_A2_per_atom": -3.3881317890172014e-21
+        }
+      },
+      "checks": {
+        "reconstruction_max_A": 0.0,
+        "preserving_bond_change_max_A": 5.724587470723463e-17,
+        "orthogonality_A2": -5.136407792150077e-18,
+        "norm_identity_residual_A2": -6.938893903907228e-18,
+        "minimal_image_max_difference_A": 1.3322676295501878e-15
+      }
+    },
+    {
+      "reference_pressure_GPa": 0.0,
+      "final_pressure_GPa": 4.0,
+      "network_atom_count": 48,
+      "constraint_count": 96,
+      "cartesian_dimension": 144,
+      "rank": 96,
+      "nullity_including_translations": 48,
+      "nullity_excluding_translations": 45,
+      "smallest_singular_value": 0.9485321206726257,
+      "largest_singular_value": 1.813577381174928,
+      "condition_number_nonzero": 1.9119830964594842,
+      "removed_translation_norm_A": 0.001053738986684905,
+      "network_total_rms_A": 0.02388297953299312,
+      "stretching_rms_A": 0.019757313697820304,
+      "preserving_rms_A": 0.013418094753700701,
+      "preserving_squared_fraction": 0.31564920208916986,
+      "actual_internal_bond_change_rms_A": 0.014344212960174714,
+      "linearization_error_rms_A": 0.00012411335432448837,
+      "relative_linearization_error": 0.008652503603305165,
+      "reference_direction_sensitivity": {
+        "affine": 0.31564920208916986,
+        "midpoint": 0.313226635244581,
+        "relaxed": 0.3108344409138995
+      },
+      "tolerance_checks": [
+        {
+          "relative_tolerance": 1e-12,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-10,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-08,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-06,
+          "rank": 96
+        }
+      ],
+      "species": {
+        "Sc": {
+          "atom_count": 4,
+          "total_rms_A": 0.018944606069545407,
+          "stretching_rms_A": 0.002757300982956244,
+          "preserving_rms_A": 0.017608289091929484,
+          "twice_cross_term_A2_per_atom": 4.124354567468245e-05,
+          "norm_identity_residual_A2_per_atom": -1.4907779871675686e-19
+        },
+        "Sb": {
+          "atom_count": 12,
+          "total_rms_A": 0.01255554111349949,
+          "stretching_rms_A": 0.006521382974885377,
+          "preserving_rms_A": 0.011577064760055596,
+          "twice_cross_term_A2_per_atom": -1.8915251710869993e-05,
+          "norm_identity_residual_A2_per_atom": -2.710505431213761e-20
+        },
+        "Se": {
+          "atom_count": 32,
+          "total_rms_A": 0.027415637871914988,
+          "stretching_rms_A": 0.023845936022263176,
+          "preserving_rms_A": 0.013455510356871255,
+          "twice_cross_term_A2_per_atom": 1.937776182241356e-06,
+          "norm_identity_residual_A2_per_atom": -1.4907779871675686e-19
+        }
+      },
+      "checks": {
+        "reconstruction_max_A": 0.0,
+        "preserving_bond_change_max_A": 8.223673478302551e-17,
+        "orthogonality_A2": 6.640738306473715e-18,
+        "norm_identity_residual_A2": 1.734723475976807e-17,
+        "minimal_image_max_difference_A": 1.3322676295501878e-15
+      }
+    },
+    {
+      "reference_pressure_GPa": 0.0,
+      "final_pressure_GPa": 5.0,
+      "network_atom_count": 48,
+      "constraint_count": 96,
+      "cartesian_dimension": 144,
+      "rank": 96,
+      "nullity_including_translations": 48,
+      "nullity_excluding_translations": 45,
+      "smallest_singular_value": 0.9484544421216304,
+      "largest_singular_value": 1.8136842608460326,
+      "condition_number_nonzero": 1.9122523763913635,
+      "removed_translation_norm_A": 0.0015097822205870142,
+      "network_total_rms_A": 0.03042406908376726,
+      "stretching_rms_A": 0.0249849134294365,
+      "preserving_rms_A": 0.017360244253391322,
+      "preserving_squared_fraction": 0.32559450400489537,
+      "actual_internal_bond_change_rms_A": 0.018093307022006372,
+      "linearization_error_rms_A": 0.0002010299039170994,
+      "relative_linearization_error": 0.011110733028107715,
+      "reference_direction_sensitivity": {
+        "affine": 0.32559450400489537,
+        "midpoint": 0.3224793516449923,
+        "relaxed": 0.3194111834389831
+      },
+      "tolerance_checks": [
+        {
+          "relative_tolerance": 1e-12,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-10,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-08,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-06,
+          "rank": 96
+        }
+      ],
+      "species": {
+        "Sc": {
+          "atom_count": 4,
+          "total_rms_A": 0.024772573890526617,
+          "stretching_rms_A": 0.003164870948481873,
+          "preserving_rms_A": 0.02329784137292426,
+          "twice_cross_term_A2_per_atom": 6.087459640311499e-05,
+          "norm_identity_residual_A2_per_atom": 9.486769009248164e-20
+        },
+        "Sb": {
+          "atom_count": 12,
+          "total_rms_A": 0.015363322661360694,
+          "stretching_rms_A": 0.007376842182531135,
+          "preserving_rms_A": 0.014692269344697063,
+          "twice_cross_term_A2_per_atom": -3.424889588601679e-05,
+          "norm_identity_residual_A2_per_atom": 3.3881317890172014e-20
+        },
+        "Se": {
+          "atom_count": 32,
+          "total_rms_A": 0.034974476923560406,
+          "stretching_rms_A": 0.030244175015692654,
+          "preserving_rms_A": 0.01741464620053894,
+          "twice_cross_term_A2_per_atom": 5.2340114068662295e-06,
+          "norm_identity_residual_A2_per_atom": 6.437450399132683e-20
+        }
+      },
+      "checks": {
+        "reconstruction_max_A": 0.0,
+        "preserving_bond_change_max_A": 8.402566836762659e-17,
+        "orthogonality_A2": -1.0706496453294356e-17,
+        "norm_identity_residual_A2": -2.0816681711721685e-17,
+        "minimal_image_max_difference_A": 1.3322676295501878e-15
+      }
+    },
+    {
+      "reference_pressure_GPa": 0.0,
+      "final_pressure_GPa": 6.0,
+      "network_atom_count": 48,
+      "constraint_count": 96,
+      "cartesian_dimension": 144,
+      "rank": 96,
+      "nullity_including_translations": 48,
+      "nullity_excluding_translations": 45,
+      "smallest_singular_value": 0.9483170840364253,
+      "largest_singular_value": 1.813772389226828,
+      "condition_number_nonzero": 1.9126222861099065,
+      "removed_translation_norm_A": 0.0018255980922225802,
+      "network_total_rms_A": 0.03817502644201851,
+      "stretching_rms_A": 0.031355599989010365,
+      "preserving_rms_A": 0.02177519215019661,
+      "preserving_squared_fraction": 0.3253608537346224,
+      "actual_internal_bond_change_rms_A": 0.022646844414852485,
+      "linearization_error_rms_A": 0.00031560491733311906,
+      "relative_linearization_error": 0.01393593348158191,
+      "reference_direction_sensitivity": {
+        "affine": 0.3253608537346224,
+        "midpoint": 0.3220450255087632,
+        "relaxed": 0.31878761475057305
+      },
+      "tolerance_checks": [
+        {
+          "relative_tolerance": 1e-12,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-10,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-08,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-06,
+          "rank": 96
+        }
+      ],
+      "species": {
+        "Sc": {
+          "atom_count": 4,
+          "total_rms_A": 0.029365460712978925,
+          "stretching_rms_A": 0.003452095369038927,
+          "preserving_rms_A": 0.027866264778018488,
+          "twice_cross_term_A2_per_atom": 7.388460776993494e-05,
+          "norm_identity_residual_A2_per_atom": 1.0842021724855044e-19
+        },
+        "Sb": {
+          "atom_count": 12,
+          "total_rms_A": 0.019593607363727557,
+          "stretching_rms_A": 0.007889575253463973,
+          "preserving_rms_A": 0.019175431084163804,
+          "twice_cross_term_A2_per_atom": -4.603310541966787e-05,
+          "norm_identity_residual_A2_per_atom": 7.453889935837843e-20
+        },
+        "Se": {
+          "atom_count": 32,
+          "total_rms_A": 0.04398001406140136,
+          "stretching_rms_A": 0.03807793103060612,
+          "preserving_rms_A": 0.021823976876553196,
+          "twice_cross_term_A2_per_atom": 8.026838561136085e-06,
+          "norm_identity_residual_A2_per_atom": 5.21772295508649e-19
+        }
+      },
+      "checks": {
+        "reconstruction_max_A": 0.0,
+        "preserving_bond_change_max_A": 1.0928757898653885e-16,
+        "orthogonality_A2": 3.9871534893154426e-17,
+        "norm_identity_residual_A2": 8.326672684688674e-17,
+        "minimal_image_max_difference_A": 1.3322676295501878e-15
+      }
+    }
+  ],
+  "adjacent": [
+    {
+      "reference_pressure_GPa": 0.0,
+      "final_pressure_GPa": 2.0,
+      "network_atom_count": 48,
+      "constraint_count": 96,
+      "cartesian_dimension": 144,
+      "rank": 96,
+      "nullity_including_translations": 48,
+      "nullity_excluding_translations": 45,
+      "smallest_singular_value": 0.9487218606189697,
+      "largest_singular_value": 1.8133807972097233,
+      "condition_number_nonzero": 1.9113934994884894,
+      "removed_translation_norm_A": 0.0005221967593369788,
+      "network_total_rms_A": 0.012261582316260828,
+      "stretching_rms_A": 0.010421842209788567,
+      "preserving_rms_A": 0.006460000452996086,
+      "preserving_squared_fraction": 0.2775697030546115,
+      "actual_internal_bond_change_rms_A": 0.00766502449838766,
+      "linearization_error_rms_A": 3.250674533865358e-05,
+      "relative_linearization_error": 0.004240918648791192,
+      "reference_direction_sensitivity": {
+        "affine": 0.2775697030546115,
+        "midpoint": 0.27632900295149654,
+        "relaxed": 0.27509799934224705
+      },
+      "tolerance_checks": [
+        {
+          "relative_tolerance": 1e-12,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-10,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-08,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-06,
+          "rank": 96
+        }
+      ],
+      "species": {
+        "Sc": {
+          "atom_count": 4,
+          "total_rms_A": 0.009420608061319523,
+          "stretching_rms_A": 0.0017810062870139611,
+          "preserving_rms_A": 0.008454914599456456,
+          "twice_cross_term_A2_per_atom": 1.4090291966513177e-05,
+          "norm_identity_residual_A2_per_atom": 1.3552527156068805e-20
+        },
+        "Sb": {
+          "atom_count": 12,
+          "total_rms_A": 0.006811108070508495,
+          "stretching_rms_A": 0.004212627315710926,
+          "preserving_rms_A": 0.005583031780569405,
+          "twice_cross_term_A2_per_atom": -2.5252796157758653e-06,
+          "norm_identity_residual_A2_per_atom": -1.1434944787933055e-20
+        },
+        "Se": {
+          "atom_count": 32,
+          "total_rms_A": 0.01403671691979577,
+          "stretching_rms_A": 0.012484825141202234,
+          "preserving_rms_A": 0.006478647213730943,
+          "twice_cross_term_A2_per_atom": -8.143066398982437e-07,
+          "norm_identity_residual_A2_per_atom": 7.623296525288703e-21
+        }
+      },
+      "checks": {
+        "reconstruction_max_A": 0.0,
+        "preserving_bond_change_max_A": 4.933119884809045e-17,
+        "orthogonality_A2": -6.844026213814747e-19,
+        "norm_identity_residual_A2": -8.673617379884035e-19,
+        "minimal_image_max_difference_A": 1.3322676295501878e-15
+      }
+    },
+    {
+      "reference_pressure_GPa": 2.0,
+      "final_pressure_GPa": 3.0,
+      "network_atom_count": 48,
+      "constraint_count": 96,
+      "cartesian_dimension": 144,
+      "rank": 96,
+      "nullity_including_translations": 48,
+      "nullity_excluding_translations": 45,
+      "smallest_singular_value": 0.952585885599877,
+      "largest_singular_value": 1.8087480040570536,
+      "condition_number_nonzero": 1.8987768256906525,
+      "removed_translation_norm_A": 0.0002784061511948576,
+      "network_total_rms_A": 0.006114563796171634,
+      "stretching_rms_A": 0.004839968685836334,
+      "preserving_rms_A": 0.003736655394544238,
+      "preserving_squared_fraction": 0.37345229649701617,
+      "actual_internal_bond_change_rms_A": 0.0034747628310689642,
+      "linearization_error_rms_A": 7.805611124640321e-06,
+      "relative_linearization_error": 0.0022463723437029597,
+      "reference_direction_sensitivity": {
+        "affine": 0.37345229649701617,
+        "midpoint": 0.3728030130423359,
+        "relaxed": 0.37215543044094873
+      },
+      "tolerance_checks": [
+        {
+          "relative_tolerance": 1e-12,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-10,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-08,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-06,
+          "rank": 96
+        }
+      ],
+      "species": {
+        "Sc": {
+          "atom_count": 4,
+          "total_rms_A": 0.005218435828203697,
+          "stretching_rms_A": 0.00057061176911685,
+          "preserving_rms_A": 0.004983510357707207,
+          "twice_cross_term_A2_per_atom": 2.0710992166503367e-06,
+          "norm_identity_residual_A2_per_atom": -5.082197683525802e-21
+        },
+        "Sb": {
+          "atom_count": 12,
+          "total_rms_A": 0.003243096442980945,
+          "stretching_rms_A": 0.001309896437260724,
+          "preserving_rms_A": 0.0031864248091844627,
+          "twice_cross_term_A2_per_atom": -1.35145720245892e-06,
+          "norm_identity_residual_A2_per_atom": 8.470329472543003e-22
+        },
+        "Se": {
+          "atom_count": 32,
+          "total_rms_A": 0.006980952557682649,
+          "stretching_rms_A": 0.005869736777940044,
+          "preserving_rms_A": 0.003745928419160344,
+          "twice_cross_term_A2_per_atom": 2.4790904884083477e-07,
+          "norm_identity_residual_A2_per_atom": -7.623296525288703e-21
+        }
+      },
+      "checks": {
+        "reconstruction_max_A": 0.0,
+        "preserving_bond_change_max_A": 1.9949319973733282e-17,
+        "orthogonality_A2": 5.21772295508649e-19,
+        "norm_identity_residual_A2": 8.673617379884035e-19,
+        "minimal_image_max_difference_A": 1.3322676295501878e-15
+      }
+    },
+    {
+      "reference_pressure_GPa": 3.0,
+      "final_pressure_GPa": 4.0,
+      "network_atom_count": 48,
+      "constraint_count": 96,
+      "cartesian_dimension": 144,
+      "rank": 96,
+      "nullity_including_translations": 48,
+      "nullity_excluding_translations": 45,
+      "smallest_singular_value": 0.9540927389651719,
+      "largest_singular_value": 1.8073061538136563,
+      "condition_number_nonzero": 1.8942667520705554,
+      "removed_translation_norm_A": 0.0002608398787312719,
+      "network_total_rms_A": 0.006152550521833894,
+      "stretching_rms_A": 0.005056193793623524,
+      "preserving_rms_A": 0.0035055359426258217,
+      "preserving_squared_fraction": 0.32463734019022616,
+      "actual_internal_bond_change_rms_A": 0.003625990088639086,
+      "linearization_error_rms_A": 8.38723707042408e-06,
+      "relative_linearization_error": 0.0023130888020634374,
+      "reference_direction_sensitivity": {
+        "affine": 0.32463734019022616,
+        "midpoint": 0.3241497548799364,
+        "relaxed": 0.3236632776009619
+      },
+      "tolerance_checks": [
+        {
+          "relative_tolerance": 1e-12,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-10,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-08,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-06,
+          "rank": 96
+        }
+      ],
+      "species": {
+        "Sc": {
+          "atom_count": 4,
+          "total_rms_A": 0.004568269365415424,
+          "stretching_rms_A": 0.0004806662314407242,
+          "preserving_rms_A": 0.004348470589609404,
+          "twice_cross_term_A2_per_atom": 1.7288485002476583e-06,
+          "norm_identity_residual_A2_per_atom": 2.752857078576476e-21
+        },
+        "Sb": {
+          "atom_count": 12,
+          "total_rms_A": 0.003170711495446878,
+          "stretching_rms_A": 0.001082415143024143,
+          "preserving_rms_A": 0.003156077988736627,
+          "twice_cross_term_A2_per_atom": -1.0790394254768308e-06,
+          "norm_identity_residual_A2_per_atom": -1.6940658945086007e-21
+        },
+        "Se": {
+          "atom_count": 32,
+          "total_rms_A": 0.007099447301793574,
+          "stretching_rms_A": 0.006154624688928372,
+          "preserving_rms_A": 0.003512009852969462,
+          "twice_cross_term_A2_per_atom": 1.885337220228214e-07,
+          "norm_identity_residual_A2_per_atom": -1.2387856853594142e-20
+        }
+      },
+      "checks": {
+        "reconstruction_max_A": 0.0,
+        "preserving_bond_change_max_A": 2.1250362580715887e-17,
+        "orthogonality_A2": -5.370188885592264e-19,
+        "norm_identity_residual_A2": -8.673617379884035e-19,
+        "minimal_image_max_difference_A": 1.3322676295501878e-15
+      }
+    },
+    {
+      "reference_pressure_GPa": 4.0,
+      "final_pressure_GPa": 5.0,
+      "network_atom_count": 48,
+      "constraint_count": 96,
+      "cartesian_dimension": 144,
+      "rank": 96,
+      "nullity_including_translations": 48,
+      "nullity_excluding_translations": 45,
+      "smallest_singular_value": 0.9554361899381104,
+      "largest_singular_value": 1.8056303525899227,
+      "condition_number_nonzero": 1.8898492349414613,
+      "removed_translation_norm_A": 0.00046261767384233856,
+      "network_total_rms_A": 0.007253348302733605,
+      "stretching_rms_A": 0.005940948606313957,
+      "preserving_rms_A": 0.004161272793017146,
+      "preserving_squared_fraction": 0.32913594082754233,
+      "actual_internal_bond_change_rms_A": 0.00426730058432583,
+      "linearization_error_rms_A": 1.1088603836640165e-05,
+      "relative_linearization_error": 0.002598505452690533,
+      "reference_direction_sensitivity": {
+        "affine": 0.32913594082754233,
+        "midpoint": 0.3284591642864789,
+        "relaxed": 0.327784198920139
+      },
+      "tolerance_checks": [
+        {
+          "relative_tolerance": 1e-12,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-10,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-08,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-06,
+          "rank": 96
+        }
+      ],
+      "species": {
+        "Sc": {
+          "atom_count": 4,
+          "total_rms_A": 0.005980619826236156,
+          "stretching_rms_A": 0.0004572100978423694,
+          "preserving_rms_A": 0.005784326611468544,
+          "twice_cross_term_A2_per_atom": 2.1003380842567824e-06,
+          "norm_identity_residual_A2_per_atom": 1.2281977735187355e-20
+        },
+        "Sb": {
+          "atom_count": 12,
+          "total_rms_A": 0.0033085167307135973,
+          "stretching_rms_A": 0.0009156425740067493,
+          "preserving_rms_A": 0.0034100817966432064,
+          "twice_cross_term_A2_per_atom": -1.5207762257192737e-06,
+          "norm_identity_residual_A2_per_atom": 8.470329472543003e-22
+        },
+        "Se": {
+          "atom_count": 32,
+          "total_rms_A": 0.008386939823551685,
+          "stretching_rms_A": 0.007252708106896992,
+          "preserving_rms_A": 0.004175073160546432,
+          "twice_cross_term_A2_per_atom": 3.077488241126434e-07,
+          "norm_identity_residual_A2_per_atom": -6.1409888675936775e-21
+        }
+      },
+      "checks": {
+        "reconstruction_max_A": 0.0,
+        "preserving_bond_change_max_A": 1.951563910473908e-17,
+        "orthogonality_A2": 2.0921713797181218e-19,
+        "norm_identity_residual_A2": 8.673617379884035e-19,
+        "minimal_image_max_difference_A": 1.3322676295501878e-15
+      }
+    },
+    {
+      "reference_pressure_GPa": 5.0,
+      "final_pressure_GPa": 6.0,
+      "network_atom_count": 48,
+      "constraint_count": 96,
+      "cartesian_dimension": 144,
+      "rank": 96,
+      "nullity_including_translations": 48,
+      "nullity_excluding_translations": 45,
+      "smallest_singular_value": 0.9566207581658314,
+      "largest_singular_value": 1.8045570594624754,
+      "condition_number_nonzero": 1.8863871017417888,
+      "removed_translation_norm_A": 0.00032514856494609705,
+      "network_total_rms_A": 0.00930823400762726,
+      "stretching_rms_A": 0.0074999856323837875,
+      "preserving_rms_A": 0.005513024202267336,
+      "preserving_squared_fraction": 0.3507883910045671,
+      "actual_internal_bond_change_rms_A": 0.005390416491089276,
+      "linearization_error_rms_A": 1.8382563861756157e-05,
+      "relative_linearization_error": 0.003410230710770453,
+      "reference_direction_sensitivity": {
+        "affine": 0.3507883910045671,
+        "midpoint": 0.35056477385121754,
+        "relaxed": 0.35034089197939455
+      },
+      "tolerance_checks": [
+        {
+          "relative_tolerance": 1e-12,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-10,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-08,
+          "rank": 96
+        },
+        {
+          "relative_tolerance": 1e-06,
+          "rank": 96
+        }
+      ],
+      "species": {
+        "Sc": {
+          "atom_count": 4,
+          "total_rms_A": 0.005406945540204694,
+          "stretching_rms_A": 0.00039759723521821635,
+          "preserving_rms_A": 0.0053227991450596306,
+          "twice_cross_term_A2_per_atom": 7.447857746387274e-07,
+          "norm_identity_residual_A2_per_atom": -3.282252670610414e-21
+        },
+        "Sb": {
+          "atom_count": 12,
+          "total_rms_A": 0.005790368666517013,
+          "stretching_rms_A": 0.0006594157533797064,
+          "preserving_rms_A": 0.005594641377771294,
+          "twice_cross_term_A2_per_atom": 1.7935280125059966e-06,
+          "norm_identity_residual_A2_per_atom": 3.3881317890172014e-21
+        },
+        "Se": {
+          "atom_count": 32,
+          "total_rms_A": 0.01066476954821164,
+          "stretching_rms_A": 0.0091756119881911,
+          "preserving_rms_A": 0.005505554048880607,
+          "twice_cross_term_A2_per_atom": -7.656712265195687e-07,
+          "norm_identity_residual_A2_per_atom": 8.258571235729428e-21
+        }
+      },
+      "checks": {
+        "reconstruction_max_A": 0.0,
+        "preserving_bond_change_max_A": 2.7755575615628914e-17,
+        "orthogonality_A2": 3.015437292225309e-19,
+        "norm_identity_residual_A2": 0.0,
+        "minimal_image_max_difference_A": 8.881784197001252e-16
+      }
+    }
+  ]
+}

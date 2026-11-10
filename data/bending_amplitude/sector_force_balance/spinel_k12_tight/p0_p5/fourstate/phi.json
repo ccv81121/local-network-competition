@@ -1,0 +1,34 @@
+{
+ "dir": "$WORK/PRL_MECHANISM_TEST_20261014/work/Spinel_k12_tight/P0_P5/fourstate",
+ "edge": "C",
+ "k_edge": [
+  1.262379e-15,
+  1.262379e-15,
+  1.262379e-15
+ ],
+ "k_rival": [
+  0.5,
+  0.5,
+  0.5
+ ],
+ "Lambda_meV": {
+  "state00": -22.37,
+  "state10": 2.29,
+  "state01": -16.95,
+  "state11": 6.79
+ },
+ "dLambda_perp_meV": 24.66,
+ "dLambda_par_meV": 5.42,
+ "dLambda_total_meV": 29.16,
+ "additivity_residual_meV": -0.93,
+ "phi": 0.8197,
+ "phi_all": 0.6933,
+ "E_rel_meV": {
+  "state00": 0.0,
+  "state10": -13.12,
+  "state01": -147.0,
+  "state11": -165.65
+ },
+ "LambdaV_state11_meV": 135.37,
+ "LambdaC_state11_meV": 6.79
+}

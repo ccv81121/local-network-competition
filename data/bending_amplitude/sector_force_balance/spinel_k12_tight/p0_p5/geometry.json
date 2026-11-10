@@ -1,0 +1,21 @@
+{
+ "material": "Spinel_k12_tight",
+ "P1": 0.0,
+ "P2": 5.0,
+ "n_atoms": 56,
+ "n_network": 48,
+ "n_bonds": 96,
+ "bond_rank": 96,
+ "n_bridges": 96,
+ "bond_preserving_share_network": 0.3255945040048953,
+ "u_rms_A": 0.03042406908376726,
+ "A_cation_rms_A": 0.026833261443657008,
+ "bridge_angle_change_rms_deg": 0.7230389019901069,
+ "bridge_share_perp_projection": 0.24610446501539307,
+ "bridge_share_par_projection": 0.7550512566584405,
+ "bridge_rms_perp_deg": 0.3644438910318051,
+ "bridge_rms_par_deg": 0.6308251070034026,
+ "space_group_raff": "Cm",
+ "n_symmetric_dof": 90,
+ "actual_displacement_symmetric_fraction": 0.9999965127583819
+}

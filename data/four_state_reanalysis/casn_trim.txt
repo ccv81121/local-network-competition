@@ -1,0 +1,21 @@
+## PRL_CORNER_FOURSTATE_20261012/work/CaSnO3/P0_P5/fourstate
+   state00 h0h:0.0 00h:94.0 000:120.6 hhh:128.7 0h0:130.2 0hh:133.0 hh0:171.6 h00:172.7
+   state10 h0h:0.0 00h:94.1 000:123.0 0hh:131.6 0h0:132.1 hhh:132.3 hh0:170.7 h00:177.5
+   state01 h0h:0.0 00h:81.3 0h0:113.2 0hh:116.5 hhh:119.3 000:120.2 h00:150.7 hh0:156.9
+   state11 h0h:0.0 00h:81.4 0hh:115.2 0h0:115.2 000:122.4 hhh:123.0 h00:155.7 hh0:156.1
+   pair U-00h: dperp=+0.16 dpar=-12.70 phi=0.013
+   pair U-000: dperp=+2.35 dpar=-0.43 phi=0.846
+## PRL_FUNCTIONAL_TEST_20261014/work/CaSnO3/P0_P5/fourstate
+   state00 h0h:0.0 000:130.3 00h:153.3 hhh:163.6 0h0:205.0 0hh:207.9 hh0:227.5 h00:234.2
+   state10 h0h:0.0 000:131.7 00h:153.4 hhh:166.4 0hh:207.0 0h0:209.3 hh0:226.6 h00:237.2
+   state01 h0h:0.0 000:132.5 00h:139.4 hhh:154.1 0hh:191.6 0h0:192.5 hh0:212.8 h00:214.5
+   state11 h0h:0.0 000:134.1 00h:139.4 hhh:156.9 0hh:190.5 0h0:193.9 hh0:211.9 h00:217.8
+   pair U-00h: dperp=+0.07 dpar=-13.97 phi=0.005
+   pair U-000: dperp=+1.41 dpar=+2.21 phi=0.390
+## PRL_FUNCTIONAL_TEST_20261014/fixedgeom/CaSnO3
+   state00 h0h:0.0 00h:109.9 000:116.7 hhh:133.9 0h0:147.9 0hh:154.6 h00:180.4 hh0:181.8
+   state10 h0h:0.0 00h:109.9 000:118.9 hhh:137.8 0h0:150.0 0hh:153.2 hh0:180.8 h00:185.3
+   state01 h0h:0.0 00h:97.5 000:118.5 hhh:124.7 0h0:131.2 0hh:138.5 h00:159.2 hh0:167.3
+   state11 h0h:0.0 00h:97.4 000:120.8 hhh:128.7 0h0:133.4 0hh:137.1 h00:164.3 hh0:166.5
+   pair U-00h: dperp=-0.01 dpar=-12.43 phi=0.000
+   pair U-000: dperp=+2.17 dpar=+1.78 phi=0.550

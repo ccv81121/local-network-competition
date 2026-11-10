@@ -1,0 +1,50 @@
+{
+ "note": "Tight-relaxation (EDIFFG -1E-3, max |F| <= 0.001 eV/A) values that replace the Round5 spinel pressure, four-state and force-balance numbers. Server: $WORK/PRL_TIGHT_SPINEL_20261015. Lambda_C = E_C(1/2,1/2,1/2) - E_C(Gamma); Lambda_V = E_V(Gamma) - E_V(q_V), q_V the highest non-Gamma valence point on the mesh.",
+ "pressure_path_PBE_meV": {
+  "source": "path_edges.json",
+  "pressure_GPa": [0, 2, 3, 4, 5, 6],
+  "k4": {"Lambda_C": [-112.69, -72.78, -47.99, -21.54, 6.85, 34.91], "Lambda_V": [54.89, 59.52, 62.42, 65.01, 67.99, 70.25]},
+  "k6": {"Lambda_C": [-112.69, -72.77, -48.11, -21.25, 7.04, 34.97], "Lambda_V": [30.3, 33.12, 34.71, 35.88, 37.03, 37.21]},
+  "gap_type": "indirect (VBM Gamma, CBM 1/2,1/2,1/2) at 0-4 GPa; direct Gamma-Gamma at 5 and 6 GPa",
+  "7.5_GPa": "relaxation stopped at the force noise floor (Spinel/P7.5/relax/stopped.txt); not used"
+ },
+ "four_state_k6": {
+  "source": "work/Spinel/P4_P5/fourstate (ISMEAR 0, SIGMA 0.02, 6x6x6 Gamma), fourstate.log",
+  "Lambda_C_meV": {"state00": 0.34, "state10": 6.17, "state01": 0.99, "state11": 6.78},
+  "E_minus_E00_meV_per_cell": {"state00": 0.0, "state10": -0.94, "state01": -6.18, "state11": -7.34},
+  "Delta_Lambda_C_bond_preserving_meV": 5.84,
+  "Delta_Lambda_C_complementary_meV": 0.66,
+  "bond_preserving_fraction_of_Delta_Lambda_C": 0.899,
+  "VBM": "Gamma in all four states"
+ },
+ "force_balance_stars_k6": {
+  "source": "static_k6_pred/{raff,pred} (ISMEAR -5, 6x6x6 Gamma); TOTEN relative to four-state state00 (-239.48350367 eV)",
+  "r_aff": {"Lambda_C_meV": -1.07, "E_minus_E00_meV": -0.80},
+  "prediction_r_aff_plus_Hpf": {"Lambda_C_meV": 6.79, "E_minus_E00_meV": -7.36},
+  "actual_5GPa_static_k6": {"Lambda_C_meV": 7.04, "E_minus_E_raff_meV": -6.54},
+  "prediction_E_minus_E_raff_meV": -6.56
+ },
+ "force_balance_shares": {
+  "source": "tight_check.json, fb_tight/outputs",
+  "drive_bond_preserving_share": 0.0054,
+  "predicted_bond_preserving_share": 0.314,
+  "actual_bond_preserving_share": 0.329,
+  "cos_prediction_actual": 0.989,
+  "cos_force_actual": 0.733,
+  "bond_length_change_pearson_pred_actual": 0.9993,
+  "softest_20_modes": {"drive_share": 0.0025, "response_share": 0.311, "mean_bond_preserving_fraction": 0.986},
+  "local_stiffness_model": {"fit_R2": 0.892, "bend_to_stretch_Sc": 0.075, "bend_to_stretch_Sb": 0.122, "cos_with_Hpf": 0.961, "cos_with_actual": 0.967, "bond_preserving_share": 0.202, "bond_preserving_share_isotropic_bending": 0.012}
+ },
+ "network_kinematics_adjacent_bond_preserving_share": {
+  "source": "geometry/pressure_network_kinematics_adjacent.csv",
+  "0-2": 0.278, "2-3": 0.373, "3-4": 0.325, "4-5": 0.329, "5-6": 0.351,
+  "4-5_angular_share_of_bond_preserving": 0.813
+ },
+ "geometry": {
+  "source": "geometry/pressure_species_resolved_geometry.csv, pressure_bond_accommodation.json",
+  "mean_BX_A": {"2": 2.818, "5": 2.782},
+  "u_rms_A": {"2": 0.012, "5": 0.030},
+  "internal_length_increase_5GPa_A": {"Sc": 0.011, "Sb": 0.015}
+ },
+ "round5_endpoint_residuals_eV_per_A": {"P4": {"rms": 0.0102, "max": 0.0213}, "P5": {"rms": 0.0100, "max": 0.0201}}
+}

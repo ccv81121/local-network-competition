@@ -1,0 +1,13 @@
+{
+  "description": "Double perovskites: parent-grouped out-of-fold thresholds and the saturation stop.",
+  "profile": "standard",
+  "seed": 56,
+  "scoring": "grouped_oof",
+  "saturation_stop": true,
+  "saturation_min_generations": 24,
+  "saturation_patience": 12,
+  "saturation_min_feedback_cycles": 4,
+  "saturation_consolidation_generations": 6,
+  "jobs": 96,
+  "task_size": 256
+}

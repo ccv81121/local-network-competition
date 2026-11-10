@@ -1,0 +1,96 @@
+## CORNER_FOURSTATE_20261012/work/CaTiO3/P0_P5 | settings identical across 4 states: True | kp 8 6 8 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=47.62 | CB: 000 h0h d=99.81 | CB(hhh)-CB(G)=919.48
+  state10 E-E00=  -0.23 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=46.97 | CB: 000 h0h d=100.96 | CB(hhh)-CB(G)=921.18
+  state01 E-E00=  -4.19 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=64.76 | CB: 000 h0h d=98.28 | CB(hhh)-CB(G)=908.27
+  state11 E-E00=  -4.65 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=64.09 | CB: 000 h0h d=99.37 | CB(hhh)-CB(G)=909.92
+## CORNER_FOURSTATE_20261012/work/CaSnO3/P0_P5 | settings identical across 4 states: True | kp 8 6 8 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 00h d=93.98 | CB: 000 0h0 d=1043.15 | CB(hhh)-CB(G)=3189.08
+  state10 E-E00=  -0.92 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 00h d=94.14 | CB: 000 0h0 d=1040.99 | CB(hhh)-CB(G)=3186.61
+  state01 E-E00=  -4.52 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 00h d=81.28 | CB: 000 0h0 d=1031.85 | CB(hhh)-CB(G)=3151.43
+  state11 E-E00=  -5.39 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 00h d=81.39 | CB: 000 0h0 d=1029.58 | CB(hhh)-CB(G)=3148.86
+## MECHANISM_TEST_20261014/work/MgSc2Se4/P4_P5 INCOMPLETE ['state00', 'state10', 'state01', 'state11']
+## MECHANISM_TEST_20261014/work/Spinel_k08/P0_P5 | settings identical across 4 states: True | kp 6 6 6 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.5, 0.5, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: hh0 hhh d=106.16 | CB: 000 00h d=28.01 | CB(hhh)-CB(G)=689.96
+  state10 E-E00=   0.53 meV | VBM(full)[0.5, 0.5, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: hh0 hhh d=124.28 | CB: 000 00h d=28.08 | CB(hhh)-CB(G)=694.94
+  state01 E-E00=-110.24 meV | VBM(full)[0.5, 0.5, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: hh0 hhh d=155.03 | CB: 000 00h d=20.19 | CB(hhh)-CB(G)=665.27
+  state11 E-E00=-112.37 meV | VBM(full)[0.5, 0.5, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: hh0 hhh d=172.05 | CB: 000 00h d=20.35 | CB(hhh)-CB(G)=669.99
+## MECHANISM_TEST_20261014/work/Ca2SnTiO6_rs/P0_P5 | settings identical across 4 states: True | kp 8 6 8 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.0, 0.5, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 0hh hh0 d=27.69 | CB: 000 h0h d=78.14 | CB(hhh)-CB(G)=310.62
+  state10 E-E00=  -0.42 meV | VBM(full)[0.0, 0.5, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 0hh hh0 d=25.49 | CB: 000 h0h d=68.88 | CB(hhh)-CB(G)=304.45
+  state01 E-E00=  -4.70 meV | VBM(full)[0.0, 0.5, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 0hh hh0 d=28.08 | CB: 000 h0h d=77.36 | CB(hhh)-CB(G)=309.84
+  state11 E-E00=  -5.27 meV | VBM(full)[0.0, 0.5, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 0hh hh0 d=25.88 | CB: 000 h0h d=68.14 | CB(hhh)-CB(G)=303.59
+## MECHANISM_TEST_20261014/work/Ca8Sn6Ti2O24/P0_P5 | settings identical across 4 states: True | kp 4 6 8 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.0, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 00h h0h d=73.77 | CB: 000 hhh d=197.49 | CB(hhh)-CB(G)=197.49
+  state10 E-E00=  -2.68 meV | VBM(full)[0.0, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 00h h0h d=75.06 | CB: 000 hhh d=188.38 | CB(hhh)-CB(G)=188.38
+  state01 E-E00=  -9.46 meV | VBM(full)[0.0, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 00h h0h d=70.75 | CB: 000 hhh d=188.20 | CB(hhh)-CB(G)=188.20
+  state11 E-E00= -12.33 meV | VBM(full)[0.0, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 00h h0h d=72.06 | CB: 000 hhh d=179.05 | CB(hhh)-CB(G)=179.05
+## MECHANISM_TEST_20261014/work/Spinel_CdGaInO4/P0_P5 | settings identical across 4 states: True | kp 6 6 4 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 0hh d=0.00 | CB: 000 00h d=1440.87 | CB(hhh)-CB(G)=3739.44
+  state10 E-E00=   0.15 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 0hh d=0.00 | CB: 000 00h d=1441.26 | CB(hhh)-CB(G)=3737.24
+  state01 E-E00=  -7.93 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 0hh d=0.00 | CB: 000 00h d=1438.71 | CB(hhh)-CB(G)=3723.96
+  state11 E-E00=  -8.06 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 0hh d=0.00 | CB: 000 00h d=1439.12 | CB(hhh)-CB(G)=3723.61
+## MECHANISM_TEST_20261014/work/Layered_NaScInO2/P0_P5 | settings identical across 4 states: True | kp 4 6 2 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.5, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h00 h0h d=3.31 | CB: 000 00h d=245.63 | CB(hhh)-CB(G)=1899.42
+  state10 E-E00=  -0.00 meV | VBM(full)[0.5, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h00 h0h d=3.36 | CB: 000 00h d=245.51 | CB(hhh)-CB(G)=1899.28
+  state01 E-E00= -61.25 meV | VBM(full)[0.5, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h00 h0h d=3.94 | CB: 000 00h d=244.46 | CB(hhh)-CB(G)=1873.73
+  state11 E-E00= -61.27 meV | VBM(full)[0.5, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h00 h0h d=4.00 | CB: 000 00h d=244.35 | CB(hhh)-CB(G)=1873.58
+## MECHANISM_TEST_20261014/work/Spinel_k12_tight/P0_P5 | settings identical across 4 states: True | kp 4 4 4 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 0h0 d=124.39 | CB: hhh 000 d=22.37 | CB(hhh)-CB(G)=-22.37
+  state10 E-E00= -13.12 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 0h0 d=142.41 | CB: 000 hhh d=2.29 | CB(hhh)-CB(G)=2.29
+  state01 E-E00=-147.00 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 0h0 d=118.22 | CB: hhh 000 d=16.95 | CB(hhh)-CB(G)=-16.95
+  state11 E-E00=-165.65 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 0h0 d=135.37 | CB: 000 hhh d=6.79 | CB(hhh)-CB(G)=6.79
+## MECHANISM_TEST_20261014/Alloy_Local/k12_Sb2Sc | settings identical across 4 states: True | kp 4 4 4 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 00h d=121.28 | CB: hhh 000 d=55.47 | CB(hhh)-CB(G)=-55.47
+  state10 E-E00=  39.54 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 00h d=104.71 | CB: hhh 000 d=45.11 | CB(hhh)-CB(G)=-45.11
+  state01 E-E00=-356.58 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 00h d=128.30 | CB: hhh 000 d=67.05 | CB(hhh)-CB(G)=-67.05
+  state11 E-E00=-384.31 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 00h d=127.75 | CB: hhh 000 d=72.14 | CB(hhh)-CB(G)=-72.14
+## MECHANISM_TEST_20261014/Alloy_Local/k12_Sc2Sb | settings identical across 4 states: True | kp 4 4 4 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 h00 d=82.12 | CB: hhh 000 d=193.81 | CB(hhh)-CB(G)=-193.81
+  state10 E-E00=  33.27 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 h00 d=87.17 | CB: hhh 000 d=185.02 | CB(hhh)-CB(G)=-185.02
+  state01 E-E00=-400.27 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 00h d=102.49 | CB: hhh 000 d=165.69 | CB(hhh)-CB(G)=-165.69
+  state11 E-E00=-429.70 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 h00 d=103.10 | CB: hhh 000 d=162.22 | CB(hhh)-CB(G)=-162.22
+## MECHANISM_TEST_20261014/Alloy_Local/MgSc2Se4_Sc2Sb | settings identical across 4 states: True | kp 4 4 4 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.25, -0.25, 0.25] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h00 0h0 d=0.00 | CB: 000 00h d=268.27 | CB(hhh)-CB(G)=739.49
+  state10 E-E00=   4.78 meV | VBM(full)[0.25, -0.25, 0.25] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h00 0h0 d=0.00 | CB: 000 00h d=260.45 | CB(hhh)-CB(G)=744.58
+  state01 E-E00=-222.79 meV | VBM(full)[0.25, -0.25, 0.25] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h00 0h0 d=0.00 | CB: 000 00h d=264.83 | CB(hhh)-CB(G)=733.69
+  state11 E-E00=-315.99 meV | VBM(full)[0.25, -0.25, 0.25] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h00 0h0 d=0.00 | CB: 000 00h d=256.67 | CB(hhh)-CB(G)=745.66
+## MECHANISM_TEST_20261014/Alloy_Local/CaTiO3_Ti2Sn | settings identical across 4 states: True | kp 2 4 2 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 00h d=3.14 | CB: 000 h0h d=18.82 | CB(hhh)-CB(G)=796.52
+  state10 E-E00=  24.91 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=13.94 | CB: 000 h0h d=18.95 | CB(hhh)-CB(G)=792.66
+  state01 E-E00=-505.83 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h00 d=39.45 | CB: 000 h0h d=20.82 | CB(hhh)-CB(G)=775.39
+  state11 E-E00=-607.54 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=50.07 | CB: 000 h0h d=21.42 | CB(hhh)-CB(G)=777.90
+## FUNCTIONAL_TEST_20261014/work/CaTiO3/P0_P5 | settings identical across 4 states: True | kp 8 6 8 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'METAGGA': 'R2SCAN', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.0, 0.0, 0.125] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=28.83 | CB: 000 h0h d=114.10 | CB(hhh)-CB(G)=953.41
+  state10 E-E00=  -0.23 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=28.29 | CB: 000 h0h d=115.27 | CB(hhh)-CB(G)=955.08
+  state01 E-E00=  -3.87 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=45.28 | CB: 000 h0h d=112.17 | CB(hhh)-CB(G)=942.37
+  state11 E-E00=  -4.25 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=44.74 | CB: 000 h0h d=113.30 | CB(hhh)-CB(G)=944.00
+## FUNCTIONAL_TEST_20261014/work/CaSnO3/P0_P5 | settings identical across 4 states: True | kp 8 6 8 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'METAGGA': 'R2SCAN', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 000 d=130.30 | CB: 000 0h0 d=1134.08 | CB(hhh)-CB(G)=3437.07
+  state10 E-E00=  -0.77 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 000 d=131.71 | CB: 000 0h0 d=1132.80 | CB(hhh)-CB(G)=3435.13
+  state01 E-E00=  -5.74 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 000 d=132.51 | CB: 000 0h0 d=1121.79 | CB(hhh)-CB(G)=3399.38
+  state11 E-E00=  -6.36 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 000 d=134.07 | CB: 000 0h0 d=1120.43 | CB(hhh)-CB(G)=3397.37
+## TIGHT_SPINEL_20261015/work/Spinel/P4_P5 | settings identical across 4 states: True | kp 6 6 6 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 0h0 d=133.61 | CB: 000 hhh d=0.34 | CB(hhh)-CB(G)=0.34
+  state10 E-E00=  -0.94 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 0h0 d=137.89 | CB: 000 hhh d=6.17 | CB(hhh)-CB(G)=6.17
+  state01 E-E00=  -6.18 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 0h0 d=131.13 | CB: 000 hhh d=0.99 | CB(hhh)-CB(G)=0.99
+  state11 E-E00=  -7.34 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 0h0 d=135.37 | CB: 000 hhh d=6.78 | CB(hhh)-CB(G)=6.78
+## FUNCTIONAL_TEST_20261014/fixedgeom/spinel | settings identical across 4 states: True | kp 6 6 6 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-7', 'ISMEAR': '-5', 'SIGMA': '0.05', 'ISYM': '0', 'NBANDS': '172', 'METAGGA': 'R2SCAN', 'LASPH': '.TRUE.', 'LDAU': '.FALSE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 0h0 d=123.79 | CB: hhh 000 d=16.21 | CB(hhh)-CB(G)=-16.21
+  state10 E-E00=  -0.85 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 0h0 d=134.78 | CB: 000 hhh d=2.35 | CB(hhh)-CB(G)=2.35
+  state01 E-E00=  -4.30 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 0h0 d=121.54 | CB: hhh 000 d=18.66 | CB(hhh)-CB(G)=-18.66
+  state11 E-E00=  -5.74 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 0h0 d=132.41 | CB: hhh 000 d=0.00 | CB(hhh)-CB(G)=-0.00
+## FUNCTIONAL_TEST_20261014/fixedgeom/CaTiO3 | settings identical across 4 states: True | kp 8 6 8 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'METAGGA': 'R2SCAN', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=27.61 | CB: 000 h0h d=105.41 | CB(hhh)-CB(G)=911.06
+  state10 E-E00=  -0.27 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=26.87 | CB: 000 h0h d=106.61 | CB(hhh)-CB(G)=912.75
+  state01 E-E00=   5.95 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=45.61 | CB: 000 h0h d=103.89 | CB(hhh)-CB(G)=899.93
+  state11 E-E00=   5.44 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 h0h d=44.85 | CB: 000 h0h d=105.04 | CB(hhh)-CB(G)=901.58
+## FUNCTIONAL_TEST_20261014/fixedgeom/CaSnO3 | settings identical across 4 states: True | kp 8 6 8 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-8', 'ISMEAR': '0', 'SIGMA': '0.02', 'ISYM': '0', 'METAGGA': 'R2SCAN', 'LASPH': '.TRUE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 00h d=109.91 | CB: 000 0h0 d=1091.87 | CB(hhh)-CB(G)=3333.57
+  state10 E-E00=  -0.78 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 00h d=109.90 | CB: 000 0h0 d=1089.78 | CB(hhh)-CB(G)=3331.22
+  state01 E-E00=  20.31 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 00h d=97.48 | CB: 000 0h0 d=1080.95 | CB(hhh)-CB(G)=3296.66
+  state11 E-E00=  19.60 meV | VBM(full)[0.5, 0.0, 0.5] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: h0h 00h d=97.42 | CB: 000 0h0 d=1078.76 | CB(hhh)-CB(G)=3294.21
+## $ARCHIVE/Octahedral_Competition_Submission_20261008_Round5/04_Code/Data/03_Four_State_Intervention | settings identical across 4 states: True | kp 6 6 6 |  {'ENCUT': '520', 'PREC': 'Accurate', 'EDIFF': '1E-7', 'ISMEAR': '-5', 'SIGMA': '0.05', 'ISYM': '0', 'NBANDS': '172', 'LASPH': '.TRUE.', 'LDAU': '.FALSE.', 'ALGO': 'Normal', 'ADDGRID': '.TRUE.'}
+  state00 E-E00=   0.00 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 0h0 d=127.50 | CB: hhh 000 d=6.42 | CB(hhh)-CB(G)=-6.42
+  state10 E-E00=  -5.05 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 0h0 d=138.01 | CB: 000 hhh d=8.77 | CB(hhh)-CB(G)=8.77
+  state01 E-E00=  -6.87 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.5, 0.5, 0.5] | TRIM VB: 000 0h0 d=125.10 | CB: hhh 000 d=6.83 | CB(hhh)-CB(G)=-6.83
+  state11 E-E00= -12.50 meV | VBM(full)[0.0, 0.0, 0.0] CBM(full)[0.0, 0.0, 0.0] | TRIM VB: 000 0h0 d=135.52 | CB: 000 hhh d=8.24 | CB(hhh)-CB(G)=8.24

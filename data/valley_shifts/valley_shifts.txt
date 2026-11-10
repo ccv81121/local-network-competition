@@ -1,0 +1,10 @@
+# x=0.5 (k08), rival (0,0,1/2)
+state00: VBM(G) 3.1131  CB(G) 4.6710  CB(rival) 4.6991  Lambda_C 28.01 meV  CB(G)-VBM 1557.9  CB(rival)-VBM 1585.9
+state10: VBM(G) 3.1118  CB(G) 4.6658  CB(rival) 4.6939  Lambda_C 28.08 meV  CB(G)-VBM 1554.1  CB(rival)-VBM 1582.1
+state01: VBM(G) 3.0987  CB(G) 4.6568  CB(rival) 4.6770  Lambda_C 20.19 meV  CB(G)-VBM 1558.1  CB(rival)-VBM 1578.3
+state11: VBM(G) 3.0953  CB(G) 4.6512  CB(rival) 4.6716  Lambda_C 20.35 meV  CB(G)-VBM 1555.9  CB(rival)-VBM 1576.2
+# x=0.75 (k12 tight), rival R
+state00: VBM(G) 4.1200  CB(G) 5.1706  CB(rival) 5.1710  Lambda_C 0.34 meV  CB(G)-VBM 1050.6  CB(rival)-VBM 1051.0
+state10: VBM(G) 4.1242  CB(G) 5.1660  CB(rival) 5.1722  Lambda_C 6.17 meV  CB(G)-VBM 1041.8  CB(rival)-VBM 1048.0
+state01: VBM(G) 4.1131  CB(G) 5.1665  CB(rival) 5.1674  Lambda_C 0.99 meV  CB(G)-VBM 1053.4  CB(rival)-VBM 1054.4
+state11: VBM(G) 4.1173  CB(G) 5.1619  CB(rival) 5.1687  Lambda_C 6.78 meV  CB(G)-VBM 1044.7  CB(rival)-VBM 1051.5

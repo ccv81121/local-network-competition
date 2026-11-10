@@ -1,0 +1,6 @@
+canonical : matched 13 reversal 9
+   matched: mp-1104860_Ga mp-1247043_Ga mp-19262_Ga mp-19318_Sc mp-22638_Mg mp-22961_Cu mp-3443_Cr mp-3536_Ga mp-3807_Ga mp-3904_Zn mp-4590_Cr mp-559200_Ir mp-996957_Ga
+   reversal: mp-1247043_Ga mp-19318_Sc mp-22638_Mg mp-22961_Cu mp-3536_Ga mp-3904_Zn mp-4590_Cr mp-559200_Ir mp-996957_Ga
+all56 : matched 16 reversal 10
+   matched: mp-10953_Sb mp-1104860_Ga mp-1247043_Ga mp-14307_Sb mp-19262_Ga mp-19318_Sc mp-22638_Mg mp-22961_Cu mp-3443_Cr mp-36866_Ga mp-3807_Ga mp-3904_Zn mp-4590_Cr mp-559200_Ir mp-559200_Mo mp-9993_Ga
+   reversal: mp-10953_Sb mp-1247043_Ga mp-14307_Sb mp-19318_Sc mp-22638_Mg mp-22961_Cu mp-3904_Zn mp-4590_Cr mp-559200_Ir mp-559200_Mo

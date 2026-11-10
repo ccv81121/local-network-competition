@@ -1,0 +1,20 @@
+panel,item,affine,internal,total,unit
+a,0 GPa,,,,"Ni-O1-Ni 164.99 deg, Ni-O2 2.241 A"
+a,Pressure,,,,"Ni-O1-Ni 170.42 deg, Ni-O2 2.150 A"
+a,Film,,,,"Ni-O1-Ni 170.97 deg, Ni-O2 2.304 A"
+c,Pressure U4,29.0,10.7,39.7,meV
+c,Pressure PBE total,,,-9.0,meV
+c,Film U4,-247.8,-72.8,-320.6,meV
+c,Film PBE total,,,-145.6,meV
+d,Pressure,5.07,5.95,11.02,%
+d,Film,-3.99,9.39,5.4,%
+e,A0C0,,,,"straightening 0.12 deg, relaxation dt_perp -2.4 %"
+e,A0C2,,,,"straightening -0.53 deg, relaxation dt_perp 1.1 %"
+e,A1C1,,,,"straightening 2.77 deg, relaxation dt_perp 4.6 %"
+e,A2C1,,,,"straightening 5.55 deg, relaxation dt_perp 9.3 %"
+e,A1C0,,,,"straightening 3.41 deg, relaxation dt_perp 3.2 %"
+e,A1C2,,,,"straightening 1.53 deg, relaxation dt_perp 3.7 %"
+e,A2C0,,,,"straightening 8.06 deg, relaxation dt_perp 9.0 %"
+e,A2C2,,,,"straightening 3.54 deg, relaxation dt_perp 6.3 %"
+e,film,,,,"straightening 5.27 deg, relaxation dt_perp 9.4 %"
+e,pressure (not fitted),,,,"straightening 5.42 deg, relaxation dt_perp 5.95 %"

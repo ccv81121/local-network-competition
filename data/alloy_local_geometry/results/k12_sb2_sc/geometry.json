@@ -1,0 +1,20 @@
+{
+ "case": "k12_Sb2Sc",
+ "n_atoms": 56,
+ "n_network": 48,
+ "n_bonds": 96,
+ "bond_rank": 96,
+ "bond_preserving_dof": 48,
+ "bond_lengths_min_max_A": [
+  2.709769056682761,
+  2.9341008416260173
+ ],
+ "u_rms_A": 0.05738507960438929,
+ "u_max_A": 0.16572838548838517,
+ "A_rms_A": 0.04121242616331065,
+ "u_bond_preserving_share": 0.13676309958470526,
+ "drive_bond_preserving_share": 0.005482029609008548,
+ "enrichment_actual_over_drive": 24.947530265061726,
+ "drive_max_force_eV_A": 0.783892,
+ "n_ionic_cycle1": 26
+}

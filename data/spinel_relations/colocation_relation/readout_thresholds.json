@@ -1,0 +1,38 @@
+{
+  "V": {
+    "orientation": -1,
+    "threshold": -9.03775870941055,
+    "plateau": 0.04313389263521508
+  },
+  "C": {
+    "orientation": -1,
+    "threshold": 42.36106122183796,
+    "plateau": 0.004537523153629972
+  },
+  "NN_secondary": {
+    "definition": "-abs(zV-zC), normalized using Development medians/IQRs only",
+    "orientation": 1,
+    "threshold": -0.16997661281665888,
+    "development_bacc": 0.6807692307692308,
+    "plateau": 0.006740877130489423,
+    "V_oriented_median": 8.806210465456768,
+    "V_oriented_iqr": 1.8023574709863288,
+    "C_oriented_median": -39.77384749395157,
+    "C_oriented_iqr": 42.46075773474155
+  },
+  "PI_S_edge_baselines": {
+    "V": {
+      "orientation": -1,
+      "threshold": -8.94714407292529
+    },
+    "C": {
+      "orientation": -1,
+      "threshold": -7.353042930520779
+    }
+  },
+  "old_single_coordinate": {
+    "formula_id": "df4013b048a9ece2159ec03c86a8b8789122085218659fe92b34ff664a87c192",
+    "orientation": -1,
+    "threshold": -114.17482623636002
+  }
+}

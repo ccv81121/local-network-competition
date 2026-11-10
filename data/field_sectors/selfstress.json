@@ -1,0 +1,46 @@
+{
+ "cubic": {
+  "Gamma": {
+   "dim_null_C": 9,
+   "self_stress": 3
+  },
+  "X": {
+   "dim_null_C": 8,
+   "self_stress": 2
+  },
+  "M": {
+   "dim_null_C": 7,
+   "self_stress": 1
+  },
+  "R": {
+   "dim_null_C": 6,
+   "self_stress": 0
+  },
+  "generic": {
+   "dim_null_C": 6,
+   "self_stress": 0
+  },
+  "plane_qz0": {
+   "dim_null_C": 7,
+   "self_stress": 1
+  }
+ },
+ "bend": {
+  "ca_tio3": {
+   "bend_deg_mean": 25.549984854382505,
+   "bend_deg_range": [
+    25.33465487132122,
+    25.65764984591371
+   ],
+   "tan2_half_mean": 0.051411118283386785
+  },
+  "ca_sno3": {
+   "bend_deg_mean": 34.459711859674556,
+   "bend_deg_range": [
+    33.802451557684975,
+    35.774232463653675
+   ],
+   "tan2_half_mean": 0.09626949576449666
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "i0506": {
+  "n_network": 48,
+  "n_bonds": 96,
+  "bond_preserving_dof": 48,
+  "drive_share": 0.020371343405095086,
+  "predicted_share": 0.34814612957465463,
+  "actual_share": 0.265973394070311,
+  "enrichment_predicted": 17.089993656853267,
+  "enrichment_actual": 13.05625204883583,
+  "class": "E1",
+  "GEOM_u_act_b_share_reference": 0.25308387329589355
+ },
+ "i1112": {
+  "n_network": 48,
+  "n_bonds": 96,
+  "bond_preserving_dof": 48,
+  "drive_share": 0.006350468716685738,
+  "predicted_share": 0.2025197597613344,
+  "actual_share": 0.10897319426316238,
+  "enrichment_predicted": 31.890521597125186,
+  "enrichment_actual": 17.159866322439687,
+  "class": "E1",
+  "GEOM_u_act_b_share_reference": 0.09800554656333736
+ }
+}

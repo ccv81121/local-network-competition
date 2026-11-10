@@ -1,0 +1,13 @@
+# Force constants and force-balance response on the affine reference (4→5 GPa)
+
+Start structure r<sub>aff</sub>: the 4-GPa relaxed fractional coordinates of Mg(Sc<sub>0.25</sub>Sb<sub>0.75</sub>)<sub>2</sub>Se<sub>4</sub> (56 atoms) in the relaxed 5-GPa lattice. Drive f: DFT forces at r<sub>aff</sub>. Collective stiffness H = K + L: central-difference force-constant matrix over all 168 Cartesian coordinates (±0.01 Å). Prediction: δr<sub>pred</sub> = H<sup>+</sup>f with the three translations removed (one harmonic force-balance step, nothing fitted); the relaxed 5-GPa structure is used only for comparison.
+
+Electronic settings: PBE, PAW (POTCARs of the pressure statics), ENCUT 520 eV, PREC Accurate, EDIFF 1E-7, ISMEAR −5, ISYM 0, NBANDS 172, Γ-centred 3×3×3 mesh. The reference run starts from scratch (ALGO Normal); the 336 displaced runs restart from its WAVECAR (ALGO Fast). A run is accepted if VASP exits normally with 5–179 electronic steps and a final |ΔE| < 1E-7 eV (`scripts/collect_forces.py`); all 338 runs (reference, 336 displacements, and `r5`, the relaxed 5-GPa structure) meet this.
+
+- `inputs/`: 4- and 5-GPa POSCARs (checksums in `meta.json`), the 96 B–Se bonds of the bond-preserving decomposition (`pressure_bond_accommodation.json`), example INCAR/KPOINTS/POSCAR for the reference and one displaced case.
+- `results/`: per-run convergence record (`ref.json`, `r5.json`, `dNN{x,y,z}{p,m}.json`); `forces/`: the force array of each run (56 × 3, eV Å⁻¹), from which `scripts/analyze.py` builds H.
+- `scripts/prepare.py` builds the cases; `scripts/analyze.py` builds H, the prediction and the comparisons → `outputs/force_balance_prediction.json`, `outputs/poscar_pred`.
+- `scripts/soft_modes.py` → `outputs/soft_mode_shares.json`: shares of drive and response carried by the softest modes of H and their bond-preserving fraction.
+- `scripts/local_stiffness_model.py`, `scripts/anisotropy_control.py` → `outputs/local_stiffness_model.json`, `outputs/anisotropy_control.json`, `outputs/poscar_local_model`: six local polyhedral stiffnesses (stretch and bend for Sc, Sb, Mg) fitted to H, their soft modes and response, the bend-stiffness control and the local-model structure.
+- `scripts/bend_block_fit.py` → `outputs/bend_block_fit.json`: the three bending stiffnesses refitted on the bond-preserving block of H alone (block R² 0.90; bend-to-stretch 0.08 for Sc, 0.06 for Sb), with atom-resampling 95% intervals of the full fit.
+- `k6_readout/{aff,pred,localmodel}/`: fixed-ion Γ-centred 6×6×6 band-edge readouts of r<sub>aff</sub>, the predicted and the local-model structure (four-state INCAR/KPOINTS and margin definitions), from `scripts/run_k6.sh` and `scripts/readout_k6.py`.

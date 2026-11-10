@@ -1,0 +1,26 @@
+{
+ "material": "MgSc2Se4",
+ "interval": "P4_P5",
+ "n_symmetric_dof": 1,
+ "H_asymmetry": 0.0,
+ "n_negative": 0,
+ "drive_symmetry_residual": 0.0001227717430305856,
+ "bond_preserving_share": {
+  "drive": 5.89153604718104e-10,
+  "predicted": 7.7428840221691015e-31,
+  "actual": 1.1002865342861773e-27
+ },
+ "cosine_pred_vs_actual": 1.0,
+ "cosine_drive_vs_actual": 0.9999999924795943,
+ "norm_ratio_pred_over_actual": 1.004472668469939,
+ "harmonic_energy_lowering_meV": -0.6762086791563713,
+ "modes_soft_to_stiff": [
+  {
+   "k_eV_A2": 14.8129,
+   "bond_preserving": 0.0,
+   "drive_share": 1.0,
+   "response_share": 1.0
+  }
+ ],
+ "dft_E_P2_minus_E_aff_meV": -0.6730099999998629
+}

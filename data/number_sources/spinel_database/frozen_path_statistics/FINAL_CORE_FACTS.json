@@ -1,0 +1,80 @@
+{
+  "status": "FINAL_CURATED_VALID_FACTS_ONLY",
+  "spinel_paper": {
+    "states": 1003,
+    "paths": 62,
+    "at_least_one_relation_change_paths": 38,
+    "multiple_relation_change_paths": 25,
+    "endpoint_matched_n": 13,
+    "endpoint_matched_internal_reverse_n": 9,
+    "fully_sampled_paths": 43,
+    "strict_mismatch_edge_transfer_n": 4
+  },
+  "hero": {
+    "path": "Mg(Sc,Sb)2Se4 / mp-1001019 Sb",
+    "PBE_V_boundary_bracket": "k05-k06",
+    "PBE_C_boundary_bracket": "k11-k12",
+    "state_sequence": "qV_G -> GG -> G_qC"
+  },
+  "pressure": {
+    "points": 120,
+    "curves": 25,
+    "smooth_eligible_points": 117,
+    "flagged_points": 3,
+    "stable_initial_ordering_curves": 22,
+    "adjacent_label_changes": 4,
+    "smooth_electronic_changes": 2,
+    "structure_coupled_changes": 2
+  },
+  "hamiltonian": {
+    "validated_tasks": 24,
+    "mechanism_rows": 3210,
+    "ablation_rows": 2016,
+    "R3_strict_local_response_expected_channels": 45,
+    "R3_strict_derivative_eligible_tasks_expected": 13
+  },
+  "soc": {
+    "master_rows": 23,
+    "closure_rows": 9,
+    "median_abs_delta_V_eV": 0.0043,
+    "median_abs_delta_C_eV": 0.0339,
+    "median_rowwise_abs_C_over_V_approx": 8.2
+  },
+  "transfer": {
+    "SP_rows": 136,
+    "DP_rows": 85,
+    "total": 221,
+    "DP_FINAL2_family": "RANK1_PARETO",
+    "DP_FINAL2_BACC": 0.9423503325942352,
+    "DP_FINAL2_AUC": 0.9373614190687362,
+    "final_DP_role_metadata_available": false
+  },
+  "basnti": {
+    "all12_rows": 12,
+    "x025_cfg02": {
+      "state": "GG",
+      "deltaE_meV_fu": 0.0,
+      "Lambda_V_eV": 0.0275,
+      "Lambda_C_eV": 1.1403
+    },
+    "x025_cfg03": {
+      "state": "qV_G",
+      "deltaE_meV_fu": 2.333,
+      "Lambda_V_eV": -0.0782
+    },
+    "x050_cfg06": {
+      "state": "G_qC",
+      "deltaE_meV_fu": 0.0,
+      "Lambda_V_eV": 0.0154,
+      "Lambda_C_eV": -0.2947
+    }
+  },
+  "guardrails": [
+    "Chemical substitution is a control knob that realizes decorated structural states; composition is not the central theory variable.",
+    "Fixed-composition ordering contrasts are undirected structural controls unless a physical path is specified.",
+    "Finite-step beta is an exact retrospective decomposition, not a prospective predictor or cross-knob susceptibility.",
+    "HSE functional change is not structural beta.",
+    "SR is static landscape organization only; do not revive SR step-dynamics.",
+    "Raw-margin R3 diagnostics do not replace frozen paper denominators."
+  ]
+}

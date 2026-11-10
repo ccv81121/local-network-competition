@@ -1,0 +1,12 @@
+CaTiO3
+  P= 0 GPa  V/f.u.= 57.18  B-O-B angles [np.float64(154.34), np.float64(154.66)]  mean 154.45  <B-O> 1.9753
+  P= 5 GPa  V/f.u.= 55.64  B-O-B angles [np.float64(153.6), np.float64(154.16)]  mean 153.79  <B-O> 1.9599
+  P=10 GPa  V/f.u.= 54.28  B-O-B angles [np.float64(152.96), np.float64(153.72)]  mean 153.21  <B-O> 1.9462
+  P=15 GPa  V/f.u.= 53.08  B-O-B angles [np.float64(152.37), np.float64(153.34)]  mean 152.69  <B-O> 1.9339
+  P=20 GPa  V/f.u.= 52.00  B-O-B angles [np.float64(151.82), np.float64(152.99)]  mean 152.21  <B-O> 1.9226
+CaSnO3
+  P= 0 GPa  V/f.u.= 64.29  B-O-B angles [np.float64(144.24), np.float64(146.17)]  mean 145.53  <B-O> 2.0976
+  P= 5 GPa  V/f.u.= 62.22  B-O-B angles [np.float64(143.74), np.float64(145.61)]  mean 144.99  <B-O> 2.0780
+  P=10 GPa  V/f.u.= 60.46  B-O-B angles [np.float64(143.28), np.float64(145.08)]  mean 144.48  <B-O> 2.0612
+  P=15 GPa  V/f.u.= 58.93  B-O-B angles [np.float64(142.83), np.float64(144.56)]  mean 143.99  <B-O> 2.0466
+  P=20 GPa  V/f.u.= 57.57  B-O-B angles [np.float64(142.4), np.float64(144.06)]  mean 143.51  <B-O> 2.0336

@@ -1,0 +1,9 @@
+{
+  "description": "Single perovskites: parent-grouped out-of-fold thresholds; evolution ends after skeleton generation 17.",
+  "profile": "standard",
+  "seed": 56,
+  "scoring": "grouped_oof",
+  "final_skeleton_generation": 17,
+  "jobs": 32,
+  "task_size": 256
+}

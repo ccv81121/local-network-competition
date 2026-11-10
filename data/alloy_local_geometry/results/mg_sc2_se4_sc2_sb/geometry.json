@@ -1,0 +1,20 @@
+{
+ "case": "MgSc2Se4_Sc2Sb",
+ "n_atoms": 56,
+ "n_network": 48,
+ "n_bonds": 96,
+ "bond_rank": 96,
+ "bond_preserving_dof": 48,
+ "bond_lengths_min_max_A": [
+  2.724636861747198,
+  2.724636861747198
+ ],
+ "u_rms_A": 0.05652849524379775,
+ "u_max_A": 0.11998174621816653,
+ "A_rms_A": 0.02655660023422697,
+ "u_bond_preserving_share": 0.3858379030480178,
+ "drive_bond_preserving_share": 0.034551439324317604,
+ "enrichment_actual_over_drive": 11.167057309142596,
+ "drive_max_force_eV_A": 0.750325,
+ "n_ionic_cycle1": 24
+}

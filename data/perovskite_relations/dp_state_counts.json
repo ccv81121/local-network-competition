@@ -1,0 +1,24 @@
+{
+  "Top30_replay": 30,
+  "distinct_rank1_raw_features": {
+    "C": 10,
+    "V": 14
+  },
+  "profile": "standard",
+  "saturation_aware": true,
+  "scope": "GROUPED_OOF_WITHIN_MODEL_DISCOVERY_NOT_EXTERNAL_VALIDATION",
+  "seed": 56,
+  "state_counts": {
+    "COLOCATED": 44,
+    "C_MISMATCH_CARRIER": 23,
+    "DISTRIBUTED_MISMATCH": 4,
+    "V_MISMATCH_CARRIER": 14
+  },
+  "status": "PASS",
+  "target_counts": {
+    "C0": 27,
+    "C1": 58,
+    "V0": 18,
+    "V1": 67
+  }
+}

@@ -1,0 +1,258 @@
+{
+ "P1": {
+  "norm_u": 0.23588596294031144,
+  "norm_ub": 0.16098975440348567,
+  "norm_ur": 0.16619045074635796,
+  "norm_uLa": 0.04588268268209365,
+  "norm_x_ip": 0.15563777267181064,
+  "norm_x_ap": 0.06726434572228426,
+  "s_u_network": 0.4657922734826996,
+  "check_split": 2.6548806010940766e-17,
+  "states": {
+   "00": {
+    "len_inplane": 1.9207009423995955,
+    "len_apical_inner": 1.9457549282344035,
+    "len_apical_outer": 2.215131234665789,
+    "angle_interlayer": 164.96254319617384,
+    "angle_inplane": 168.94298454572413
+   },
+   "10": {
+    "len_inplane": 1.9207158301192944,
+    "len_apical_inner": 1.9461656918185486,
+    "len_apical_outer": 2.215669169688122,
+    "angle_interlayer": 167.31694903441974,
+    "angle_inplane": 168.90070545262157
+   },
+   "01": {
+    "len_inplane": 1.9173456922288978,
+    "len_apical_inner": 1.9546869035085352,
+    "len_apical_outer": 2.184078997266181,
+    "angle_interlayer": 164.9593501090266,
+    "angle_inplane": 171.18733646928524
+   },
+   "11La": {
+    "len_inplane": 1.9173972303887712,
+    "len_apical_inner": 1.955094676597005,
+    "len_apical_outer": 2.184741494036649,
+    "angle_interlayer": 167.3030017907984,
+    "angle_inplane": 171.14416649284868
+   },
+   "01ip": {
+    "len_inplane": 1.9173232045592732,
+    "len_apical_inner": 1.945757564685285,
+    "len_apical_outer": 2.21513708973352,
+    "angle_interlayer": 164.77390347167858,
+    "angle_inplane": 171.2402176975177
+   },
+   "01ap": {
+    "len_inplane": 1.9207233552014011,
+    "len_apical_inner": 1.9546894386583435,
+    "len_apical_outer": 2.1840727353684324,
+    "angle_interlayer": 165.14712785111874,
+    "angle_inplane": 168.89110992022592
+   },
+   "11": {
+    "len_inplane": 1.9173972303887712,
+    "len_apical_inner": 1.9550946765970048,
+    "len_apical_outer": 2.1847414940366483,
+    "angle_interlayer": 167.30300179079842,
+    "angle_inplane": 171.14416649284868
+   }
+  },
+  "max_bond_change_10": 0.0005379350223337909,
+  "max_bond_change_11": 0.030389740629141127,
+  "max_mismatch_01_vs_Cu": 0.0006614235027414114
+ },
+ "P2": {
+  "norm_u": 0.25190436810569955,
+  "norm_ub": 0.18805747685089144,
+  "norm_ur": 0.16220540140207562,
+  "norm_uLa": 0.04218535086021877,
+  "norm_x_ip": 0.15567227373939996,
+  "norm_x_ap": 0.04469972755395759,
+  "s_u_network": 0.5573266533940213,
+  "check_split": 3.2653978883987584e-17,
+  "states": {
+   "00": {
+    "len_inplane": 1.9022460982809783,
+    "len_apical_inner": 1.9397245658441893,
+    "len_apical_outer": 2.1675882356769165,
+    "angle_interlayer": 167.33837766381643,
+    "angle_inplane": 171.14349850622435
+   },
+   "10": {
+    "len_inplane": 1.9022852676257098,
+    "len_apical_inner": 1.940442382429325,
+    "len_apical_outer": 2.1682588915067047,
+    "angle_interlayer": 170.4553818330237,
+    "angle_inplane": 171.15735592908828
+   },
+   "01": {
+    "len_inplane": 1.8996366596886114,
+    "len_apical_inner": 1.9429583894186284,
+    "len_apical_outer": 2.1487737888215,
+    "angle_interlayer": 167.31004205627966,
+    "angle_inplane": 173.4841667144924
+   },
+   "11La": {
+    "len_inplane": 1.899697896848418,
+    "len_apical_inner": 1.9436619664517236,
+    "len_apical_outer": 2.1495227864403414,
+    "angle_interlayer": 170.4218816898873,
+    "angle_inplane": 173.49708586262233
+   },
+   "01ip": {
+    "len_inplane": 1.8996335657030199,
+    "len_apical_inner": 1.9397269940345172,
+    "len_apical_outer": 2.167590087611954,
+    "angle_interlayer": 167.15706057865737,
+    "angle_inplane": 173.48042141229087
+   },
+   "01ap": {
+    "len_inplane": 1.9022493282282458,
+    "len_apical_inner": 1.9429600546301034,
+    "len_apical_outer": 2.148771847713572,
+    "angle_interlayer": 167.49105742635078,
+    "angle_inplane": 171.14747772281407
+   },
+   "11": {
+    "len_inplane": 1.8996978968484182,
+    "len_apical_inner": 1.943661966451724,
+    "len_apical_outer": 2.1495227864403414,
+    "angle_interlayer": 170.4218816898873,
+    "angle_inplane": 173.49708586262238
+   }
+  },
+  "max_bond_change_10": 0.0007178165851380314,
+  "max_bond_change_11": 0.018065449236683406,
+  "max_mismatch_01_vs_Cu": 0.0004530586684471276
+ },
+ "S1": {
+  "norm_u": 0.10197128114128184,
+  "norm_ub": 0.0685175723545625,
+  "norm_ur": 0.06375614619272356,
+  "norm_uLa": 0.04048009731811042,
+  "norm_x_ip": 0.010755524331937456,
+  "norm_x_ap": 0.06149101809731895,
+  "s_u_network": 0.45149004900881606,
+  "check_split": 1.1188839495820369e-17,
+  "states": {
+   "00": {
+    "len_inplane": 1.9165034563174035,
+    "len_apical_inner": 1.9933970725114314,
+    "len_apical_outer": 2.269554699906964,
+    "angle_interlayer": 165.32540689677785,
+    "angle_inplane": 168.64177534464028
+   },
+   "10": {
+    "len_inplane": 1.9165116314335702,
+    "len_apical_inner": 1.9935283255600078,
+    "len_apical_outer": 2.2696194726792385,
+    "angle_interlayer": 166.6403698062065,
+    "angle_inplane": 168.61042675567188
+   },
+   "01": {
+    "len_inplane": 1.9163512588741343,
+    "len_apical_inner": 1.9731944251074096,
+    "len_apical_outer": 2.2975819218466507,
+    "angle_interlayer": 165.5747488392117,
+    "angle_inplane": 168.90469749667346
+   },
+   "11La": {
+    "len_inplane": 1.916302153684144,
+    "len_apical_inner": 1.9733767934908184,
+    "len_apical_outer": 2.297635462662932,
+    "angle_interlayer": 166.90313720919806,
+    "angle_inplane": 168.87348648663522
+   },
+   "01ip": {
+    "len_inplane": 1.9162509242843557,
+    "len_apical_inner": 1.993397377311382,
+    "len_apical_outer": 2.2695549117210416,
+    "angle_interlayer": 165.3887760839026,
+    "angle_inplane": 168.79487215421602
+   },
+   "01ap": {
+    "len_inplane": 1.91660463846498,
+    "len_apical_inner": 1.9731923344054074,
+    "len_apical_outer": 2.297581533950393,
+    "angle_interlayer": 165.51073091743677,
+    "angle_inplane": 168.75205987040252
+   },
+   "11": {
+    "len_inplane": 1.9163021536841438,
+    "len_apical_inner": 1.9733767934908188,
+    "len_apical_outer": 2.297635462662931,
+    "angle_interlayer": 166.90313720919806,
+    "angle_inplane": 168.8734864866352
+   }
+  },
+  "max_bond_change_10": 0.00013125304857775077,
+  "max_bond_change_11": 0.02808076275597049,
+  "max_mismatch_01_vs_Cu": 0.00014658806412241312
+ },
+ "S2": {
+  "norm_u": 0.08669317774979692,
+  "norm_ub": 0.05771060055185978,
+  "norm_ur": 0.052270981775101574,
+  "norm_uLa": 0.03811742536647203,
+  "norm_x_ip": 0.017824477287986057,
+  "norm_x_ap": 0.053292030656471735,
+  "s_u_network": 0.44314039727256244,
+  "check_split": 1.8444377344248386e-17,
+  "states": {
+   "00": {
+    "len_inplane": 1.8973619013504521,
+    "len_apical_inner": 1.9968458497723738,
+    "len_apical_outer": 2.3250337669726475,
+    "angle_interlayer": 167.1890075452118,
+    "angle_inplane": 168.62481533796625
+   },
+   "10": {
+    "len_inplane": 1.897364599769329,
+    "len_apical_inner": 1.996889494052954,
+    "len_apical_outer": 2.3251033123759264,
+    "angle_interlayer": 167.94663389439273,
+    "angle_inplane": 168.5926386127887
+   },
+   "01": {
+    "len_inplane": 1.8978934335492812,
+    "len_apical_inner": 1.979120848783464,
+    "len_apical_outer": 2.3478837861792536,
+    "angle_interlayer": 167.38267253595046,
+    "angle_inplane": 168.53310687265372
+   },
+   "11La": {
+    "len_inplane": 1.8978672294824994,
+    "len_apical_inner": 1.9791871959839415,
+    "len_apical_outer": 2.3479457908088897,
+    "angle_interlayer": 168.14707427499744,
+    "angle_inplane": 168.5009531843537
+   },
+   "01ip": {
+    "len_inplane": 1.8978160208586248,
+    "len_apical_inner": 1.9968458544579228,
+    "len_apical_outer": 2.325033812500477,
+    "angle_interlayer": 167.19685765180657,
+    "angle_inplane": 168.36115476197654
+   },
+   "01ap": {
+    "len_inplane": 1.897439071752143,
+    "len_apical_inner": 1.9791206223227165,
+    "len_apical_outer": 2.34788365563824,
+    "angle_interlayer": 167.3747521342086,
+    "angle_inplane": 168.79688172729186
+   },
+   "11": {
+    "len_inplane": 1.8978672294824992,
+    "len_apical_inner": 1.9791871959839415,
+    "len_apical_outer": 2.3479457908088897,
+    "angle_interlayer": 168.14707427499746,
+    "angle_inplane": 168.5009531843537
+   }
+  },
+  "max_bond_change_10": 6.954540327974712e-05,
+  "max_bond_change_11": 0.0229120238362448,
+  "max_mismatch_01_vs_Cu": 9.618937856468047e-05
+ }
+}

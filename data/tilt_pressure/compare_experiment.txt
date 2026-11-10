@@ -1,0 +1,7 @@
+exp Sn-O1-Sn: slope -0.059 +- 0.031 deg/GPa
+exp Sn-O2-Sn: slope -0.130 +- 0.018 deg/GPa
+exp mean(1:2): slope -0.104 +- 0.016 deg/GPa
+CaSnO3 0-5 ['-0.100', '-0.112']
+CaSnO3 0-10 ['-0.096', '-0.109']
+CaTiO3 0-5 ['-0.148', '-0.100']
+CaTiO3 0-10 ['-0.138', '-0.094']

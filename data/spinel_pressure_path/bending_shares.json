@@ -1,0 +1,29 @@
+{
+ "round5": {
+  "case": "round5 (as published)",
+  "drive_share": 0.030116385759214305,
+  "pred_share": 0.7876245832604029,
+  "actual_share": 0.6823732380805521,
+  "cos_pred_actual": 0.8924708574788337,
+  "cos_force_actual": 0.5925120664795207,
+  "u_norm_A": 0.09158622447300577,
+  "pred_norm_A": 0.11032241922188937,
+  "drive_rms_eVA": 0.04690787527316556
+ },
+ "tight": {
+  "case": "tight endpoints",
+  "drive_share": 0.0054434687977354965,
+  "pred_share": 0.31411331029572775,
+  "actual_share": 0.3291359408275425,
+  "cos_pred_actual": 0.9892521229719335,
+  "cos_force_actual": 0.7330036164480885,
+  "u_norm_A": 0.05370274536607167,
+  "pred_norm_A": 0.052139860214662964,
+  "drive_rms_eVA": 0.04527393513045258
+ },
+ "round5_P4_residual_rms_eVA": 0.010236877153563135,
+ "round5_P4_residual_max_eVA": 0.02129338439515898,
+ "round5_P5_residual_rms_eVA": 0.009994678484966744,
+ "round5_P5_residual_max_eVA": 0.020126503596004944,
+ "lattice_change_5GPa_rel": 0.0011597070804402027
+}

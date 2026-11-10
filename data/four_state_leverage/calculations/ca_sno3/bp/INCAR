@@ -1,0 +1,17 @@
+SYSTEM = CaSnO3 four-state state00
+ENCUT = 520
+PREC = Accurate
+EDIFF = 1E-8
+NELM = 200
+NELMIN = 5
+ALGO = Normal
+ISMEAR = 0
+SIGMA = 0.02
+IBRION = -1
+NSW = 0
+ISYM = 0
+LREAL = .FALSE.
+LASPH = .TRUE.
+ADDGRID = .TRUE.
+LWAVE = .FALSE.
+LCHARG = .FALSE.

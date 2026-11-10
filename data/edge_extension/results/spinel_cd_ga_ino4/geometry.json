@@ -1,0 +1,21 @@
+{
+ "material": "Spinel_CdGaInO4",
+ "P1": 0.0,
+ "P2": 5.0,
+ "n_atoms": 28,
+ "n_network": 24,
+ "n_bonds": 48,
+ "bond_rank": 48,
+ "n_bridges": 48,
+ "bond_preserving_share_network": 0.04052174944094501,
+ "u_rms_A": 0.006014379384193023,
+ "A_cation_rms_A": 0.004578570241290815,
+ "bridge_angle_change_rms_deg": 0.19656604518329038,
+ "bridge_share_perp_projection": 0.0015739221930425936,
+ "bridge_share_par_projection": 0.9985251020470575,
+ "bridge_rms_perp_deg": 0.038559592513748076,
+ "bridge_rms_par_deg": 0.2000022864141314,
+ "space_group_raff": "P-4m2",
+ "n_symmetric_dof": 13,
+ "actual_displacement_symmetric_fraction": 1.0000000000000002
+}

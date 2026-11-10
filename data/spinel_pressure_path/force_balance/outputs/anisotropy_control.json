@@ -1,0 +1,17 @@
+{
+ "0.5": {
+  "bond_preserving_fraction_of_response": 0.4077029764056285
+ },
+ "1.0": {
+  "bond_preserving_fraction_of_response": 0.2018168882784024
+ },
+ "2.0": {
+  "bond_preserving_fraction_of_response": 0.09853122408504446
+ },
+ "4.0": {
+  "bond_preserving_fraction_of_response": 0.05485655164039595
+ },
+ "isotropic": {
+  "bond_preserving_fraction_of_response": 0.011789253437841086
+ }
+}

@@ -1,0 +1,108 @@
+[
+ {
+  "system": "MgSc0.5Sb1.5Se4 (k12, tight)",
+  "topology": "edge",
+  "centres": [
+   "Sb",
+   "Sc"
+  ],
+  "ligands": [
+   "Se"
+  ],
+  "drive_share": 0.005443468797735518,
+  "drive_bp_rigid_frac": 0.1221376425226025,
+  "actual_share": 0.3291359408275426,
+  "actual_bp_rigid_frac": 0.1873688422420267,
+  "cos_f_u_network": 0.7670178593916955,
+  "enrichment_actual": 60.46437539321675,
+  "enrichment_bound_1_over_drive": 183.70638964918837
+ },
+ {
+  "system": "CaTiO3",
+  "topology": "corner",
+  "centres": [
+   "Ti"
+  ],
+  "ligands": [
+   "O"
+  ],
+  "drive_share": 0.10083256534151974,
+  "drive_bp_rigid_frac": 0.47299448725949833,
+  "actual_share": 0.10802511530451434,
+  "actual_bp_rigid_frac": 0.6551259877086125,
+  "cos_f_u_network": 0.9529487098926175,
+  "enrichment_actual": 1.071331617306705,
+  "enrichment_bound_1_over_drive": 9.91743090749503
+ },
+ {
+  "system": "CaSnO3",
+  "topology": "corner",
+  "centres": [
+   "Sn"
+  ],
+  "ligands": [
+   "O"
+  ],
+  "drive_share": 0.11584511935106888,
+  "drive_bp_rigid_frac": 0.4549291416680832,
+  "actual_share": 0.2561897292026625,
+  "actual_bp_rigid_frac": 0.6009790126135687,
+  "cos_f_u_network": 0.92979376574464,
+  "enrichment_actual": 2.211484874268021,
+  "enrichment_bound_1_over_drive": 8.632215199066763
+ },
+ {
+  "system": "MgScSbSe4 (k08)",
+  "topology": "edge",
+  "centres": [
+   "Sb",
+   "Sc"
+  ],
+  "ligands": [
+   "Se"
+  ],
+  "drive_share": 0.0029189133082553127,
+  "drive_bp_rigid_frac": 0.054355350377280634,
+  "actual_share": 0.04902935420027335,
+  "actual_bp_rigid_frac": 0.308514503039275,
+  "cos_f_u_network": 0.8866355705389815,
+  "enrichment_actual": 16.797125855573658,
+  "enrichment_bound_1_over_drive": 342.5932511156757
+ },
+ {
+  "system": "Ca2SnTiO6",
+  "topology": "corner",
+  "centres": [
+   "Sn",
+   "Ti"
+  ],
+  "ligands": [
+   "O"
+  ],
+  "drive_share": 0.07885555660082157,
+  "drive_bp_rigid_frac": 0.462131039649154,
+  "actual_share": 0.1452334158254058,
+  "actual_bp_rigid_frac": 0.636249875418148,
+  "cos_f_u_network": 0.9003482616078164,
+  "enrichment_actual": 1.84176514738966,
+  "enrichment_bound_1_over_drive": 12.681414514162231
+ },
+ {
+  "system": "Ca8Sn6Ti2O24",
+  "topology": "corner",
+  "centres": [
+   "Sn",
+   "Ti"
+  ],
+  "ligands": [
+   "O"
+  ],
+  "drive_share": 0.1115102263205888,
+  "drive_bp_rigid_frac": 0.3762113141271458,
+  "actual_share": 0.30474385256746933,
+  "actual_bp_rigid_frac": 0.4646327484172058,
+  "cos_f_u_network": 0.8792515183165233,
+  "enrichment_actual": 2.7328780742614516,
+  "enrichment_bound_1_over_drive": 8.96778737696243
+ }
+]

@@ -1,0 +1,133 @@
+{
+ "case": "MgSc2Se4_Sc2Sb",
+ "parent": "$WORK/PRL_MECHANISM_TEST_20261014/MgSc2Se4/P0/relax/CONTCAR",
+ "supercell": [
+  [
+   -1,
+   1,
+   1
+  ],
+  [
+   1,
+   -1,
+   1
+  ],
+  [
+   1,
+   1,
+   -1
+  ]
+ ],
+ "src": "Sc",
+ "dst": "Sb",
+ "sub_index_parent_sorted": 8,
+ "sub_index_s1": 23,
+ "A": "Mg",
+ "B": [
+  "Sc",
+  "Sb"
+ ],
+ "X": "Se",
+ "KF": [
+  3,
+  3,
+  3
+ ],
+ "KE": [
+  4,
+  4,
+  4
+ ],
+ "order_s0": [
+  "Mg",
+  "Sc",
+  "Se"
+ ],
+ "order_s1": [
+  "Mg",
+  "Sc",
+  "Sb",
+  "Se"
+ ],
+ "n_atoms": 56,
+ "lattice": [
+  [
+   11.235938682829962,
+   0.0,
+   7e-16
+  ],
+  [
+   1.7763568394002505e-15,
+   11.235938682829962,
+   7e-16
+  ],
+  [
+   0.0,
+   0.0,
+   11.235938682829962
+  ]
+ ],
+ "species_s1": [
+  "Mg",
+  "Mg",
+  "Mg",
+  "Mg",
+  "Mg",
+  "Mg",
+  "Mg",
+  "Mg",
+  "Sc",
+  "Sc",
+  "Sc",
+  "Sc",
+  "Sc",
+  "Sc",
+  "Sc",
+  "Sc",
+  "Sc",
+  "Sc",
+  "Sc",
+  "Sc",
+  "Sc",
+  "Sc",
+  "Sc",
+  "Sb",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se",
+  "Se"
+ ],
+ "sub_frac": [
+  0.375,
+  0.625,
+  0.375
+ ]
+}

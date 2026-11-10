@@ -1,0 +1,98 @@
+{
+ "P1": {
+  "missing_modes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "ref_done": true,
+  "end_done": false,
+  "n_bonds": 48,
+  "dim_b": 60,
+  "s_u_actual": 0.46579227348269947,
+  "f_norm": 0.5858481122627548,
+  "f_symmetric_fraction": 0.9999999236991285,
+  "s_f": 0.2757419110847588,
+  "bound": 3.6265796376982946,
+  "enrichment_actual": 1.6892327744095532
+ },
+ "P2": {
+  "missing_modes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "ref_done": true,
+  "end_done": false,
+  "n_bonds": 48,
+  "dim_b": 60,
+  "s_u_actual": 0.5573266533940214,
+  "f_norm": 0.46852655102134644,
+  "f_symmetric_fraction": 0.999999680759726,
+  "s_f": 0.43697297736052043,
+  "bound": 2.2884710309556726,
+  "enrichment_actual": 1.275425901071691
+ },
+ "S1": {
+  "missing_modes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "ref_done": true,
+  "end_done": false,
+  "n_bonds": 48,
+  "dim_b": 60,
+  "s_u_actual": 0.45149004900881595,
+  "f_norm": 0.7408339600516941,
+  "f_symmetric_fraction": 0.9999999787953098,
+  "s_f": 0.16508245898283935,
+  "bound": 6.057578777064085,
+  "enrichment_actual": 2.7349365389314273
+ },
+ "S2": {
+  "missing_modes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "ref_done": true,
+  "end_done": false,
+  "n_bonds": 48,
+  "dim_b": 60,
+  "s_u_actual": 0.4431403972725623,
+  "f_norm": 0.6656028369595834,
+  "f_symmetric_fraction": 0.9999998802223014,
+  "s_f": 0.14525380170387125,
+  "bound": 6.88450139183757,
+  "enrichment_actual": 3.050800681802409
+ }
+}

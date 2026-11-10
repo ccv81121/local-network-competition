@@ -1,0 +1,7 @@
+system,topology,interval_GPa,H_type,n_atoms,n_network,n_bonds,bond_preserving_dof,drive_share,predicted_share,actual_share,enrichment_predicted,enrichment_actual,cos_pred_actual,u_norm_A,n_symmetric_dof,drive_symmetry_residual,n_negative_eig
+"MgSc0.5Sb1.5Se4 (k12, tight)",edge-sharing spinel,4-5,full,56,48,96,48,0.00544347,0.314113,0.329136,57.7046,60.4644,0.989252,0.0537027,,,
+CaTiO3,corner-sharing perovskite,0-5,full,20,16,24,24,0.100833,0.122024,0.108025,1.21016,1.07133,0.999402,0.0445279,,,
+CaSnO3,corner-sharing perovskite,0-5,full,20,16,24,24,0.115845,0.270385,0.25619,2.33403,2.21148,0.999582,0.0472776,,,
+MgScSbSe4 (k08 ordering),edge-sharing spinel,0-5,symsec,28,24,48,24,0.00291891,0.0591386,0.0490294,20.2605,16.7971,0.99901,0.174028,13,9.58334e-06,0
+Ca2SnTiO6 (rock-salt),corner-sharing perovskite,0-5,symsec,20,16,24,24,0.0788556,0.16621,0.145233,2.10777,1.84177,0.999291,0.0454611,12,0.000163564,0
+Ca8Sn6Ti2O24,corner-sharing perovskite,0-5,symsec,40,32,48,48,0.11151,0.323082,0.304744,2.89733,2.73288,0.999592,0.072422,27,8.34813e-05,0

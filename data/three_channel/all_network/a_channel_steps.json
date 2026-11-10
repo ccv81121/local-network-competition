@@ -1,0 +1,86 @@
+{
+ "k08": {
+  "A_species": "Mg",
+  "uA_norm_A": 4.4067539535620205e-05,
+  "delta_A_A": 1.1016884883905051e-05,
+  "A_idx": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ap_sha256": "0b1c164f0d912dc717088d85cb2e9d9565f506b5111bab5a89614799126aa416",
+  "am_sha256": "cf90d80cdf0da661358ee8dc2cf6f94f9509be2590323aee078abe0de008c88c"
+ },
+ "CaTiO3": {
+  "A_species": "Ca",
+  "uA_norm_A": 0.011166258461642035,
+  "delta_A_A": 0.002791564615410509,
+  "A_idx": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ap_sha256": "b770011b40c869c6e3af21e7d5819c2f864dd8b8277076a180c29ac607978910",
+  "am_sha256": "afdca6440b6b6b1eb3a82d19ef5b2b4a28cf86c520195aa93c7a87d5f5f567d7"
+ },
+ "CaSnO3": {
+  "A_species": "Ca",
+  "uA_norm_A": 0.021329793141146504,
+  "delta_A_A": 0.005332448285286626,
+  "A_idx": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ap_sha256": "57fa111c32c43e4bf4bc766c2c6886a6d670312d3ab62ae2509e9fb48d681324",
+  "am_sha256": "754e41542e058da931f5fe482132da46e94c103ec86bf204051b775c8b5c02e0"
+ },
+ "Layered_NaScInO2": {
+  "A_species": "Na",
+  "uA_norm_A": 0.005630816395387985,
+  "delta_A_A": 0.0014077040988469962,
+  "A_idx": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "ap_sha256": "8eae4ccd4798bb80fac4c50391e09679bb6bf64883d3cb81fecde4c5c7e8cf49",
+  "am_sha256": "1e66bd15846c44b4f7b5544595fe25cfe685468938b81e1136ca860150c14eb5"
+ },
+ "Ca2SnTiO6_rs": {
+  "A_species": "Ca",
+  "uA_norm_A": 0.01659316802925413,
+  "delta_A_A": 0.004148292007313532,
+  "A_idx": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ap_sha256": "da720bd724c860b93c4337ce746ec1fdb49a6c986329042e9b49ac4c9568aaa2",
+  "am_sha256": "d089ba020df19160edcec99f34d4ffe2d73f25330a4d4ee0bb2927af4b434261"
+ },
+ "Ca8Sn6Ti2O24": {
+  "A_species": "Ca",
+  "uA_norm_A": 0.03348370641418539,
+  "delta_A_A": 0.008370926603546347,
+  "A_idx": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "ap_sha256": "0891df73a3c64836be5f626afbe2d3e20fd862c47c0c34047b1c8294a12021ab",
+  "am_sha256": "0d4f2cd6984609961038407906295d63564fa7cd58627465eed6bbdec25d9f1b"
+ }
+}

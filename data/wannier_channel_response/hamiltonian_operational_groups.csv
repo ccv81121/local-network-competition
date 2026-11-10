@@ -1,0 +1,5 @@
+frozen_role_group,operational_group,channels,directions,opposite_sign_directions,median_abs_chi_V_eV,median_abs_chi_C_eV
+LOCAL_FORMATION,X onsite,X_onsite,8,1,0.010177423767535125,0.004386554599928496
+OCTAHEDRAL_ACCOMMODATION,Nearest A-s/X-p and B-d/X-p,AX_sp_nearest;BX_pd_nearest,18,5,0.001543369659409476,0.002994222474512607
+NETWORK_PROPAGATION,X-X intersite network,XX_network,9,7,0.005170595800803969,0.007328561579257329
+UNMAPPED,B onsite; B-B network; remote B-X,B_onsite;BB_network;BX_remote,10,4,0.002327814239242393,0.018782736276640725

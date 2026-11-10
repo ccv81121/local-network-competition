@@ -1,0 +1,14 @@
+{
+  "V_BACC": 1.0,
+  "C_BACC": 0.9185823754789272,
+  "joint_correct": 79,
+  "fold_counts": {
+    "0": 20,
+    "1": 15,
+    "2": 22,
+    "3": 13,
+    "4": 15
+  },
+  "scope": "FROZEN_DP85_GROUPED_OOF_WITHIN_MODEL_DISCOVERY_NOT_UNTOUCHED_EXTERNAL_VALIDATION",
+  "not_verified": "Per-fold expression search/scaling provenance and nested selection remain unverified; membership/margins/predictions alone do not prove train-only selection."
+}

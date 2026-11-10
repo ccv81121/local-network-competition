@@ -1,0 +1,16 @@
+CaTiO3: theta P1=nan  aff=154.450  relaxed=153.789 deg
+   internal relaxation d(theta): actual -0.661, linear g.u -0.661, predicted g.H^-1 f -0.680 deg
+   force on tilt e.f = -0.1907 eV/A ; tilt compliance e.H^-1 e = 0.2303 A^2/eV (stiffness 4.34 eV/A^2) ; |g| = 16.48 deg/A
+   direct -0.724 deg (106.5%), coupled +0.044 deg (-6.5%)
+   bare tilt stiffness e.H.e = 5.01 eV/A^2 ; relaxed 4.34 ; softening by other coordinates 0.66
+   pair contributions: {'Ca-Ca': np.float64(-0.0), 'Ca-Ca(self)': np.float64(0.0), 'Ca-O': np.float64(-0.0), 'Ca-Ti': np.float64(0.0), 'O-O': np.float64(-2.96), 'O-O(self)': np.float64(7.96), 'O-Ti': np.float64(-0.0), 'Ti-Ti': np.float64(0.0), 'Ti-Ti(self)': np.float64(0.0)}
+   tilt weight by species: {np.str_('O'): 1.0, np.str_('Ti'): 0.0, np.str_('Ca'): 0.0}
+   |f| = 0.2065 eV/A ; share of squared force on tilt direction 85.32%
+CaSnO3: theta P1=nan  aff=145.540  relaxed=144.989 deg
+   internal relaxation d(theta): actual -0.550, linear g.u -0.550, predicted g.H^-1 f -0.562 deg
+   force on tilt e.f = -0.2008 eV/A ; tilt compliance e.H^-1 e = 0.1741 A^2/eV (stiffness 5.74 eV/A^2) ; |g| = 15.23 deg/A
+   direct -0.532 deg (94.7%), coupled -0.030 deg (5.3%)
+   bare tilt stiffness e.H.e = 6.50 eV/A^2 ; relaxed 5.74 ; softening by other coordinates 0.75
+   pair contributions: {'Ca-Ca': np.float64(-0.0), 'Ca-Ca(self)': np.float64(0.0), 'Ca-O': np.float64(0.0), 'Ca-Sn': np.float64(0.0), 'O-O': np.float64(-2.08), 'O-O(self)': np.float64(8.57), 'O-Sn': np.float64(-0.0), 'Sn-Sn': np.float64(0.0), 'Sn-Sn(self)': np.float64(0.0)}
+   tilt weight by species: {np.str_('O'): 1.0, np.str_('Sn'): 0.0, np.str_('Ca'): 0.0}
+   |f| = 0.2326 eV/A ; share of squared force on tilt direction 74.55%

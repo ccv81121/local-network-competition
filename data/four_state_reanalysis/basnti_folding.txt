@@ -1,0 +1,13 @@
+x	natoms	a0	M_cubic	round_err	R_folds_to_Gamma	V_label	VBM_k	truth_status	V_truth(1=Gamma)	pred	pred_correct
+x000	5	4.189	[[-1, 0, 0], [0, -1, 0], [0, 0, 1]]	0.0	False	qV	[0.5,0.5,0.5]	PASS	0	0	True
+x0125	40	4.169	[[0, 0, -2], [0, -2, 0], [-2, 0, 0]]	0.0	True	G	[0.0,0.0,0.0]	PASS	1	1	True
+x025	20	4.149	[[-1, -1, 1], [-1, 1, -1], [1, -1, -1]]	0.0	False	qV	[0.4,0.4,0.6]	PASS	0	0	True
+x0375	40	4.13	[[0, 0, -2], [0, -2, 0], [-2, 0, 0]]	0.0	True	G	[0.0,0.0,0.0]	PASS	1	1	True
+x050	10	4.111	[[-1, -1, 0], [-1, 0, -1], [0, -1, -1]]	0.0	True	G	[0.0,0.0,0.0]	PASS	1	1	True
+x0625	40	4.091	[[0, 0, -2], [0, -2, 0], [-2, 0, 0]]	0.0	True	G	[0.0,0.0,0.0]	VALLEY_AMBIGUOUS	1	1	True
+x075	20	4.072	[[-1, -1, 1], [-1, 1, -1], [1, -1, -1]]	0.0	False	qV	[0.5,0.5,0.5]	PASS	0	0	True
+x0875	40	4.053	[[0, 0, -2], [0, -2, 0], [-2, 0, 0]]	0.0	True	G	[0.0,0.0,0.0]	PASS	1	0	False
+x100	5	4.07	[[-1, 0, 0], [0, -1, 0], [0, 0, 1]]	0.036	False	qV	[0.5,0.5,0.5]	PASS	0	0	True
+cell-size rule (natoms in {5,20} -> qV, {10,40} -> Gamma): 9 / 9
+R-folding rule (R folds to supercell Gamma -> Gamma): 9 / 9
+model: 8 / 9

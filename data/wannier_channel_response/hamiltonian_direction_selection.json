@@ -1,0 +1,54 @@
+{
+  "candidate_directions": 168,
+  "ablation_rows": 2016,
+  "selected_directions": 45,
+  "selection_matches_frozen_exactly": true,
+  "rejected": {
+    "missing_or_nonfinite_endpoint_splitting": 70,
+    "endpoint_identity_changed": 53
+  },
+  "selected_tasks": 13,
+  "mixed_tasks": 8,
+  "non_Gamma_reference_task_edges": [
+    [
+      "DP_Ba_Infixed_Ta_to_Nb_O6_k02",
+      "CBM"
+    ],
+    [
+      "DP_Ba_Sc_to_In_Tafixed_O6_k02",
+      "CBM"
+    ],
+    [
+      "MC_PV_K_Nb_to_Ta_O3_k04_01_M_dominant",
+      "VBM"
+    ],
+    [
+      "MC_PV_La_Al_to_Sc_O3_k04_01_M_dominant",
+      "VBM"
+    ],
+    [
+      "P_mp-14307_Sb_k12_10GPa",
+      "CBM"
+    ],
+    [
+      "P_mp-14307_Sb_k12_10GPa",
+      "VBM"
+    ],
+    [
+      "mp-1104726_Zr_k08",
+      "CBM"
+    ],
+    [
+      "mp-1104726_Zr_k08",
+      "VBM"
+    ]
+  ],
+  "max_abs_chi_replay_error_eV": 0.0,
+  "minimum_abs_any_chi_component_meV": 5.592938523744767e-05,
+  "source_hashes": {
+    "source_support\\hamiltonian_mechanisms.csv": "3a3ff2b638c8c50ca732e8e586da4ac53801ed85c8ca568c56a2d111aa635100",
+    "frozen\\HAMILTONIAN_EXISTING24_ELIGIBLE_DIRECTIONS.csv": "63feb329991cb54f09d160771df12d73f9bcbdef1d60d5603e0f455786ebe708",
+    "frozen\\HAMILTONIAN_EXISTING24_TASK_RESPONSE.csv": "bde9b77b2b7b847ff1c0fad0c2615ea874289f2ef114e1b333c33e8393a3a5ab",
+    "frozen\\HAMILTONIAN_ROLE_LEVEL_RESPONSE.csv": "fd70d96ce03b952c39b3086997b21c1bf16b408ee5a78784d91dd6bcf4be6809"
+  }
+}

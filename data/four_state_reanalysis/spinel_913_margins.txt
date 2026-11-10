@@ -1,0 +1,20 @@
+path	endpoint	opp_k	opp_margins_meV	max_opp_meV	parent_margin_meV	endpoint_margin_meV
+mp-1104860_Ga	Indirect			nan	64.5	216.1
+mp-1247043_Ga	Indirect	15	1.7	1.7	28.1	10.8
+mp-19262_Ga	Indirect			nan	131.5	102.5
+mp-19318_Sc	Direct	2;4;5;6;7;9;10;12;13;14	35.3,24.2,49.7,58.9,92.3,0.8,1.4,14.4,38.6,22.8	92.3	64.8	60.2
+mp-22638_Mg	Direct	14	18.5	18.5	68.4	67.2
+mp-22961_Cu	Direct	2;7;8;9	57.0,32.8,24.1,10.9	57.0	30.0	31.2
+mp-3443_Cr	Indirect			nan	102.5	131.5
+mp-3536_Ga	Direct	2;3;4;5;6;7	94.5,83.7,113.2,55.0,63.7,13.3	113.2	19.8	43.7
+mp-3807_Ga	Indirect			nan	35.9	217.1
+mp-3904_Zn	Direct	2	3.4	3.4	67.2	63.3
+mp-4590_Cr	Direct	6	7.3	7.3	43.7	62.3
+mp-559200_Ir	Indirect	2;4;5;6	4.6,13.2,29.0,22.4	29.0	106.4	4.3
+mp-996957_Ga	Indirect	1;2;3;4;5;6	40.7,40.1,46.5,50.3,23.4,11.8	50.3	591.3	29.1
+reversal paths: 9 / 13
+max opposite margin > 1 meV: 9/13
+max opposite margin > 2 meV: 8/13
+max opposite margin > 5 meV: 7/13
+max opposite margin > 10 meV: 6/13
+max opposite margin > 20 meV: 5/13

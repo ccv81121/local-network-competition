@@ -1,0 +1,20 @@
+{
+ "case": "CaTiO3_Ti2Sn",
+ "n_atoms": 80,
+ "n_network": 64,
+ "n_bonds": 96,
+ "bond_rank": 96,
+ "bond_preserving_dof": 96,
+ "bond_lengths_min_max_A": [
+  1.9703513252089022,
+  1.981116506004371
+ ],
+ "u_rms_A": 0.041954289690724955,
+ "u_max_A": 0.09865768362324445,
+ "A_rms_A": 0.04410211917041902,
+ "u_bond_preserving_share": 0.24803220470493165,
+ "drive_bond_preserving_share": 0.0008911662882963903,
+ "enrichment_actual_over_drive": 278.3231457050352,
+ "drive_max_force_eV_A": 2.098352,
+ "n_ionic_cycle1": 52
+}

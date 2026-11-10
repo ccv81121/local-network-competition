@@ -1,0 +1,633 @@
+[
+ {
+  "system": "MgSc0.5Sb1.5Se4 k12",
+  "topology": "edge",
+  "interval_GPa": "4-5",
+  "n_atoms": 56,
+  "dim_p_q_A_in_sector": [
+   45,
+   96,
+   24
+  ],
+  "sector_leak": 9.858633484412266e-15,
+  "drive_share": 0.005443468797735519,
+  "predicted_share": 0.3141133102957281,
+  "channels_of_bending": {
+   "tension_f_q": 0.19541628535088434,
+   "bending_f_p": 0.5530440943268902,
+   "A_cation_f_A": 0.2478103652228322
+  },
+  "amplitude_ratio_up_over_uq": 0.6767324195758402,
+  "model_check_up": 0.048406718584951186,
+  "coupling_force_per_uq_eV_A2": 0.4417078490485284,
+  "A_coupling_force_per_uq_eV_A2": 1.4958959790090975,
+  "block_direct_up_per_uq": 0.2747044823235295,
+  "block_coupling_up_per_uq": 0.5075167458567861,
+  "block_coupling_fraction_of_up": 0.7066973064815567,
+  "block_force_ratio_coupling_over_direct": 2.5108197651178856,
+  "softness_gain_A2_per_eV": 0.33025420059916666,
+  "k_pp_mean": 2.4701247404317344,
+  "k_pp_min": 0.3855955067516662,
+  "k_qq_mean": 8.464314151620542,
+  "coupling_norm_rel": 0.2713221154462373,
+  "uq_rms_A": 0.005882916041684972,
+  "top_bending_modes": [
+   {
+    "k": 3.0098985557664473,
+    "weight_in_up": 0.2716927763950633,
+    "f_p_comp": -0.007126421041962699,
+    "coupling_comp": -0.036824353539107645
+   },
+   {
+    "k": 3.679110779480725,
+    "weight_in_up": 0.21336020845825718,
+    "f_p_comp": -0.01116789381769578,
+    "coupling_comp": -0.03145428572172862
+   },
+   {
+    "k": 0.41737334041052804,
+    "weight_in_up": 0.08480953009527538,
+    "f_p_comp": 0.0002929573037429719,
+    "coupling_comp": 0.003044242522728971
+   },
+   {
+    "k": 4.784059794656709,
+    "weight_in_up": 0.08385431174113263,
+    "f_p_comp": -0.008352917673639496,
+    "coupling_comp": -0.029266022011697475
+   }
+  ],
+  "n_modes_80pct": 7,
+  "weight_k_below_1": 0.2569485365078031,
+  "f_tension_norm": 0.33719150494762856,
+  "actual_share": 0.32913594082754266,
+  "BX_mean_by_species_A": {
+   "Sb": 2.817029676547073,
+   "Sc": 2.667825912212011
+  },
+  "size_mismatch": 0.05440572205432244,
+  "intra_oct_spread": 0.003183418644273959,
+  "bridge_angle_mean_deg": 91.8239179985262,
+  "bridge_angle_std_deg": 1.410406062235899
+ },
+ {
+  "system": "CaTiO3",
+  "topology": "corner",
+  "interval_GPa": "0-5",
+  "n_atoms": 20,
+  "dim_p_q_A_in_sector": [
+   21,
+   24,
+   12
+  ],
+  "sector_leak": 5.460308877053923e-15,
+  "drive_share": 0.10083256534151967,
+  "predicted_share": 0.1220236704183472,
+  "channels_of_bending": {
+   "tension_f_q": 0.23138764388266866,
+   "bending_f_p": 0.8672453909011534,
+   "A_cation_f_A": -0.09863303588411866
+  },
+  "amplitude_ratio_up_over_uq": 0.3728040643399955,
+  "model_check_up": 4.38707570261789e-05,
+  "coupling_force_per_uq_eV_A2": 0.9123245280217207,
+  "A_coupling_force_per_uq_eV_A2": 0.15179759290794653,
+  "block_direct_up_per_uq": 0.22850025548515684,
+  "block_coupling_up_per_uq": 0.2677359984202104,
+  "block_coupling_fraction_of_up": 0.5700453216377698,
+  "block_force_ratio_coupling_over_direct": 0.58903479987296,
+  "softness_gain_A2_per_eV": 0.2931843012428596,
+  "k_pp_mean": 7.2949242357884305,
+  "k_pp_min": 2.060907741737789,
+  "k_qq_mean": 17.85806030410179,
+  "coupling_norm_rel": 0.45171562391507003,
+  "uq_rms_A": 0.0104988029988115,
+  "top_bending_modes": [
+   {
+    "k": 3.341128349177313,
+    "weight_in_up": 0.7349765379389824,
+    "f_p_comp": 0.007519702018494927,
+    "coupling_comp": 0.0373249133742635
+   },
+   {
+    "k": 6.932808356220115,
+    "weight_in_up": 0.26497125991973336,
+    "f_p_comp": -0.06467082951677028,
+    "coupling_comp": 0.008799501324318466
+   },
+   {
+    "k": 3.3004089461290427,
+    "weight_in_up": 5.026955570391304e-05,
+    "f_p_comp": -5.7622348270814326e-05,
+    "coupling_comp": -0.0003087315009869104
+   },
+   {
+    "k": 12.587303383425267,
+    "weight_in_up": 1.0813056894225071e-06,
+    "f_p_comp": 4.249204959266145e-07,
+    "coupling_comp": 0.00020329568328602047
+   }
+  ],
+  "n_modes_80pct": 2,
+  "weight_k_below_1": 0.0,
+  "f_tension_norm": 0.1944217093933248,
+  "actual_share": 0.10802511530451431,
+  "BX_mean_by_species_A": {
+   "Ti": 1.9573373327167143
+  },
+  "size_mismatch": 0.0,
+  "intra_oct_spread": 0.0022225566497931963,
+  "bridge_angle_mean_deg": 154.4500151456175,
+  "bridge_angle_std_deg": 0.15226129121541782
+ },
+ {
+  "system": "CaSnO3",
+  "topology": "corner",
+  "interval_GPa": "0-5",
+  "n_atoms": 20,
+  "dim_p_q_A_in_sector": [
+   21,
+   24,
+   12
+  ],
+  "sector_leak": 5.781580679064642e-15,
+  "drive_share": 0.11584511935106892,
+  "predicted_share": 0.27038542031032886,
+  "channels_of_bending": {
+   "tension_f_q": -0.17673056612831303,
+   "bending_f_p": 1.2042854409308041,
+   "A_cation_f_A": -0.02755487446726675
+  },
+  "amplitude_ratio_up_over_uq": 0.608758282473676,
+  "model_check_up": 4.821398673353597e-06,
+  "coupling_force_per_uq_eV_A2": 1.032114862395061,
+  "A_coupling_force_per_uq_eV_A2": 0.991811097296692,
+  "block_direct_up_per_uq": 0.4509886108682693,
+  "block_coupling_up_per_uq": 0.18143274542283477,
+  "block_coupling_fraction_of_up": 0.26999591346375107,
+  "block_force_ratio_coupling_over_direct": 0.2384484019307001,
+  "softness_gain_A2_per_eV": 0.3668082978724387,
+  "k_pp_mean": 6.377708113633289,
+  "k_pp_min": 1.3025904006607658,
+  "k_qq_mean": 23.068155791195867,
+  "coupling_norm_rel": 0.373762882848865,
+  "uq_rms_A": 0.009319916635613617,
+  "top_bending_modes": [
+   {
+    "k": 2.6303649007356005,
+    "weight_in_up": 0.7131935569063297,
+    "f_p_comp": -0.03276646472242497,
+    "coupling_comp": -0.01764584645812827
+   },
+   {
+    "k": 6.203632463548634,
+    "weight_in_up": 0.2868058477350382,
+    "f_p_comp": -0.07004608874808448,
+    "coupling_comp": -0.005351414205439767
+   },
+   {
+    "k": 1.8814303505559764,
+    "weight_in_up": 2.6799354498759293e-07,
+    "f_p_comp": 2.2774764731329242e-05,
+    "coupling_comp": -6.708543246257241e-07
+   },
+   {
+    "k": 2.1944589113882307,
+    "weight_in_up": 1.8670537094362514e-07,
+    "f_p_comp": 1.540502650629902e-05,
+    "coupling_comp": 6.066880798528181e-06
+   }
+  ],
+  "n_modes_80pct": 2,
+  "weight_k_below_1": 0.0,
+  "f_tension_norm": 0.21363845433713058,
+  "actual_share": 0.2561897292026625,
+  "BX_mean_by_species_A": {
+   "Sn": 2.0748426375371465
+  },
+  "size_mismatch": 0.0,
+  "intra_oct_spread": 0.0009151248367317011,
+  "bridge_angle_mean_deg": 145.54028814032543,
+  "bridge_angle_std_deg": 0.929506433083073
+ },
+ {
+  "system": "MgScSbSe4 k08",
+  "topology": "edge",
+  "interval_GPa": "0-5",
+  "n_atoms": 28,
+  "dim_p_q_A_in_sector": [
+   4,
+   8,
+   1
+  ],
+  "sector_leak": 3.771256467382427e-15,
+  "drive_share": 0.002918913308255312,
+  "predicted_share": 0.05913855187298684,
+  "channels_of_bending": {
+   "tension_f_q": 0.47605947089296874,
+   "bending_f_p": 0.5831997490666131,
+   "A_cation_f_A": -0.059259219959581784
+  },
+  "amplitude_ratio_up_over_uq": 0.2507104902051335,
+  "model_check_up": 7.910834650664682e-15,
+  "coupling_force_per_uq_eV_A2": 0.5592045918651221,
+  "A_coupling_force_per_uq_eV_A2": 0.0009546468639954528,
+  "block_direct_up_per_uq": 0.12265856347112943,
+  "block_coupling_up_per_uq": 0.15398960808080006,
+  "block_coupling_fraction_of_up": 0.5689489523076174,
+  "block_force_ratio_coupling_over_direct": 1.171999432845569,
+  "softness_gain_A2_per_eV": 0.27558976851706607,
+  "k_pp_mean": 4.295698048675516,
+  "k_pp_min": 1.58015716516966,
+  "k_qq_mean": 11.165773248677741,
+  "coupling_norm_rel": 0.2416227445437999,
+  "uq_rms_A": 0.034148797556678455,
+  "top_bending_modes": [
+   {
+    "k": 2.7726882441516,
+    "weight_in_up": 0.9155976311237418,
+    "f_p_comp": -0.05216683939528807,
+    "coupling_comp": -0.059110546339352574
+   },
+   {
+    "k": 5.014132187029438,
+    "weight_in_up": 0.04230716332264402,
+    "f_p_comp": 0.014888858322864192,
+    "coupling_comp": -0.05814584625812175
+   },
+   {
+    "k": 1.58015716516966,
+    "weight_in_up": 0.03952900806035481,
+    "f_p_comp": -0.0024512950161418583,
+    "coupling_comp": -0.01072556055667651
+   },
+   {
+    "k": 7.815814598351367,
+    "weight_in_up": 0.002566197493259303,
+    "f_p_comp": -0.05841659155972684,
+    "coupling_comp": 0.041810293453359584
+   }
+  ],
+  "n_modes_80pct": 1,
+  "weight_k_below_1": 0.0,
+  "f_tension_norm": 1.4741327735631427,
+  "actual_share": 0.04902935420027331,
+  "BX_mean_by_species_A": {
+   "Sc": 2.661603609489172,
+   "Sb": 2.797977583781948
+  },
+  "size_mismatch": 0.04995766871673441,
+  "intra_oct_spread": 0.008132931281435364,
+  "bridge_angle_mean_deg": 92.77043900459417,
+  "bridge_angle_std_deg": 1.7105482765625635
+ },
+ {
+  "system": "Cd(Ga,In)2O4",
+  "topology": "edge",
+  "interval_GPa": "0-5",
+  "n_atoms": 28,
+  "dim_p_q_A_in_sector": [
+   4,
+   8,
+   1
+  ],
+  "sector_leak": 3.715680468404009e-15,
+  "drive_share": 0.004712563100603751,
+  "predicted_share": 0.03779725942597317,
+  "channels_of_bending": {
+   "tension_f_q": 0.1947980669269901,
+   "bending_f_p": 0.9802177911323502,
+   "A_cation_f_A": -0.17501585805934008
+  },
+  "amplitude_ratio_up_over_uq": 0.19819690163423326,
+  "model_check_up": 4.702582629512401e-15,
+  "coupling_force_per_uq_eV_A2": 2.2388247204754594,
+  "A_coupling_force_per_uq_eV_A2": 1.9569239080655356,
+  "block_direct_up_per_uq": 0.1457085929986827,
+  "block_coupling_up_per_uq": 0.06748704375182256,
+  "block_coupling_fraction_of_up": 0.28773372050277507,
+  "block_force_ratio_coupling_over_direct": 0.43271555204436746,
+  "softness_gain_A2_per_eV": 0.11635561560978053,
+  "k_pp_mean": 13.840403608782317,
+  "k_pp_min": 7.1003249753248445,
+  "k_qq_mean": 21.003330633367888,
+  "coupling_norm_rel": 0.23715617339981618,
+  "uq_rms_A": 0.005854178954696034,
+  "top_bending_modes": [
+   {
+    "k": 7.1003249753248445,
+    "weight_in_up": 0.8555717980397893,
+    "f_p_comp": 0.02435050978856788,
+    "coupling_comp": 0.012980946564101516
+   },
+   {
+    "k": 15.367773179377709,
+    "weight_in_up": 0.07661879810260652,
+    "f_p_comp": 0.02308332982723306,
+    "coupling_comp": 0.0010961573356136943
+   },
+   {
+    "k": 9.852248020110924,
+    "weight_in_up": 0.05674291420319316,
+    "f_p_comp": -0.01817921039788368,
+    "coupling_comp": 0.004839093648313263
+   },
+   {
+    "k": 23.04126826031579,
+    "weight_in_up": 0.01106648965441084,
+    "f_p_comp": -0.004635765190500663,
+    "coupling_comp": -0.009142032309980116
+   }
+  ],
+  "n_modes_80pct": 1,
+  "weight_k_below_1": 0.0,
+  "f_tension_norm": 0.5586603625475162,
+  "actual_share": 0.04052174944094496,
+  "BX_mean_by_species_A": {
+   "Ga": 2.0376102034662034,
+   "In": 2.1762922187478577
+  },
+  "size_mismatch": 0.06582118017283765,
+  "intra_oct_spread": 0.009966533862463461,
+  "bridge_angle_mean_deg": 97.25709880458881,
+  "bridge_angle_std_deg": 2.162985062767044
+ },
+ {
+  "system": "Na(Sc,In)O2 layered",
+  "topology": "edge",
+  "interval_GPa": "0-5",
+  "n_atoms": 24,
+  "dim_p_q_A_in_sector": [
+   4,
+   12,
+   4
+  ],
+  "sector_leak": 1.0627752067328666e-09,
+  "drive_share": 2.896497151920039e-05,
+  "predicted_share": 0.0008704606590519013,
+  "channels_of_bending": {
+   "tension_f_q": 0.10642518290526692,
+   "bending_f_p": 0.8142121296831905,
+   "A_cation_f_A": 0.07936268741154225
+  },
+  "amplitude_ratio_up_over_uq": 0.02951641951414572,
+  "model_check_up": 2.8064022073391765e-13,
+  "coupling_force_per_uq_eV_A2": 0.041634768510747766,
+  "A_coupling_force_per_uq_eV_A2": 0.043392538891069254,
+  "block_direct_up_per_uq": 0.02022922306733808,
+  "block_coupling_up_per_uq": 0.010559990209235925,
+  "block_coupling_fraction_of_up": 0.32914280706964505,
+  "block_force_ratio_coupling_over_direct": 0.81025028291454,
+  "softness_gain_A2_per_eV": 0.15809145736540098,
+  "k_pp_mean": 5.174323157492042,
+  "k_pp_min": 0.7707168143436497,
+  "k_qq_mean": 15.367393397873771,
+  "coupling_norm_rel": 0.3190030973300558,
+  "uq_rms_A": 0.02102647359783407,
+  "top_bending_modes": [
+   {
+    "k": 5.353800854524448,
+    "weight_in_up": 0.47492613233867215,
+    "f_p_comp": -0.0072372475681587245,
+    "coupling_comp": -0.0024777258170625145
+   },
+   {
+    "k": 0.7707168143436506,
+    "weight_in_up": 0.4182242820296332,
+    "f_p_comp": -0.0008955285600341515,
+    "coupling_comp": -0.00041687024129826106
+   },
+   {
+    "k": 2.7007353293755414,
+    "weight_in_up": 0.07163147816742693,
+    "f_p_comp": -0.000747850371592734,
+    "coupling_comp": -0.0011554194055465523
+   },
+   {
+    "k": 11.872039631724528,
+    "weight_in_up": 0.03521810746426774,
+    "f_p_comp": -0.0005882564024949561,
+    "coupling_comp": -0.005278184687744766
+   }
+  ],
+  "n_modes_80pct": 2,
+  "weight_k_below_1": 0.4182242820296332,
+  "f_tension_norm": 1.3664568339902725,
+  "actual_share": 0.000516460936050037,
+  "BX_mean_by_species_A": {
+   "Sc": 2.1329585090184,
+   "In": 2.1933952766570943
+  },
+  "size_mismatch": 0.02793889294897702,
+  "intra_oct_spread": 0.004247623968358221,
+  "bridge_angle_mean_deg": 95.12002012202635,
+  "bridge_angle_std_deg": 1.0021853933223053
+ },
+ {
+  "system": "k12 tight 0-5 GPa",
+  "topology": "edge",
+  "interval_GPa": "0-5",
+  "n_atoms": 56,
+  "dim_p_q_A_in_sector": [
+   45,
+   76,
+   14
+  ],
+  "sector_leak": 4.898979485569665,
+  "drive_share": 0.0041575671798824345,
+  "predicted_share": 0.31973035477968675,
+  "channels_of_bending": {
+   "tension_f_q": 0.1405934558139422,
+   "bending_f_p": 0.642545252241753,
+   "A_cation_f_A": 0.2145421453717065
+  },
+  "amplitude_ratio_up_over_uq": 0.685569342709186,
+  "model_check_up": 21479473.46924307,
+  "coupling_force_per_uq_eV_A2": 0.4958927804076384,
+  "A_coupling_force_per_uq_eV_A2": 1.4212532200232184,
+  "block_direct_up_per_uq": 14857183.6587948,
+  "block_coupling_up_per_uq": 376486.2301408465,
+  "block_coupling_fraction_of_up": -0.00864406827318253,
+  "block_force_ratio_coupling_over_direct": 2.08492615952487,
+  "softness_gain_A2_per_eV": 258900.95988464498,
+  "k_pp_mean": 1.4518627904483437,
+  "k_pp_min": 4.390808802922482e-12,
+  "k_qq_mean": 6.360551249363854,
+  "coupling_norm_rel": 0.26172025252337766,
+  "uq_rms_A": 0.02454119633736267,
+  "top_bending_modes": [
+   {
+    "k": 2.8357836101552922,
+    "weight_in_up": 0.32987367867431777,
+    "f_p_comp": -0.03804279924235563,
+    "coupling_comp": -0.1533695794057303
+   },
+   {
+    "k": 3.5212077724169553,
+    "weight_in_up": 0.1390632747708178,
+    "f_p_comp": -0.043347732419053854,
+    "coupling_comp": -0.09555101603569202
+   },
+   {
+    "k": 0.39737300793605995,
+    "weight_in_up": 0.0954136739618952,
+    "f_p_comp": 0.006756336871464909,
+    "coupling_comp": 0.007492987724275844
+   },
+   {
+    "k": 4.654804299789744,
+    "weight_in_up": 0.08607892268316411,
+    "f_p_comp": -0.02862275864227948,
+    "coupling_comp": -0.1291884278510577
+   }
+  ],
+  "n_modes_80pct": 6,
+  "weight_k_below_1": 0.26876457628409023,
+  "f_tension_norm": 1.8353410667780505,
+  "actual_share": 0.3255945040048953,
+  "BX_mean_by_species_A": {
+   "Sb": 2.804700515554475,
+   "Sc": 2.6583918701324847
+  },
+  "size_mismatch": 0.053562574122052946,
+  "intra_oct_spread": 0.005331189783132193,
+  "bridge_angle_mean_deg": 92.31660565154614,
+  "bridge_angle_std_deg": 1.3615761153682004
+ },
+ {
+  "system": "Ca2SnTiO6",
+  "topology": "corner",
+  "interval_GPa": "0-5",
+  "n_atoms": 20,
+  "dim_p_q_A_in_sector": [
+   3,
+   6,
+   3
+  ],
+  "sector_leak": 4.533598621140521e-14,
+  "drive_share": 0.07885555660082152,
+  "predicted_share": 0.16620954755908277,
+  "channels_of_bending": {
+   "tension_f_q": 0.04254024152609336,
+   "bending_f_p": 1.011733877653992,
+   "A_cation_f_A": -0.0542741191800852
+  },
+  "amplitude_ratio_up_over_uq": 0.4464774455292613,
+  "model_check_up": 9.663139829607516e-16,
+  "coupling_force_per_uq_eV_A2": 0.9497432139688236,
+  "A_coupling_force_per_uq_eV_A2": 0.4775949267656257,
+  "block_direct_up_per_uq": 0.2836381804978206,
+  "block_coupling_up_per_uq": 0.24211274686211795,
+  "block_coupling_fraction_of_up": 0.4452397807156912,
+  "block_force_ratio_coupling_over_direct": 0.47003266916776654,
+  "softness_gain_A2_per_eV": 0.3106119806641608,
+  "k_pp_mean": 5.353401595623037,
+  "k_pp_min": 3.0242516349654176,
+  "k_qq_mean": 14.772768622790858,
+  "coupling_norm_rel": 0.24489246077903304,
+  "uq_rms_A": 0.010102134877202967,
+  "top_bending_modes": [
+   {
+    "k": 3.024251634965417,
+    "weight_in_up": 0.6927397925886367,
+    "f_p_comp": -0.0163189090020495,
+    "coupling_comp": -0.029093618140109932
+   },
+   {
+    "k": 6.021555453459722,
+    "weight_in_up": 0.2371310614792002,
+    "f_p_comp": 0.04753607724831477,
+    "coupling_comp": 0.005366349142833793
+   },
+   {
+    "k": 7.014397698443971,
+    "weight_in_up": 0.07012914593216306,
+    "f_p_comp": 0.0443221942443949,
+    "coupling_comp": -0.010809268883674164
+   }
+  ],
+  "n_modes_80pct": 2,
+  "weight_k_below_1": 0.0,
+  "f_tension_norm": 0.2290299511883423,
+  "actual_share": 0.14523341582540578,
+  "BX_mean_by_species_A": {
+   "Ti": 1.9642458715476934,
+   "Sn": 2.0669545225815322
+  },
+  "size_mismatch": 0.05095685701133438,
+  "intra_oct_spread": 0.0014623329252597091,
+  "bridge_angle_mean_deg": 149.7013849319639,
+  "bridge_angle_std_deg": 0.5351948022439764
+ },
+ {
+  "system": "Ca8Sn6Ti2O24",
+  "topology": "corner",
+  "interval_GPa": "0-5",
+  "n_atoms": 40,
+  "dim_p_q_A_in_sector": [
+   9,
+   12,
+   6
+  ],
+  "sector_leak": 6.70716146594992e-15,
+  "drive_share": 0.11151022632058888,
+  "predicted_share": 0.3230822947894361,
+  "channels_of_bending": {
+   "tension_f_q": -0.026720276406461314,
+   "bending_f_p": 0.8916336233193498,
+   "A_cation_f_A": 0.1350866530871114
+  },
+  "amplitude_ratio_up_over_uq": 0.690857764116774,
+  "model_check_up": 1.810356133657998e-15,
+  "coupling_force_per_uq_eV_A2": 1.0731518428283409,
+  "A_coupling_force_per_uq_eV_A2": 1.7697321626341078,
+  "block_direct_up_per_uq": 0.4146989588865033,
+  "block_coupling_up_per_uq": 0.35100651668246446,
+  "block_coupling_fraction_of_up": 0.4489092387952034,
+  "block_force_ratio_coupling_over_direct": 0.9367732176463452,
+  "softness_gain_A2_per_eV": 0.17929783849679934,
+  "k_pp_mean": 5.823790769712801,
+  "k_pp_min": 1.695466131718978,
+  "k_qq_mean": 18.99178622122577,
+  "coupling_norm_rel": 0.1963410852297893,
+  "uq_rms_A": 0.009712438207527133,
+  "top_bending_modes": [
+   {
+    "k": 2.7329496470046357,
+    "weight_in_up": 0.3556413547314197,
+    "f_p_comp": 0.03618422349173917,
+    "coupling_comp": 0.02567858873306421
+   },
+   {
+    "k": 3.1046319785765784,
+    "weight_in_up": 0.272596160286421,
+    "f_p_comp": -0.02867526293794644,
+    "coupling_comp": -0.03285119226022752
+   },
+   {
+    "k": 7.92647116719105,
+    "weight_in_up": 0.13998327981514885,
+    "f_p_comp": 0.03856647684378498,
+    "coupling_comp": 0.0740002057197546
+   },
+   {
+    "k": 6.379324251888253,
+    "weight_in_up": 0.1229658517202073,
+    "f_p_comp": -0.08933854533082242,
+    "coupling_comp": 0.004428545691633054
+   }
+  ],
+  "n_modes_80pct": 4,
+  "weight_k_below_1": 0.0,
+  "f_tension_norm": 0.324099071324506,
+  "actual_share": 0.3047438525674694,
+  "BX_mean_by_species_A": {
+   "Ti": 1.977920163563969,
+   "Sn": 2.067933092590861
+  },
+  "size_mismatch": 0.04449638843917952,
+  "intra_oct_spread": 0.005336765592422328,
+  "bridge_angle_mean_deg": 147.62549341775312,
+  "bridge_angle_std_deg": 2.2999866751718554
+ }
+]

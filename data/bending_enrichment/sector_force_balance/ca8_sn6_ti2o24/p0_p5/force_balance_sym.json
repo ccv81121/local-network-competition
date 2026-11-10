@@ -1,0 +1,182 @@
+{
+ "material": "Ca8Sn6Ti2O24",
+ "interval": "P0_P5",
+ "n_symmetric_dof": 27,
+ "H_asymmetry": 0.0003308175242460334,
+ "n_negative": 0,
+ "drive_symmetry_residual": 8.348134107852267e-05,
+ "bond_preserving_share": {
+  "drive": 0.11151022632058888,
+  "predicted": 0.3230822947894359,
+  "actual": 0.3047438525674694
+ },
+ "cosine_pred_vs_actual": 0.9995923275162614,
+ "cosine_drive_vs_actual": 0.8464217742847527,
+ "norm_ratio_pred_over_actual": 1.0314929324100428,
+ "harmonic_energy_lowering_meV": -10.969711117097802,
+ "modes_soft_to_stiff": [
+  {
+   "k_eV_A2": 1.1193,
+   "bond_preserving": 0.9483,
+   "drive_share": 0.0,
+   "response_share": 0.0003
+  },
+  {
+   "k_eV_A2": 1.7261,
+   "bond_preserving": 0.9314,
+   "drive_share": 0.0388,
+   "response_share": 0.2866
+  },
+  {
+   "k_eV_A2": 2.0417,
+   "bond_preserving": 0.93,
+   "drive_share": 0.0033,
+   "response_share": 0.0176
+  },
+  {
+   "k_eV_A2": 2.6145,
+   "bond_preserving": 0.9405,
+   "drive_share": 0.0167,
+   "response_share": 0.0537
+  },
+  {
+   "k_eV_A2": 2.9092,
+   "bond_preserving": 0.8982,
+   "drive_share": 0.0001,
+   "response_share": 0.0002
+  },
+  {
+   "k_eV_A2": 3.7223,
+   "bond_preserving": 0.8245,
+   "drive_share": 0.0828,
+   "response_share": 0.1313
+  },
+  {
+   "k_eV_A2": 4.2822,
+   "bond_preserving": 0.172,
+   "drive_share": 0.196,
+   "response_share": 0.235
+  },
+  {
+   "k_eV_A2": 4.5959,
+   "bond_preserving": 0.3199,
+   "drive_share": 0.1641,
+   "response_share": 0.1707
+  },
+  {
+   "k_eV_A2": 4.7727,
+   "bond_preserving": 0.8342,
+   "drive_share": 0.009,
+   "response_share": 0.0087
+  },
+  {
+   "k_eV_A2": 6.3848,
+   "bond_preserving": 0.8041,
+   "drive_share": 0.0032,
+   "response_share": 0.0017
+  },
+  {
+   "k_eV_A2": 7.0953,
+   "bond_preserving": 0.4552,
+   "drive_share": 0.0073,
+   "response_share": 0.0032
+  },
+  {
+   "k_eV_A2": 7.8546,
+   "bond_preserving": 0.5279,
+   "drive_share": 0.1033,
+   "response_share": 0.0368
+  },
+  {
+   "k_eV_A2": 8.8365,
+   "bond_preserving": 0.6728,
+   "drive_share": 0.0027,
+   "response_share": 0.0008
+  },
+  {
+   "k_eV_A2": 8.9403,
+   "bond_preserving": 0.418,
+   "drive_share": 0.0134,
+   "response_share": 0.0037
+  },
+  {
+   "k_eV_A2": 9.779,
+   "bond_preserving": 0.5593,
+   "drive_share": 0.1557,
+   "response_share": 0.0358
+  },
+  {
+   "k_eV_A2": 10.3813,
+   "bond_preserving": 0.6125,
+   "drive_share": 0.0195,
+   "response_share": 0.004
+  },
+  {
+   "k_eV_A2": 11.1369,
+   "bond_preserving": 0.3793,
+   "drive_share": 0.001,
+   "response_share": 0.0002
+  },
+  {
+   "k_eV_A2": 11.6078,
+   "bond_preserving": 0.5279,
+   "drive_share": 0.0004,
+   "response_share": 0.0001
+  },
+  {
+   "k_eV_A2": 12.6935,
+   "bond_preserving": 0.1986,
+   "drive_share": 0.0152,
+   "response_share": 0.0021
+  },
+  {
+   "k_eV_A2": 14.2816,
+   "bond_preserving": 0.1417,
+   "drive_share": 0.0066,
+   "response_share": 0.0007
+  },
+  {
+   "k_eV_A2": 15.3803,
+   "bond_preserving": 0.0658,
+   "drive_share": 0.0486,
+   "response_share": 0.0045
+  },
+  {
+   "k_eV_A2": 15.9628,
+   "bond_preserving": 0.2808,
+   "drive_share": 0.0,
+   "response_share": 0.0
+  },
+  {
+   "k_eV_A2": 19.088,
+   "bond_preserving": 0.0095,
+   "drive_share": 0.0167,
+   "response_share": 0.001
+  },
+  {
+   "k_eV_A2": 29.2192,
+   "bond_preserving": 0.0008,
+   "drive_share": 0.015,
+   "response_share": 0.0004
+  },
+  {
+   "k_eV_A2": 30.07,
+   "bond_preserving": 0.001,
+   "drive_share": 0.0142,
+   "response_share": 0.0003
+  },
+  {
+   "k_eV_A2": 36.5104,
+   "bond_preserving": 0.0095,
+   "drive_share": 0.001,
+   "response_share": 0.0
+  },
+  {
+   "k_eV_A2": 40.8285,
+   "bond_preserving": 0.0083,
+   "drive_share": 0.0653,
+   "response_share": 0.0009
+  }
+ ],
+ "dft_E_P2_minus_E_aff_meV": -10.78856999998834
+}

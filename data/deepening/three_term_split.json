@@ -1,0 +1,402 @@
+{
+ "sanity": [
+  {
+   "system": "MgSc0.5Sb1.5Se4 (k12, tight)",
+   "drive_share": 0.005443468797735519,
+   "predicted_share": 0.3141133102957279,
+   "abs_diff_drive": 8.673617379884035e-19,
+   "abs_diff_pred": 1.8318679906315083e-15,
+   "match_1e-6": true
+  },
+  {
+   "system": "CaTiO3",
+   "drive_share": 0.10083256534151971,
+   "predicted_share": 0.12202367041834647,
+   "abs_diff_drive": 0.0,
+   "abs_diff_pred": 2.7755575615628914e-17,
+   "match_1e-6": true
+  },
+  {
+   "system": "CaSnO3",
+   "drive_share": 0.11584511935106888,
+   "predicted_share": 0.2703854203103291,
+   "abs_diff_drive": 0.0,
+   "abs_diff_pred": 0.0,
+   "match_1e-6": true
+  },
+  {
+   "system": "MgScSbSe4 (k08 ordering)",
+   "drive_share": 0.0029189133082553075,
+   "predicted_share": 0.05913855187298675,
+   "abs_diff_drive": 5.204170427930421e-18,
+   "abs_diff_pred": 3.469446951953614e-17,
+   "match_1e-6": true
+  },
+  {
+   "system": "Ca2SnTiO6 (rock-salt)",
+   "drive_share": 0.07885555660082157,
+   "predicted_share": 0.16620954755908302,
+   "abs_diff_drive": 0.0,
+   "abs_diff_pred": 0.0,
+   "match_1e-6": true
+  },
+  {
+   "system": "Ca8Sn6Ti2O24",
+   "drive_share": 0.1115102263205888,
+   "predicted_share": 0.3230822947894358,
+   "abs_diff_drive": 0.0,
+   "abs_diff_pred": 0.0,
+   "match_1e-6": true
+  },
+  {
+   "system": "Cd(Ga,In)2O4",
+   "drive_share": 0.0047125631006037574,
+   "predicted_share": 0.03779725942597308,
+   "note": "no csv reference"
+  },
+  {
+   "system": "Na(Sc,In)O2",
+   "drive_share": 2.8964971519200245e-05,
+   "predicted_share": 0.0008704606590518593,
+   "note": "no csv reference"
+  }
+ ],
+ "split": [
+  {
+   "system": "MgSc0.5Sb1.5Se4 (k12, tight)",
+   "kind": "full",
+   "dim_W": 165,
+   "dim_B": 45,
+   "H_min_eig": 0.20210187412219582,
+   "H_max_eig": 17.775273784882305,
+   "H_cond": 87.95204825332264,
+   "Sb_min_eig": 0.2161417477554056,
+   "Sb_cond": 32.67057860490025,
+   "recon_err_b": 7.188767104336663e-17,
+   "recon_rel": 2.6062985508491903e-15,
+   "sq_frac": {
+    "t1_clamped": 0.28943306184878254,
+    "t2_softening": 0.18929062077450703,
+    "t3_transmission": 0.5212763173767103
+   },
+   "signed_frac": {
+    "t1_clamped": 0.285306420885422,
+    "t2_softening": 0.267737673441462,
+    "t3_transmission": 0.44695590567311627
+   },
+   "norm_t": [
+    0.011196415708281664,
+    0.009054604663213093,
+    0.015025846319186041
+   ],
+   "s_f_old": 0.005443468797735519,
+   "sB_f_W": 0.005421444272488671,
+   "b_share_of_Hinvf": 0.27984707873083425,
+   "exact_direct_coupled_signed": {
+    "direct_signed": 0.285306420885422,
+    "coupled_signed": 0.7146935791145784
+   },
+   "old_posterior_actual_u": {
+    "direct_signed": 0.2596155530727477,
+    "coupled_signed": 0.7391377439163432,
+    "residual_signed": 0.0012467030109088375
+   },
+   "cos_u_act_Hinvf": 0.9892521229719334,
+   "u_act_leak_outside_W": 2.4215081042779873e-15
+  },
+  {
+   "system": "CaTiO3",
+   "kind": "full",
+   "dim_W": 57,
+   "dim_B": 21,
+   "H_min_eig": 0.41495010528542403,
+   "H_max_eig": 40.228241510669534,
+   "H_cond": 96.94717749980683,
+   "Sb_min_eig": 1.3820648581268473,
+   "Sb_cond": 8.472919335833422,
+   "recon_err_b": 4.069134035050886e-17,
+   "recon_rel": 2.5990915610276163e-15,
+   "sq_frac": {
+    "t1_clamped": 0.5347314645326062,
+    "t2_softening": 0.2900605747047818,
+    "t3_transmission": 0.17520796076261194
+   },
+   "signed_frac": {
+    "t1_clamped": 0.4299546486248464,
+    "t2_softening": 0.43729074227631376,
+    "t3_transmission": 0.13275460909883965
+   },
+   "norm_t": [
+    0.009595916670067046,
+    0.007067453337334171,
+    0.0054928218750626995
+   ],
+   "s_f_old": 0.10083256534151971,
+   "sB_f_W": 0.09943247406687108,
+   "b_share_of_Hinvf": 0.11489204354339654,
+   "exact_direct_coupled_signed": {
+    "direct_signed": 0.4299546486248464,
+    "coupled_signed": 0.5700453513751533
+   },
+   "old_posterior_actual_u": {
+    "direct_signed": 0.5044709070921618,
+    "coupled_signed": 0.5287895986116667,
+    "residual_signed": -0.03326050570382868
+   },
+   "cos_u_act_Hinvf": 0.999402456412992,
+   "u_act_leak_outside_W": 1.365869985494731e-15
+  },
+  {
+   "system": "CaSnO3",
+   "kind": "full",
+   "dim_W": 57,
+   "dim_B": 21,
+   "H_min_eig": 0.9423325038398376,
+   "H_max_eig": 38.395162554140725,
+   "H_cond": 40.74481395652517,
+   "Sb_min_eig": 1.01677123865932,
+   "Sb_cond": 10.824608582066372,
+   "recon_err_b": 2.107368704357995e-17,
+   "recon_rel": 9.285891911379761e-16,
+   "sq_frac": {
+    "t1_clamped": 0.6660553056108895,
+    "t2_softening": 0.2756420024665184,
+    "t3_transmission": 0.058302691922592076
+   },
+   "signed_frac": {
+    "t1_clamped": 0.7300040859776905,
+    "t2_softening": 0.4742813549531129,
+    "t3_transmission": -0.20428544093080356
+   },
+   "norm_t": [
+    0.016812705027613818,
+    0.010815712777241769,
+    0.00497424017808543
+   ],
+   "s_f_old": 0.11584511935106888,
+   "sB_f_W": 0.1105334689560816,
+   "b_share_of_Hinvf": 0.2182554138849659,
+   "exact_direct_coupled_signed": {
+    "direct_signed": 0.7300040859776905,
+    "coupled_signed": 0.26999591402230927
+   },
+   "old_posterior_actual_u": {
+    "direct_signed": 0.7790885847367124,
+    "coupled_signed": 0.2526885788457455,
+    "residual_signed": -0.03177716358245813
+   },
+   "cos_u_act_Hinvf": 0.9995822529810104,
+   "u_act_leak_outside_W": 1.2329141633555618e-15
+  },
+  {
+   "system": "MgScSbSe4 (k08 ordering)",
+   "kind": "sector",
+   "dim_W": 13,
+   "dim_B": 4,
+   "H_min_eig": 1.3497799079714303,
+   "H_max_eig": 18.791402861191234,
+   "H_cond": 13.921827366235307,
+   "Sb_min_eig": 1.412164236552934,
+   "Sb_cond": 5.355359183891683,
+   "recon_err_b": 3.2033725173538966e-17,
+   "recon_rel": 7.637547116625874e-16,
+   "sq_frac": {
+    "t1_clamped": 0.3650412083669707,
+    "t2_softening": 0.10404695232726574,
+    "t3_transmission": 0.5309118393057635
+   },
+   "signed_frac": {
+    "t1_clamped": 0.4310510476923831,
+    "t2_softening": 0.15214870137423012,
+    "t3_transmission": 0.41680025093338674
+   },
+   "norm_t": [
+    0.020520073447505855,
+    0.010955258914764917,
+    0.02474680688834242
+   ],
+   "s_f_old": 0.0029189133082553075,
+   "sB_f_W": 0.002917593815750804,
+   "b_share_of_Hinvf": 0.059138548012235156,
+   "exact_direct_coupled_signed": {
+    "direct_signed": 0.4310510476923831,
+    "coupled_signed": 0.5689489523076169
+   },
+   "old_posterior_actual_u": {
+    "direct_signed": 0.4561365668552611,
+    "coupled_signed": 0.6281020997586972,
+    "residual_signed": -0.08423866661395822
+   },
+   "cos_u_act_Hinvf": 0.9990103255128008,
+   "u_act_leak_outside_W": 9.342626217243998e-15
+  },
+  {
+   "system": "Ca2SnTiO6 (rock-salt)",
+   "kind": "sector",
+   "dim_W": 12,
+   "dim_B": 3,
+   "H_min_eig": 1.5442993432921568,
+   "H_max_eig": 33.518056937210815,
+   "H_cond": 21.704378158807344,
+   "Sb_min_eig": 1.8341581385826617,
+   "Sb_cond": 3.3649576655118825,
+   "recon_err_b": 9.501471788262684e-18,
+   "recon_rel": 5.266452900053261e-16,
+   "sq_frac": {
+    "t1_clamped": 0.5931609205240989,
+    "t2_softening": 0.31147384623713126,
+    "t3_transmission": 0.09536523323876991
+   },
+   "signed_frac": {
+    "t1_clamped": 0.5547602192843084,
+    "t2_softening": 0.45697365836968146,
+    "t3_transmission": -0.011733877653989838
+   },
+   "norm_t": [
+    0.011461404622853688,
+    0.008305434783456505,
+    0.0045956465215065785
+   ],
+   "s_f_old": 0.07885555660082157,
+   "sB_f_W": 0.07840376867437142,
+   "b_share_of_Hinvf": 0.14572181882615856,
+   "exact_direct_coupled_signed": {
+    "direct_signed": 0.5547602192843084,
+    "coupled_signed": 0.44523978071569154
+   },
+   "old_posterior_actual_u": {
+    "direct_signed": 0.632921362356101,
+    "coupled_signed": 0.42029133170304483,
+    "residual_signed": -0.05321269405914573
+   },
+   "cos_u_act_Hinvf": 0.99929106814614,
+   "u_act_leak_outside_W": 8.485713953793403e-13
+  },
+  {
+   "system": "Ca8Sn6Ti2O24",
+   "kind": "sector",
+   "dim_W": 27,
+   "dim_B": 9,
+   "H_min_eig": 1.1193042050004665,
+   "H_max_eig": 40.8284887833396,
+   "H_cond": 36.47666880990819,
+   "Sb_min_eig": 1.2465789360609767,
+   "Sb_cond": 8.038131370344706,
+   "recon_err_b": 9.077045226164502e-17,
+   "recon_rel": 2.3914020581690264e-15,
+   "sq_frac": {
+    "t1_clamped": 0.6063748407271446,
+    "t2_softening": 0.22454529880303453,
+    "t3_transmission": 0.1690798604698208
+   },
+   "signed_frac": {
+    "t1_clamped": 0.5510907612047962,
+    "t2_softening": 0.34054286211455587,
+    "t3_transmission": 0.10836637668064818
+   },
+   "norm_t": [
+    0.02278432689417755,
+    0.013864927392754214,
+    0.012031272311414631
+   ],
+   "s_f_old": 0.1115102263205888,
+   "sB_f_W": 0.10748740129643836,
+   "b_share_of_Hinvf": 0.25817295951111013,
+   "exact_direct_coupled_signed": {
+    "direct_signed": 0.5510907612047962,
+    "coupled_signed": 0.44890923879520406
+   },
+   "old_posterior_actual_u": {
+    "direct_signed": 0.5895265982466226,
+    "coupled_signed": 0.4384927552146086,
+    "residual_signed": -0.028019353461231227
+   },
+   "cos_u_act_Hinvf": 0.9995923275162616,
+   "u_act_leak_outside_W": 1.146328840076783e-12
+  },
+  {
+   "system": "Cd(Ga,In)2O4",
+   "kind": "sector",
+   "dim_W": 13,
+   "dim_B": 4,
+   "H_min_eig": 4.786115176925575,
+   "H_max_eig": 39.62827184536749,
+   "H_cond": 8.279840827153524,
+   "Sb_min_eig": 5.991315955482875,
+   "Sb_cond": 3.766231212066387,
+   "recon_err_b": 7.436077881698148e-18,
+   "recon_rel": 1.3082039428815692e-15,
+   "sq_frac": {
+    "t1_clamped": 0.7240422089753649,
+    "t2_softening": 0.1312636066851931,
+    "t3_transmission": 0.144694184339442
+   },
+   "signed_frac": {
+    "t1_clamped": 0.7122662794972308,
+    "t2_softening": 0.267951511635125,
+    "t3_transmission": 0.019782208867644393
+   },
+   "norm_t": [
+    0.00417884997231491,
+    0.001779291088867549,
+    0.0018681010956886368
+   ],
+   "s_f_old": 0.0047125631006037574,
+   "sB_f_W": 0.004703942113204633,
+   "b_share_of_Hinvf": 0.03459908927944761,
+   "exact_direct_coupled_signed": {
+    "direct_signed": 0.7122662794972308,
+    "coupled_signed": 0.28773372050276935
+   },
+   "old_posterior_actual_u": {
+    "direct_signed": 0.6781456431183556,
+    "coupled_signed": 0.2849311185677512,
+    "residual_signed": 0.03692323831389322
+   },
+   "cos_u_act_Hinvf": 0.9998698833705688,
+   "u_act_leak_outside_W": 2.363208037425675e-12
+  },
+  {
+   "system": "Na(Sc,In)O2",
+   "kind": "sector",
+   "dim_W": 20,
+   "dim_B": 4,
+   "H_min_eig": 0.5065193884075353,
+   "H_max_eig": 36.750435138752906,
+   "H_cond": 72.55484386154286,
+   "Sb_min_eig": 0.5766526457113484,
+   "Sb_cond": 17.611041304579818,
+   "recon_err_b": 1.2425298661647414e-16,
+   "recon_rel": 4.718896667504008e-14,
+   "sq_frac": {
+    "t1_clamped": 0.8482329689292211,
+    "t2_softening": 0.04813886276467475,
+    "t3_transmission": 0.10362816830610411
+   },
+   "signed_frac": {
+    "t1_clamped": 0.670857192930424,
+    "t2_softening": 0.143354936752855,
+    "t3_transmission": 0.18578787031672087
+   },
+   "norm_t": [
+    0.0018046039270747565,
+    0.00042990474341563227,
+    0.0006307586787100358
+   ],
+   "s_f_old": 2.8964971519200245e-05,
+   "sB_f_W": 2.8963759589357627e-05,
+   "b_share_of_Hinvf": 0.0008670093573365156,
+   "exact_direct_coupled_signed": {
+    "direct_signed": 0.670857192930424,
+    "coupled_signed": 0.3291428070695759
+   },
+   "old_posterior_actual_u": {
+    "direct_signed": 0.8109317760703478,
+    "coupled_signed": 0.3198050366746346,
+    "residual_signed": -0.13073681274498242
+   },
+   "cos_u_act_Hinvf": 0.9999012604344317,
+   "u_act_leak_outside_W": 2.839021646274263e-13
+  }
+ ]
+}

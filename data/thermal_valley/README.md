@@ -1,0 +1,6 @@
+# Zero-point and thermal averages of the conduction margin
+
+Thermal averages of the margins Λ_C = E_C(R) − E_C(Γ) and Λ_V at the tight 4- and 5-GPa Mg(Sc<sub>0.25</sub>Sb<sub>0.75</sub>)<sub>2</sub>Se<sub>4</sub> structures (x = 0.75), from Zacharias–Giustino special-displacement (ZG) configurations at 0, 150 and 300 K, four antithetic Monte Carlo pairs at 300 K, bend-only and stretch-only mode subsets and amplitude scalings ×0.9/×1.1.
+Modes are the mass-weighted Γ-point modes of the 168×168 force constants (`modes_thermal.json`), classed by the bond-preserving share of the centred network displacement (bend ≥ 0.7, stretch ≤ 0.3); ⟨Q²⟩ = (ħ/2ω) coth(ħω/2k<sub>B</sub>T).
+- Inputs: `thermal_prep.py` writes the displaced configurations (POSCAR, INCAR, KPOINTS as for the static 4×4×4 path readout) from the reference structures `inputs/p4`, `inputs/p5`; job script `run_thermal.sh`. `configurations/<job>/OSZICAR`: energies of the 33 configurations; `amp0.9_t300_p5_m_repeat` is the configuration of `amp0.9_t300_p5_m` computed on the GPU machine (the latter on the CPU machine), compared under `cross_machine_check` in `thermal_result.json`.
+- Readout: `thermal_eval.py` → `thermal_result.json`; tables in `result.md`.

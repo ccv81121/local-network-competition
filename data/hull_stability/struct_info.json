@@ -1,0 +1,46 @@
+{
+ "Mg": {
+  "formula": "Mg",
+  "natoms": 2
+ },
+ "Sc": {
+  "formula": "Sc",
+  "natoms": 2
+ },
+ "Sb": {
+  "formula": "Sb",
+  "natoms": 2
+ },
+ "Se": {
+  "formula": "Se",
+  "natoms": 3
+ },
+ "MgSe": {
+  "formula": "MgSe",
+  "natoms": 2
+ },
+ "ScSe": {
+  "formula": "ScSe",
+  "natoms": 2
+ },
+ "ScSb": {
+  "formula": "ScSb",
+  "natoms": 2
+ },
+ "Mg3Sb2": {
+  "formula": "Mg3Sb2",
+  "natoms": 5
+ },
+ "Sb2Se3": {
+  "formula": "Sb2Se3",
+  "natoms": 20
+ },
+ "MgSc2Se4": {
+  "formula": "Mg(ScSe2)2",
+  "natoms": 14
+ },
+ "MgSb2Se4": {
+  "formula": "Mg(SbSe2)2",
+  "natoms": 14
+ }
+}

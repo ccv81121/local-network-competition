@@ -1,0 +1,22 @@
+{
+  "date_context": "2026-09-30",
+  "Eg_definition": "For the consolidated pressure spectra the task source field is gap_eV; for BaSnTi optical-final spectra it is optical_eigenval_gap_eV. Both are set from EIGENVAL global sampled-k CBM minus global sampled-k VBM. The minimum same-k vertical gap is calculated and stored as min_vertical_gap_eV, separate from Eg. No optical-onset fit/threshold is used to define Eg.",
+  "relative_energy_definition": "relative_energy_eV = photon energy energy_eV minus each spectrum task Eg; paired spectra are interpolated onto the common grid, and Figure S5 uses the 0 to 0.3 eV window.",
+  "pressure_source_hashes": {
+    "task_summary": "5d0623e48d5b6524e40767b224240b576274fcf8af92aff20a6a133efa919175",
+    "common_grid_gz": "a24d44c4ce915d1a1a24ed2860cebf351702d819c70bd39f9cea74fa8cf82e97"
+  },
+  "BaSnTi_source_hashes": {
+    "task_summary": "e5b7f5f098086dbcf80b07fd610402c404c959468954f6308d95a8ff7f93a937",
+    "common_grid_gz": "60ebda9363cce8b8caf61134a57bc65436af6e6970697c2e175f5987a4778cdd"
+  },
+  "source_rows": {
+    "pressure_c005_pair_tasks": 2,
+    "BaSnTi_optical_tasks": 3
+  },
+  "script_hashes": {
+    "figS5": "d576a648a31ba9684d9b0c28644bf0058245f7cf4966ff28e7c1cb10e142bbe0",
+    "pressure_consolidator": "288683c9e14628da98e8d742dec9ece9b3b2e0a4c38a3b2d95d9ce2f2700c758",
+    "BaSnTi_closure": "f10bd931374128dd12ee100f75c0fc9db977a3d0fc109c5010c12314eec59c5a"
+  }
+}

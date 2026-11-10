@@ -1,0 +1,7 @@
+database states: 1003
+metallic: 321
+nonmetallic: 682
+used by the relations: 442 states of 32 parent compounds
+other nonmetallic: 240 states of 10 parent compounds (0 parents shared with the used states; 1 without a scored margin)
+other states containing an element absent from the used states: 213 (In 181, Ir 62, Hf 52, Ta 12, Ru 3)
+states with a vanishing gap: 88 of the other 240, 39 of the used 442

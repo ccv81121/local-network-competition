@@ -1,0 +1,93 @@
+{
+ "_comment": "Post-search steps from the two-edge search (spinel_edges.json, seed 56) to the published Pi_V and Pi_C (edges finalize). Keys starting with '_' are notes. Entries marked 'author decision' were chosen by the authors over the automatic result.",
+ "selection": {
+  "_comment": "Numerically safe formulas of the hall of fame; near-optimal = within auc_delta of the best safe AUC; the path AUC is a gate only.",
+  "max_penalty": 1e-12,
+  "max_q99_q50": 10000.0,
+  "auc_delta": 0.015,
+  "trajectory_gate": 0.65,
+  "trajectory_relaxed": 0.60
+ },
+ "pruning": {
+  "_comment": "Single-node deletions, beam of the 96 simplest survivors, six rounds; guards against the seed.",
+  "max_auc_drop": 0.015,
+  "max_margin_drop": 0.08,
+  "trajectory_gate": 0.65,
+  "max_q99_q50": 10000.0,
+  "rounds": 6,
+  "beam": 96
+ },
+ "coefficients": {
+  "_comment": "Grid of simple fractions, then a dense grid around the 10 best; the simplest fractions within near_auc[0] (else near_auc[1]) of the best AUC whose margin agreement is at most max_margin_loss below the balanced champion are recommended.",
+  "trajectory_gate": 0.65,
+  "max_q99_q50": 10000.0,
+  "local_seeds": 10,
+  "near_auc": [0.003, 0.005],
+  "max_margin_loss": 0.05,
+  "save_top": 500
+ },
+ "freeze": {
+  "ratio_epsilon": 1e-06,
+  "description": "Published spinel edge-resolved coordinates (SI Note 7, Eq. sr-7). Pi_S enters with protected-ratio regularizers fitted on the 440 development states and is divided by its development IQR; the outer ratios use 1e-6 x the development upper quartile of the denominator; the margin agreement uses tie-averaged ranks."
+ },
+ "edges": {
+  "V": {
+   "name": "Pi_V",
+   "seed": {
+    "_why": "The simplest near-optimal safe formula of the selection.",
+    "key_formula": "SIMPLE_NEAR_OPTIMAL"
+   },
+   "structure": {
+    "_why": "author decision: the pruning recommends Pi_S + 3 A_theta d_A - D_BXB/C_XX^2 (4 descriptors, AUC 0.888); the authors kept the 6-descriptor member of the pruning set with AUC >= 0.89, which restores the term -(1/6) Var(I1) f_Bd^2 (AUC 0.894).",
+    "descriptors": 6,
+    "min_auc": 0.89
+   },
+   "_terms": "Left-to-right sum; a term with 'base' has a free coefficient (base = its value in the pruning member, grid = fractions scanned, local_step = numpy arange of the dense grid), a term without enters with coefficient 1.",
+   "terms": [
+    {"name": "Pi_S", "ast": {"op": "rc8"}},
+    {"name": "A_theta_dA", "base": 3, "local_step": [-0.5, 0.5001, 0.1],
+     "grid": [-1, 0, 0.5, "2/3", 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6],
+     "ast": {"op": "mul", "left": {"op": "feature", "name": "lattice_angle_anisotropy"},
+             "right": {"op": "feature", "name": "elem_A_d_electrons"}}},
+    {"name": "D_BXB_over_CXX2", "base": -1, "local_step": [-0.4, 0.4001, 0.1],
+     "grid": [-3, -2, -1.5, -1, -0.75, "-2/3", -0.5, "-1/3", -0.25, 0, 0.25, 0.5, 1],
+     "ast": {"op": "ratio", "left": {"op": "feature", "name": "D_BXB_connectivity_disorder_proxy"},
+             "right": {"op": "square", "arg": {"op": "feature", "name": "XX_network_coherence"}}}},
+    {"name": "VarI1_fBd2", "base": "-1/6", "local_step": [-0.15, 0.1501, 0.025],
+     "grid": [-1, -0.75, -0.5, "-1/3", -0.25, "-1/6", -0.125, -0.1, "-1/12", 0, "1/12", 0.1, 0.125, "1/6", 0.25, 0.5],
+     "ast": {"op": "mul", "left": {"op": "feature", "name": "alloy_first_ionization_kJmol_variance"},
+             "right": {"op": "square", "arg": {"op": "feature", "name": "B_d_filling_mean"}}}}
+   ],
+   "final_coefficients": "recommended"
+  },
+  "C": {
+   "name": "Pi_C",
+   "seed": {
+    "_why": "The simplest safe Pi_S-rooted formula within 0.005 AUC of the best one that passes the path gate.",
+    "family": "PI_S_ROOTED",
+    "within_auc": 0.005
+   },
+   "structure": {
+    "_why": "author decision: the pruning recommends 2 Sg(L_BB, Sg(d_BB, Delta_d_BX)) + D_BX6^2/(Var(Z) Z_Bmix) (AUC 0.914); the authors kept the member of the pruning set with the same 6 descriptors and AUC >= 0.919, which restores the term -(1/3) Var(Z)^2 (AUC 0.921).",
+    "descriptors": 6,
+    "min_auc": 0.919
+   },
+   "terms": [
+    {"name": "VarZ2", "base": "-1/3", "local_step": [-0.2, 0.2001, 0.025],
+     "grid": [-1, -0.75, "-2/3", -0.5, "-1/3", -0.25, "-1/6", -0.125, -0.1, 0, 0.1, 0.125, "1/6", 0.25, "1/3", 0.5],
+     "ast": {"op": "square", "arg": {"op": "feature", "name": "alloy_Z_variance"}}},
+    {"name": "BB_network_sgeom", "base": 2, "local_step": [-0.5, 0.5001, 0.1],
+     "grid": [-1, -0.5, 0, 0.5, "2/3", 1, 1.5, 2, 2.5, 3, 4, 5],
+     "ast": {"op": "sgeom", "left": {"op": "feature", "name": "BB_graph_shortest_path_mean"},
+             "right": {"op": "sgeom", "left": {"op": "feature", "name": "BB_d2_mean"},
+                       "right": {"op": "feature", "name": "BX_d_electrons_mismatch_norm"}}}},
+    {"name": "Dist2_over_VarZ_Zmix",
+     "ast": {"op": "ratio", "left": {"op": "square", "arg": {"op": "feature", "name": "D_BX6_distortion_RMS"}},
+             "right": {"op": "mul", "left": {"op": "feature", "name": "alloy_Z_variance"},
+                       "right": {"op": "feature", "name": "elem_Bmix_Z"}}}}
+   ],
+   "_final_coefficients": "author decision: the coefficient scan recommends (-1/2, 3, 1) (AUC 0.920, BACC 0.861, margin 0.767); the authors kept the coefficients of the pruning member, (-1/3, 2, 1), which have higher AUC, BACC and margin agreement (0.921, 0.867, 0.780).",
+   "final_coefficients": ["-1/3", 2]
+  }
+ }
+}

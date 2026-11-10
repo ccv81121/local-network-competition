@@ -1,0 +1,21 @@
+{
+ "material": "Layered_NaScInO2",
+ "P1": 0.0,
+ "P2": 5.0,
+ "n_atoms": 24,
+ "n_network": 18,
+ "n_bonds": 36,
+ "bond_rank": 36,
+ "n_bridges": 36,
+ "bond_preserving_share_network": 0.00051646093605003,
+ "u_rms_A": 0.021210377492924894,
+ "A_cation_rms_A": 0.0021303594511334987,
+ "bridge_angle_change_rms_deg": 0.7860658411364809,
+ "bridge_share_perp_projection": 0.00020712914537516274,
+ "bridge_share_par_projection": 0.9997912095445919,
+ "bridge_rms_perp_deg": 0.011616235850314767,
+ "bridge_rms_par_deg": 0.7859881690477966,
+ "space_group_raff": "P2/m",
+ "n_symmetric_dof": 20,
+ "actual_displacement_symmetric_fraction": 1.0000000000000002
+}

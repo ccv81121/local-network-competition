@@ -1,0 +1,10 @@
+{
+  "A_C_aligned_n": 136,
+  "A_C_unique_values": [
+    1
+  ],
+  "V_rank3_grouped_oof_auc_margin": 0.9913616731075244,
+  "V_rank3_grouped_oof_bacc": 0.9939759036144578,
+  "n": 136,
+  "scope": "FROZEN_HISTORICAL_SP_RANK3_REPLAY; A_C_RECOMPUTED_FROM_CANONICAL_MASTER"
+}

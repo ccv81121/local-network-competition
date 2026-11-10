@@ -1,0 +1,80 @@
+{
+ "parameters_eV_per_A2": {
+  "Sc stretch": 3.3144296929112036,
+  "Sb stretch": 2.4362596431359447,
+  "Mg stretch": 4.467310533345485,
+  "Sc bend": 0.24866708357472486,
+  "Sb bend": 0.29801850014285214,
+  "Mg bend": 0.02301616948056187
+ },
+ "bend_to_stretch_ratio": {
+  "Sc": 0.07502560217420393,
+  "Sb": 0.1223262475255896,
+  "Mg": 0.0051521310884393556
+ },
+ "n_internal_coordinates": {
+  "Sc stretch": 24,
+  "Sb stretch": 72,
+  "Mg stretch": 32,
+  "Sc bend": 48,
+  "Sb bend": 144,
+  "Mg bend": 48
+ },
+ "fit_R2_frobenius": 0.8921841399594873,
+ "softest_eigenvalues_eV_A2": {
+  "dft": [
+   0.202,
+   0.229,
+   0.242,
+   0.249,
+   0.266,
+   0.267,
+   0.368,
+   0.375,
+   0.386,
+   0.535,
+   0.537,
+   0.556,
+   0.561,
+   0.581,
+   0.601,
+   0.714,
+   0.717,
+   0.761,
+   0.805,
+   0.871
+  ],
+  "model": [
+   0.387,
+   0.393,
+   0.396,
+   0.411,
+   0.422,
+   0.434,
+   0.526,
+   0.528,
+   0.531,
+   0.535,
+   0.535,
+   0.538,
+   1.143,
+   1.144,
+   1.158,
+   1.458,
+   1.459,
+   1.471,
+   1.475,
+   1.487
+  ]
+ },
+ "soft_subspace_overlap_20": 0.7489000703659774,
+ "model_soft_modes_bond_preserving_fraction_mean": 0.9735340448232668,
+ "response": {
+  "cos_model_vs_dft_response": 0.9479515816113752,
+  "cos_model_vs_actual": 0.9186711824253194,
+  "bond_preserving_fraction_model": 0.5855154710672543,
+  "bond_preserving_fraction_dft": 0.7876245832604032,
+  "norm_ratio_model_over_dft": 1.1082522510976534
+ },
+ "stretch_only_zero_modes": 37
+}

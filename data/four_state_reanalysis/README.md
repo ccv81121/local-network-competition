@@ -1,0 +1,11 @@
+# Four-state audit
+
+Re-parsing of the four-state constructions (state00, state10, state01, state11) and of the relaxations behind them, for the spinel, layered, corner-sharing perovskite, alloy and functional-comparison runs, from the archived VASP outputs; no new DFT.
+
+- `fourstate_summary.txt` (`parse_fourstate.py` → JSON lines, summarised by `summarize_fourstate.py`): per construction, INCAR/KPOINTS consistency across the four states, energies relative to state00, per-TRIM valence-top and conduction-bottom splittings d (meV), the increments and φ.
+- `casn_trim.txt` (`casno3_trim_levels.py`): CaSnO<sub>3</sub> per-TRIM valence energies relative to the VBM at U for PBE, r²SCAN on the PBE geometry and fully relaxed r²SCAN, with φ on fixed valley pairs.
+- `residual_force_sensitivity.py`, `resid_sens_corner_note.txt`, `tight_relaxation_check.py`: displacement error implied by the final residual forces of the endpoint relaxations, δu = H⁺r (symmetric sector or full H), and its effect on the actual bending share; `parse_relaxations.py` tabulates convergence (ionic steps, final max |F|, pressure) of relaxation directories.
+- `spinel_913_margins.py` (`spinel_913_margins.txt`), `spinel_913_cell_convention.py` (`spinel_913_cellconv.txt`), `spinel_all56_thresholds.py` (`spinel_all56_thresholds.txt`): for the endpoint-matched spinel substitution paths, internal label reversals and the strongest opposite-label margin per path (Δ<sub>DI</sub> for indirect states, edge-stability margin for direct states), with endpoints labelled from the 14-atom primitive recalculation (canonical) or from the 56-atom cells (all-56). Inputs: `../descriptor_tables/structures/spinel_structures.csv` (all three scripts) and `inputs/spinel/endpoint_matched_paths_13.csv` (`spinel_913_margins.py`).
+- `basnti_folding.py` (`basnti_folding.txt`): Ba(Sn,Ti)O<sub>3</sub> cells, supercell matrix with respect to the pseudo-cubic a<sub>0</sub>, and whether the parent R point folds to the supercell Γ. Inputs: `inputs/basnti/poscar_x000` … `poscar_x100` (nine canonical POSCARs), `edge_truth_full9_k8.csv`, `vside_confidence_replay.csv`.
+
+Scripts read only from `inputs/` and print to stdout; run `python <script>.py` in this folder and compare with the `.txt` named above.

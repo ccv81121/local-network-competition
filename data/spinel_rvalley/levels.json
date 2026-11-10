@@ -1,0 +1,5 @@
+{"note": "Two lowest conduction levels at Gamma of the 112-atom cell (bands 313/314 of EIGENVAL, NELECT 624, k-point 1), eV; rms of the R-modulated bending displacement over Sc/Sb/Se in A. Read 2026-11-05 from $WORK/spinel/RVALLEY_20261104/<run>/EIGENVAL.",
+ "a000": {"rms_A": 0.00, "c1_eV": 5.161944, "c2_eV": 5.168727},
+ "a010": {"rms_A": 0.01, "c1_eV": 5.161609, "c2_eV": 5.168376},
+ "a020": {"rms_A": 0.02, "c1_eV": 5.160598, "c2_eV": 5.167327},
+ "a040": {"rms_A": 0.04, "c1_eV": 5.156460, "c2_eV": 5.163180}}

@@ -1,0 +1,5 @@
+﻿statistic,numerator,denominator,scope
+any_change,38,62,all logical structural paths
+multiple_change,25,62,all logical structural paths
+endpoint_matched_internal_reverse,9,13,endpoint-matched classified paths
+strict_transfer,4,43,fully sampled analyzable trajectories

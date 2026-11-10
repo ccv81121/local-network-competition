@@ -1,0 +1,506 @@
+{
+ "key_column": "Task Directory",
+ "rows": {
+  "mp-1001019_Sb_k05": {
+   "role": "canonical_interior",
+   "nsites": 56,
+   "max_rel_err": 1.718675048729734e-13,
+   "worst": "lattice_angle_anisotropy",
+   "n_nan_mismatch": 0,
+   "per_feature": {
+    "lattice_angle_anisotropy": [
+     0.0001693794784113,
+     0.0001693794784113291
+    ],
+    "elem_Bmix_Z": [
+     30.375,
+     30.375
+    ],
+    "elem_A_period": [
+     3.0,
+     3.0
+    ],
+    "elem_X_ionic_radius_A": [
+     1.15,
+     1.15
+    ],
+    "elem_A_d_electrons": [
+     0.0,
+     0.0
+    ],
+    "BX_covalent_radius_A_mismatch_norm": [
+     0.2067632850241546,
+     0.20676328502415464
+    ],
+    "BX_d_electrons_mismatch_norm": [
+     2.0,
+     2.0
+    ],
+    "alloy_first_ionization_kJmol_variance": [
+     0.0161329802694033,
+     0.016132980269403355
+    ],
+    "alloy_Z_variance": [
+     0.1491970486111111,
+     0.14919704861111113
+    ],
+    "BX_distance_skew": [
+     0.7439939940343333,
+     0.7439939940343333
+    ],
+    "BX6_distortion_std": [
+     0.0009564243604827,
+     0.0009564243604827827
+    ],
+    "BX6_distortion_cv": [
+     0.2251235085862754,
+     0.22512350858627544
+    ],
+    "D_BX6_distortion_RMS": [
+     0.0048989948380031,
+     0.004898994838003147
+    ],
+    "D_BX6_bond_cv": [
+     0.0225480162146794,
+     0.02254801621467946
+    ],
+    "D_XBX_angle_disorder_norm": [
+     0.0370815828093081,
+     0.037081582809308136
+    ],
+    "G_XBX_angle_regular": [
+     0.9642442953148784,
+     0.9642442953148784
+    ],
+    "BX_t_pd_sigma_rel_max": [
+     0.468448759400658,
+     0.46844875940065805
+    ],
+    "BXB_angle_min": [
+     88.72372266904905,
+     88.72372266904907
+    ],
+    "BXB_path_length_std": [
+     0.0983972430932874,
+     0.0983972430932875
+    ],
+    "D_BXB_angle_disorder": [
+     0.0154738575288767,
+     0.015473857528876771
+    ],
+    "D_BXB_connectivity_disorder_proxy": [
+     0.0177286591503447,
+     0.017728659150344717
+    ],
+    "BB_d2_mean": [
+     6.90007458232229,
+     6.900074582322291
+    ],
+    "BB_graph_shortest_path_mean": [
+     1.6,
+     1.6
+    ],
+    "XX_d1_std": [
+     0.1182328832422207,
+     0.11823288324222077
+    ],
+    "XX_distance_anisotropy": [
+     0.0182211021305455,
+     0.01822110213054554
+    ],
+    "XX_t_pp_sigma_rel_mean": [
+     0.21154802739471,
+     0.21154802739471001
+    ],
+    "XX_network_coherence": [
+     0.1615444047720453,
+     0.16154440477204537
+    ],
+    "onsite_alignment_inverse": [
+     0.5064893953782843,
+     0.5064893953782843
+    ],
+    "B_d_filling_mean": [
+     3.8125,
+     3.8125
+    ]
+   }
+  },
+  "mp-1001019_Sb_k06": {
+   "role": "canonical_interior",
+   "nsites": 56,
+   "max_rel_err": 8.460718445772057e-14,
+   "worst": "lattice_angle_anisotropy",
+   "n_nan_mismatch": 0,
+   "per_feature": {
+    "lattice_angle_anisotropy": [
+     0.0002191286386414,
+     0.00021912863864141855
+    ],
+    "elem_Bmix_Z": [
+     32.25,
+     32.25
+    ],
+    "elem_A_period": [
+     3.0,
+     3.0
+    ],
+    "elem_X_ionic_radius_A": [
+     1.15,
+     1.15
+    ],
+    "elem_A_d_electrons": [
+     0.0,
+     0.0
+    ],
+    "BX_covalent_radius_A_mismatch_norm": [
+     0.2050290135396517,
+     0.20502901353965178
+    ],
+    "BX_d_electrons_mismatch_norm": [
+     2.0,
+     2.0
+    ],
+    "alloy_first_ionization_kJmol_variance": [
+     0.0175996148393491,
+     0.017599614839349118
+    ],
+    "alloy_Z_variance": [
+     0.1627604166666666,
+     0.16276041666666669
+    ],
+    "BX_distance_skew": [
+     0.4760735838575196,
+     0.47607358385751963
+    ],
+    "BX6_distortion_std": [
+     0.0015760230972749,
+     0.0015760230972749441
+    ],
+    "BX6_distortion_cv": [
+     0.2813484481323305,
+     0.2813484481323305
+    ],
+    "D_BX6_distortion_RMS": [
+     0.0064584074806025,
+     0.0064584074806025935
+    ],
+    "D_BX6_bond_cv": [
+     0.024172132046553,
+     0.024172132046553052
+    ],
+    "D_XBX_angle_disorder_norm": [
+     0.0374252129256235,
+     0.03742521292562357
+    ],
+    "G_XBX_angle_regular": [
+     0.9639249051793513,
+     0.9639249051793513
+    ],
+    "BX_t_pd_sigma_rel_max": [
+     0.4662129928224028,
+     0.4662129928224028
+    ],
+    "BXB_angle_min": [
+     88.81672227022653,
+     88.81672227022653
+    ],
+    "BXB_path_length_std": [
+     0.1028848346264662,
+     0.10288483462646622
+    ],
+    "D_BXB_angle_disorder": [
+     0.0166980395926352,
+     0.016698039592635248
+    ],
+    "D_BXB_connectivity_disorder_proxy": [
+     0.0191152527972905,
+     0.019115252797290552
+    ],
+    "BB_d2_mean": [
+     6.924797928284858,
+     6.924797928284858
+    ],
+    "BB_graph_shortest_path_mean": [
+     1.6,
+     1.6
+    ],
+    "XX_d1_std": [
+     0.1191293933913073,
+     0.11912939339130735
+    ],
+    "XX_distance_anisotropy": [
+     0.0174278007860216,
+     0.0174278007860217
+    ],
+    "XX_t_pp_sigma_rel_mean": [
+     0.2094797838320824,
+     0.20947978383208246
+    ],
+    "XX_network_coherence": [
+     0.162307204573243,
+     0.16230720457324307
+    ],
+    "onsite_alignment_inverse": [
+     0.5177993527508091,
+     0.5177993527508091
+    ],
+    "B_d_filling_mean": [
+     4.375,
+     4.375
+    ]
+   }
+  },
+  "mp-1001019_Sb_k11": {
+   "role": "canonical_interior",
+   "nsites": 56,
+   "max_rel_err": 1.206462523630613e-13,
+   "worst": "lattice_angle_anisotropy",
+   "n_nan_mismatch": 0,
+   "per_feature": {
+    "lattice_angle_anisotropy": [
+     0.0001673758203593,
+     0.0001673758203593202
+    ],
+    "elem_Bmix_Z": [
+     41.625,
+     41.625
+    ],
+    "elem_A_period": [
+     3.0,
+     3.0
+    ],
+    "elem_X_ionic_radius_A": [
+     1.15,
+     1.15
+    ],
+    "elem_A_d_electrons": [
+     0.0,
+     0.0
+    ],
+    "BX_covalent_radius_A_mismatch_norm": [
+     0.1963070942662779,
+     0.1963070942662779
+    ],
+    "BX_d_electrons_mismatch_norm": [
+     2.0,
+     2.0
+    ],
+    "alloy_first_ionization_kJmol_variance": [
+     0.0161329802694033,
+     0.016132980269403355
+    ],
+    "alloy_Z_variance": [
+     0.1491970486111111,
+     0.14919704861111113
+    ],
+    "BX_distance_skew": [
+     -0.726866306888084,
+     -0.7268663068880841
+    ],
+    "BX6_distortion_std": [
+     0.0017033529725318,
+     0.0017033529725318983
+    ],
+    "BX6_distortion_cv": [
+     0.3658980959086401,
+     0.36589809590864014
+    ],
+    "D_BX6_distortion_RMS": [
+     0.0058850916229602,
+     0.005885091622960238
+    ],
+    "D_BX6_bond_cv": [
+     0.0249751914837813,
+     0.024975191483781342
+    ],
+    "D_XBX_angle_disorder_norm": [
+     0.0338123710948458,
+     0.03381237109484581
+    ],
+    "G_XBX_angle_regular": [
+     0.967293512787976,
+     0.9672935127879759
+    ],
+    "BX_t_pd_sigma_rel_max": [
+     0.4670884266462233,
+     0.46708842664622335
+    ],
+    "BXB_angle_min": [
+     89.66190640657116,
+     89.66190640657116
+    ],
+    "BXB_path_length_std": [
+     0.1028181056787012,
+     0.10281810567870125
+    ],
+    "D_BXB_angle_disorder": [
+     0.0167480680713534,
+     0.016748068071353463
+    ],
+    "D_BXB_connectivity_disorder_proxy": [
+     0.0192455872197315,
+     0.019245587219731596
+    ],
+    "BB_d2_mean": [
+     7.03159393055687,
+     7.03159393055687
+    ],
+    "BB_graph_shortest_path_mean": [
+     1.6,
+     1.6
+    ],
+    "XX_d1_std": [
+     0.1163786439244949,
+     0.11637864392449493
+    ],
+    "XX_distance_anisotropy": [
+     0.019949091520138,
+     0.019949091520138098
+    ],
+    "XX_t_pp_sigma_rel_mean": [
+     0.1948938401701759,
+     0.19489384017017594
+    ],
+    "XX_network_coherence": [
+     0.1620586631658395,
+     0.1620586631658395
+    ],
+    "onsite_alignment_inverse": [
+     0.5828779599271403,
+     0.5828779599271403
+    ],
+    "B_d_filling_mean": [
+     7.1875,
+     7.1875
+    ]
+   }
+  },
+  "mp-1001019_Sb_k12": {
+   "role": "canonical_interior",
+   "nsites": 56,
+   "max_rel_err": 3.996422133404815e-14,
+   "worst": "BX6_distortion_std",
+   "n_nan_mismatch": 0,
+   "per_feature": {
+    "lattice_angle_anisotropy": [
+     5.624059303002392e-05,
+     5.6240593030023915e-05
+    ],
+    "elem_Bmix_Z": [
+     43.5,
+     43.5
+    ],
+    "elem_A_period": [
+     3.0,
+     3.0
+    ],
+    "elem_X_ionic_radius_A": [
+     1.15,
+     1.15
+    ],
+    "elem_A_d_electrons": [
+     0.0,
+     0.0
+    ],
+    "BX_covalent_radius_A_mismatch_norm": [
+     0.1945525291828792,
+     0.19455252918287924
+    ],
+    "BX_d_electrons_mismatch_norm": [
+     2.0,
+     2.0
+    ],
+    "alloy_first_ionization_kJmol_variance": [
+     0.0140796918714792,
+     0.014079691871479293
+    ],
+    "alloy_Z_variance": [
+     0.1302083333333333,
+     0.13020833333333334
+    ],
+    "BX_distance_skew": [
+     -1.0484962690317612,
+     -1.0484962690317612
+    ],
+    "BX6_distortion_std": [
+     0.0012913556598272,
+     0.0012913556598272515
+    ],
+    "BX6_distortion_cv": [
+     0.337057772681897,
+     0.337057772681897
+    ],
+    "D_BX6_distortion_RMS": [
+     0.0045008709133322,
+     0.00450087091333225
+    ],
+    "D_BX6_bond_cv": [
+     0.0231842139533878,
+     0.023184213953387864
+    ],
+    "D_XBX_angle_disorder_norm": [
+     0.0312387669809447,
+     0.031238766980944712
+    ],
+    "G_XBX_angle_regular": [
+     0.9697075323570318,
+     0.9697075323570319
+    ],
+    "BX_t_pd_sigma_rel_max": [
+     0.4587976430668785,
+     0.4587976430668786
+    ],
+    "BXB_angle_min": [
+     89.80845726410392,
+     89.80845726410392
+    ],
+    "BXB_path_length_std": [
+     0.0997859387645966,
+     0.0997859387645967
+    ],
+    "D_BXB_angle_disorder": [
+     0.0159405801636848,
+     0.01594058016368481
+    ],
+    "D_BXB_connectivity_disorder_proxy": [
+     0.0182590015590235,
+     0.0182590015590236
+    ],
+    "BB_d2_mean": [
+     7.051570742097965,
+     7.051570742097965
+    ],
+    "BB_graph_shortest_path_mean": [
+     1.6,
+     1.6
+    ],
+    "XX_d1_std": [
+     0.1121761177570781,
+     0.11217611775707814
+    ],
+    "XX_distance_anisotropy": [
+     0.0201341223778546,
+     0.02013412237785462
+    ],
+    "XX_t_pp_sigma_rel_mean": [
+     0.1917415036558831,
+     0.19174150365588316
+    ],
+    "XX_network_coherence": [
+     0.1558282184104248,
+     0.15582821841042488
+    ],
+    "onsite_alignment_inverse": [
+     0.5979073243647234,
+     0.5979073243647235
+    ],
+    "B_d_filling_mean": [
+     7.75,
+     7.75
+    ]
+   }
+  }
+ },
+ "gate_pass": true
+}

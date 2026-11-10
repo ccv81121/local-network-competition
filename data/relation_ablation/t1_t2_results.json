@@ -1,0 +1,131 @@
+{
+ "baseline_replay_max_error": {
+  "Pi_S_shared": 6.794564910705958e-14,
+  "Pi_V": 5.684341886080802e-14,
+  "Pi_C": 4.547473508864641e-13,
+  "Pi_sp": 2.842170943040401e-14
+ },
+ "frozen_dev_bacc": {
+  "sp": 0.9249788449333616,
+  "V": 0.8732504637325047,
+  "C": 0.8665079365079364
+ },
+ "baseline_refit": {
+  "sp": {
+   "tau": -114.1782461462644,
+   "dev_bacc": 0.9249788449333616,
+   "n": 442
+  },
+  "V": {
+   "tau": -9.03775870941055,
+   "dev_bacc": 0.8732504637325047,
+   "n": 440
+  },
+  "C": {
+   "tau": 42.36106122183796,
+   "dev_bacc": 0.8665079365079364,
+   "n": 440
+  }
+ },
+ "top5_drop_sp": [
+  [
+   "XX_distance_anisotropy",
+   -0.1252
+  ],
+  [
+   "D_BX6_bond_cv",
+   -0.098
+  ],
+  [
+   "BX6_distortion_cv",
+   -0.097
+  ],
+  [
+   "B_d_filling_mean",
+   -0.0814
+  ],
+  [
+   "onsite_alignment_inverse",
+   -0.0739
+  ]
+ ],
+ "top5_drop_V": [
+  [
+   "elem_A_d_electrons",
+   -0.0839
+  ],
+  [
+   "B_d_filling_mean",
+   -0.0738
+  ],
+  [
+   "BX6_distortion_cv",
+   -0.0614
+  ],
+  [
+   "elem_A_period",
+   -0.0429
+  ],
+  [
+   "XX_distance_anisotropy",
+   -0.0387
+  ]
+ ],
+ "top5_drop_C": [
+  [
+   "D_BX6_distortion_RMS",
+   -0.1443
+  ],
+  [
+   "alloy_Z_variance",
+   -0.113
+  ],
+  [
+   "BB_d2_mean",
+   -0.0283
+  ],
+  [
+   "BX_d_electrons_mismatch_norm",
+   -0.0243
+  ],
+  [
+   "elem_Bmix_Z",
+   -0.0113
+  ]
+ ],
+ "T1a": {
+  "BXB_d_dev_sp": -0.046012269938650374,
+  "is_largest": false,
+  "perm_median": -0.14299502855934
+ },
+ "T1b": {
+  "GROUP_local": {
+   "sp": -0.2984715464353713,
+   "V": -0.2850690178506903,
+   "C": -0.292063492063492
+  },
+  "GROUP_network": {
+   "sp": -0.14485931880685432,
+   "V": -0.08603743586037438,
+   "C": -0.038730158730158726
+  }
+ },
+ "T1c_top3_differ": true,
+ "T2a": {
+  "V": {
+   "n_near": 112,
+   "fraction_cancel": 0.0,
+   "local_sign_set": [
+    "-1",
+    "0"
+   ],
+   "network_sign_set": [
+    "-1"
+   ]
+  },
+  "C": {
+   "n_near": 313,
+   "note": "no pure network term in Pi_C"
+  }
+ }
+}

@@ -1,0 +1,18 @@
+# U_eff in the database INCARs (survey 2026-11-08, usurvey.sh on cluster)
+
+Spinels, $WORK/vasp_tasks/B_machine (element:U:L, count of INCAR entries):
+ 64 Co:3.32:2
+ 64 Cr:3.70:2
+ 79 Cu:4.00:2
+ 32 Fe:5.30:2
+ 65 Mn:3.90:2
+ 78 Mo:4.38:2
+ 63 Ni:6.20:2
+ 16 Ti:4.5:2
+ 209 INCARs without LDAUU
+All other species U = 0 (L = -1).
+
+Perovskites, $WORK_transfer_oct_networks (vasp_tasks/perovskite, vasp_tasks/double_perovskite, primitive_restatic_v7/tasks):
+ 16 Mo:4.38:2
+ 30 W:6.20:2
+All other species, Ti included, U = 0 (L = -1).

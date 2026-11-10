@@ -1,0 +1,10 @@
+{
+  "C_grouped_oof_auc_margin": 0.8991060025542784,
+  "C_grouped_oof_bacc": 0.9185823754789272,
+  "V_grouped_oof_auc_margin": 1.0,
+  "V_grouped_oof_bacc": 1.0,
+  "four_state_accuracy": 0.9294117647058824,
+  "four_state_macro_f1": 0.9211402413649604,
+  "n": 85,
+  "scope": "FROZEN_DP85_GROUPED_OOF_WITHIN_MODEL_DISCOVERY_NOT_UNTOUCHED_EXTERNAL_VALIDATION"
+}

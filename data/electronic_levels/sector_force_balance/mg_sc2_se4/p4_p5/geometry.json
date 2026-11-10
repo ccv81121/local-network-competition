@@ -1,0 +1,21 @@
+{
+ "material": "MgSc2Se4",
+ "P1": 4.0,
+ "P2": 5.0,
+ "n_atoms": 14,
+ "n_network": 12,
+ "n_bonds": 24,
+ "bond_rank": 24,
+ "n_bridges": 24,
+ "bond_preserving_share_network": 1.100293055598012e-27,
+ "u_rms_A": 0.0027460402859925187,
+ "A_cation_rms_A": 0.0,
+ "bridge_angle_change_rms_deg": 0.08312615925868627,
+ "bridge_share_perp_projection": 0.0,
+ "bridge_share_par_projection": 1.0,
+ "bridge_rms_perp_deg": 0.0,
+ "bridge_rms_par_deg": 0.08312615925868627,
+ "space_group_raff": "Fd-3m",
+ "n_symmetric_dof": 1,
+ "actual_displacement_symmetric_fraction": 1.0000000000000004
+}

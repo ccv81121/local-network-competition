@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article."
+title: "Local–network competition in crystals: code and data"
+type: software
+license: MIT
+authors:
+  - family-names: Chen
+    given-names: Zhengxin
+  - family-names: Zhou
+    given-names: Hairui
+  - family-names: Xiao
+    given-names: Lanze
+  - family-names: Ni
+    given-names: Minhui
+  - family-names: Wu
+    given-names: Weihao
+  - family-names: Xu
+    given-names: Yingdong
+  - family-names: Zheng
+    given-names: Yuanlin
+  - family-names: Lin
+    given-names: Jia
+  - family-names: Chen
+    given-names: Xianfeng
+preferred-citation:
+  type: article
+  title: "Local–network competition in crystals"
+  authors:
+    - family-names: Chen
+      given-names: Zhengxin
+    - family-names: Zhou
+      given-names: Hairui
+    - family-names: Xiao
+      given-names: Lanze
+    - family-names: Ni
+      given-names: Minhui
+    - family-names: Wu
+      given-names: Weihao
+    - family-names: Xu
+      given-names: Yingdong
+    - family-names: Zheng
+      given-names: Yuanlin
+    - family-names: Lin
+      given-names: Jia
+    - family-names: Chen
+      given-names: Xianfeng

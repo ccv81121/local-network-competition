@@ -1,0 +1,8 @@
+{
+  "description": "Spinel relation Pi_S: thresholds fitted on the hard-core rows, descriptors drawn with the random-forest prior.",
+  "profile": "standard",
+  "seed": 56,
+  "scoring": "hard_core",
+  "jobs": 96,
+  "task_size": 256
+}

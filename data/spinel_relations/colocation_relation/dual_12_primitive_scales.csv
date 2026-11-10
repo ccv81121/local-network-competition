@@ -1,0 +1,13 @@
+feature_name,frozen_scale
+lattice_angle_anisotropy,7.88718270751192e-05
+elem_A_d_electrons,10.0
+D_BXB_connectivity_disorder_proxy,0.0226622144239664
+XX_network_coherence,0.054578808536680956
+alloy_first_ionization_kJmol_variance,0.004435588749818203
+B_d_filling_mean,5.453125
+alloy_Z_variance,0.1413101625048425
+BB_d2_mean,1.2505526599169379
+BX_d_electrons_mismatch_norm,2.0
+BB_graph_shortest_path_mean,0.008333333333333304
+D_BX6_distortion_RMS,0.00991997222247045
+elem_Bmix_Z,9.859375

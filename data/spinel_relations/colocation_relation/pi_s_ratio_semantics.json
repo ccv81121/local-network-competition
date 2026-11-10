@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "selected_mode": "FULL_PROTOCOL_Q75_RELATIVE",
+  "selected_equivalence_class": 0,
+  "selection_basis": "HISTORICAL_SOURCE_CODE_CONTRACT",
+  "source_code_contract": "safe_ratio = numerator / (abs(denominator) + epsilon * Q75(abs(denominator))) evaluated on the full supplied matrix",
+  "source_provenance_refs": [
+    "dual_coordinate_feasibility_v1_0_2.py::rc8_eval_node",
+    "sample_level_challenge_physics_audit_v1_0_0.py::rc8_eval_ast_node"
+  ],
+  "archive_matching_modes_diagnostic_only": [
+    "FULL_PROTOCOL_Q75_RELATIVE",
+    "DEVELOPMENT_FROZEN_Q75_RELATIVE",
+    "CONSTANT_EPSILON_LEGACY_DIAGNOSTIC"
+  ],
+  "archive_matching_equivalence_classes_diagnostic_only": [
+    0,
+    1,
+    2
+  ],
+  "formula_id": "df4013b048a9ece2159ec03c86a8b8789122085218659fe92b34ff664a87c192",
+  "top_source": "TOP30_SAFE_RANK1",
+  "top_path": "$HOME/prl/spinel/formula_search/results/single_coordinate_2_2_0_rc7_standard_run01/top30_safe.csv",
+  "scale_path": "$HOME/prl/spinel/formula_search/results/single_coordinate_2_2_0_rc7_standard_run01/FROZEN_FEATURE_SCALES.float64.npy",
+  "state_path": "$HOME/prl/spinel/formula_search/results/single_coordinate_2_2_0_rc7_standard_run01/frozen_decision_state.json",
+  "decision_source": [
+    "TOP1_ROW_THRESHOLD",
+    "TOP1_ROW_ORIENTATION"
+  ],
+  "epsilon": 1e-06,
+  "threshold": -114.17482623636002,
+  "orientation": -1,
+  "development_442": {
+    "mode": "FULL_PROTOCOL_Q75_RELATIVE",
+    "equivalence_class": 0,
+    "dev_n": 442,
+    "dev_auc": 0.9243441929342078,
+    "dev_bacc": 0.9249788449333616,
+    "archived_auc": 0.9243441929342076,
+    "archived_bacc": 0.9249788449333616,
+    "auc_abs_error": 2.220446049250313e-16,
+    "bacc_abs_error": 0.0,
+    "archive_match": true,
+    "score_sha256": "e05fe652e821dad7e249fe539d89bb2aa901328d5a0a44e4cc886ca398026eb3"
+  },
+  "challenge_not_used_for_semantics_selection": true,
+  "candidate_rows": [
+    {
+      "mode": "FULL_PROTOCOL_Q75_RELATIVE",
+      "equivalence_class": 0,
+      "dev_n": 442,
+      "dev_auc": 0.9243441929342078,
+      "dev_bacc": 0.9249788449333616,
+      "archived_auc": 0.9243441929342076,
+      "archived_bacc": 0.9249788449333616,
+      "auc_abs_error": 2.220446049250313e-16,
+      "bacc_abs_error": 0.0,
+      "archive_match": true,
+      "score_sha256": "e05fe652e821dad7e249fe539d89bb2aa901328d5a0a44e4cc886ca398026eb3"
+    },
+    {
+      "mode": "DEVELOPMENT_FROZEN_Q75_RELATIVE",
+      "equivalence_class": 1,
+      "dev_n": 442,
+      "dev_auc": 0.9243441929342078,
+      "dev_bacc": 0.9249788449333616,
+      "archived_auc": 0.9243441929342076,
+      "archived_bacc": 0.9249788449333616,
+      "auc_abs_error": 2.220446049250313e-16,
+      "bacc_abs_error": 0.0,
+      "archive_match": true,
+      "score_sha256": "c3a393dcaf9aef372e050d0434aba5fd3b26129bf3bfff64c3764ca4fefebb45"
+    },
+    {
+      "mode": "CONSTANT_EPSILON_LEGACY_DIAGNOSTIC",
+      "equivalence_class": 2,
+      "dev_n": 442,
+      "dev_auc": 0.9243441929342078,
+      "dev_bacc": 0.9249788449333616,
+      "archived_auc": 0.9243441929342076,
+      "archived_bacc": 0.9249788449333616,
+      "auc_abs_error": 2.220446049250313e-16,
+      "bacc_abs_error": 0.0,
+      "archive_match": true,
+      "score_sha256": "64b59d6d28d97067a1f81f02ea40a73205f735d3e58fc37cc726e672d2342d21"
+    }
+  ]
+}

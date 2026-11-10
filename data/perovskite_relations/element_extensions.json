@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Elemental primitives absent from the exact 2026-08-09 historical SP feature builder. Historical source is never edited; the target wrapper injects these values explicitly and records them in provenance.",
+  "elements": {
+    "Sn": {
+      "Z": 50,
+      "group": 14,
+      "period": 5,
+      "mass": 118.71,
+      "rcov": 1.4,
+      "rvdw": 2.17,
+      "notes": "Sn extension for Ba/Sr Sn-Ti oxide targets. Rank-3 SP uses B group/mass, not B rcov/rvdw; radii are retained for the full 111-feature schema and must be provenance-recorded."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+ "10": {
+  "max_eigenvalue_eV_A2": 0.5345501663502615,
+  "drive_share": 0.0001068723452497113,
+  "response_share": 0.07964243865539525,
+  "mean_bond_preserving_fraction_of_modes": 0.9862735157514502
+ },
+ "20": {
+  "max_eigenvalue_eV_A2": 0.8708347719004905,
+  "drive_share": 0.002455444855067296,
+  "response_share": 0.31077985412574477,
+  "mean_bond_preserving_fraction_of_modes": 0.9864329946595823
+ },
+ "30": {
+  "max_eigenvalue_eV_A2": 1.3190507900278885,
+  "drive_share": 0.00295663135478058,
+  "response_share": 0.3257651166417051,
+  "mean_bond_preserving_fraction_of_modes": 0.9839111015807465
+ },
+ "45": {
+  "max_eigenvalue_eV_A2": 2.6279432263605407,
+  "drive_share": 0.012274687396064392,
+  "response_share": 0.4110413425218285,
+  "mean_bond_preserving_fraction_of_modes": 0.9422923831805805
+ }
+}

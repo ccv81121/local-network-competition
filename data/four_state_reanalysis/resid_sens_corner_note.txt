@@ -1,0 +1,9 @@
+Corner perovskites (full Hessian H.npy, pseudo-inverse without translations), run inline 2026-10-24 on cluster:
+CaTiO3 |u|=0.0445 |du|=0.0013 ratio=0.028 min eig 0.415
+CaSnO3 |u|=0.0473 |du|=0.0011 ratio=0.024 min eig 0.942
+du = H+ r(P5 final) - H+ r(P0 final); same method as residual_force_sensitivity.py.
+k12 P5 divergence trace (PRL_MECHANISM_TEST_20261014/Spinel_k12/P5/relax/OUTCAR_c1): IBRION=2 POTIM=0.5 ISMEAR=0;
+steps 1-58 E~-239.5 eV, V~1440 A^3, Fmax 0.005-0.012 (noise floor, never 1e-3); step 59 Fmax 5.8, 60: 28.8, 61: 579 eV/A (ZBRENT extrapolation blow-up);
+c2 restarted from corrupted CONTCAR (F=+586 eV). Nothing references Spinel_k12/P4|P5; Spinel_k12_tight links to PRL_TIGHT_SPINEL_20261015/Spinel/P0,P5.
+CaSnO3 r2SCAN P0 (PRL_FUNCTIONAL_TEST_20261014/CaSnO3/P0/relax): c3 hit NSW=200 at Fmax 0.0021, c4 15 steps Fmax 0.0032 unfinished; ACCEPTED.txt manual.
+Round5 endpoints original relax (pressure_dataset_official_strict_DI_120_structure_audited.csv): 4 GPa maxF 0.0136 (pressure_supplement), 5 GPa maxF 0.0148 (B_machine V3).

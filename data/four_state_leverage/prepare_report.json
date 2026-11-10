@@ -1,0 +1,499 @@
+{
+ "k12_t45": {
+  "group": "A",
+  "H_type": "full_tight",
+  "N": 56,
+  "n_network": 48,
+  "drive_share": 0.0054434687977354965,
+  "pred_share": 0.31411331029572775,
+  "actual_share": 0.3291359408275425,
+  "cos_pred_actual": 0.9892521229719335,
+  "ref_shares": [
+   0.00544,
+   0.3141,
+   0.3291
+  ],
+  "shares_match_3sig": true,
+  "u_pred_norm_A": 0.052139860214662964,
+  "ub_norm_A": 0.02758228562109436,
+  "uc_norm_A": 0.044246836532355255,
+  "uc_A_cation_norm_A": 0.016932041127008652,
+  "uc_network_norm_A": 0.04087894967332521,
+  "ub_share_of_upred_sq": 0.2798470787308345,
+  "ub_dot_uc": -1.0801755853824052e-18,
+  "E_b_meV": 0.2282760082192772,
+  "E_c_meV": 6.372248074494835,
+  "E_total_meV": 6.600524082714113,
+  "E_b_plus_E_c_minus_E_total_meV": -8.673617379884035e-16,
+  "harmonic_energy_share_b": 0.03458452773729005,
+  "quadratic_split_meV": {
+   "b": 0.530805619069842,
+   "c": -5.613166447205714,
+   "cross_ub_H_uc": -1.51816325457824,
+   "total": -6.60052408271411
+  },
+  "fourstate_rebuild_maxdev_A": {
+   "state00": 6.320236112372666e-16,
+   "state10": 6.3202309492921255e-16,
+   "state01": 6.309623676027928e-16,
+   "state11": 6.314927312660027e-16
+  },
+  "fourstate_meta_vs_lev_raff_maxdev_A": 0.0,
+  "fourstate_lattice_vs_lev_lattice": 0.0,
+  "margin": {
+   "edge": "C",
+   "k_edge": [
+    1.262379e-15,
+    1.262379e-15,
+    1.262379e-15
+   ],
+   "k_rival": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "LambdaV_state11_meV": 135.37300000000042,
+   "LambdaC_state11_meV": 6.7819999999994,
+   "rule": "phi_readout.py: TRIM best vs second best at state11, edge with smaller |Lambda|"
+  },
+  "delta_b_A": 0.00689557140527359,
+  "delta_c_A": 0.011061709133088814,
+  "existing_raff": {
+   "dir": "$WORK/PRL_TIGHT_SPINEL_20261015/static_k6_pred/raff",
+   "identical_incar_kpoints": false,
+   "pos_maxdev_A": 0.0
+  }
+ },
+ "k12_05": {
+  "group": "A",
+  "H_type": "symsec",
+  "N": 56,
+  "n_network": 48,
+  "drive_share": 0.004157567179882421,
+  "pred_share": 0.3197303547796871,
+  "actual_share": 0.32559450400489526,
+  "cos_pred_actual": 0.9990894615915348,
+  "ref_shares": [
+   0.004157567179882421,
+   0.3197303547796871,
+   0.32559450400489515
+  ],
+  "ref_cos": 0.9990894615915348,
+  "ref_harmonic_meV": -155.57516200782268,
+  "Hs_vs_saved_rel": 0.0,
+  "shares_match_3sig": true,
+  "u_pred_norm_A": 0.21916792683214567,
+  "ub_norm_A": 0.11656488437023232,
+  "uc_norm_A": 0.18559959020335973,
+  "uc_A_cation_norm_A": 0.07366050450611059,
+  "uc_network_norm_A": 0.17035650254557452,
+  "ub_share_of_upred_sq": 0.2828664729717216,
+  "ub_dot_uc": 2.3586395513097517e-17,
+  "E_b_meV": 4.540518821565519,
+  "E_c_meV": 151.0346431862571,
+  "E_total_meV": 155.57516200782266,
+  "E_b_plus_E_c_minus_E_total_meV": 0.0,
+  "harmonic_energy_share_b": 0.029185370999885007,
+  "ub_sector_leakage": 1.1387060562284635e-05,
+  "fourstate_rebuild_maxdev_A": {
+   "state00": 6.312276785114112e-16,
+   "state10": 6.3202309492921255e-16,
+   "state01": 6.320236112372666e-16,
+   "state11": 6.314927312660027e-16
+  },
+  "fourstate_meta_vs_lev_raff_maxdev_A": 0.0,
+  "fourstate_lattice_vs_lev_lattice": 0.0,
+  "margin": {
+   "edge": "C",
+   "k_edge": [
+    1.262379e-15,
+    1.262379e-15,
+    1.262379e-15
+   ],
+   "k_rival": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "LambdaV_state11_meV": 135.37200000000027,
+   "LambdaC_state11_meV": 6.788000000000238,
+   "rule": "phi_readout.py: TRIM best vs second best at state11, edge with smaller |Lambda|"
+  },
+  "delta_b_A": 0.02914122109255808,
+  "delta_c_A": 0.04639989755083993
+ },
+ "k08": {
+  "group": "A",
+  "H_type": "symsec",
+  "N": 28,
+  "n_network": 24,
+  "drive_share": 0.002918913308255311,
+  "pred_share": 0.05913855187298682,
+  "actual_share": 0.0490293542002734,
+  "cos_pred_actual": 0.9990103255128011,
+  "ref_shares": [
+   0.002918913308255311,
+   0.05913855187298682,
+   0.0490293542002734
+  ],
+  "ref_cos": 0.9990103255128011,
+  "ref_harmonic_meV": -111.9661512285114,
+  "Hs_vs_saved_rel": 0.0,
+  "shares_match_3sig": true,
+  "u_pred_norm_A": 0.1724718469695713,
+  "ub_norm_A": 0.041942425603903676,
+  "uc_norm_A": 0.16729426449091497,
+  "uc_A_cation_norm_A": 4.406753953562021e-05,
+  "uc_network_norm_A": 0.16729425868692618,
+  "ub_share_of_upred_sq": 0.059138548012235205,
+  "ub_dot_uc": 4.976519958607505e-18,
+  "E_b_meV": 1.054872548302009,
+  "E_c_meV": 110.91127868020938,
+  "E_total_meV": 111.9661512285114,
+  "E_b_plus_E_c_minus_E_total_meV": 0.0,
+  "harmonic_energy_share_b": 0.00942135222768462,
+  "ub_sector_leakage": 3.9221846535459204e-15,
+  "quadratic_split_meV": {
+   "b": 0.3823960493774879,
+   "c": -109.4740100825299,
+   "cross_ub_H_uc": -2.8745371953589953,
+   "total": -111.9661512285114
+  },
+  "fourstate_rebuild_maxdev_A": {
+   "state00": 6.306234875696473e-16,
+   "state10": 6.306234875696473e-16,
+   "state01": 6.306234875696473e-16,
+   "state11": 6.306234875696473e-16
+  },
+  "fourstate_meta_vs_lev_raff_maxdev_A": 0.0,
+  "fourstate_lattice_vs_lev_lattice": 0.0,
+  "margin": {
+   "edge": "C",
+   "k_edge": [
+    1.262379e-15,
+    1.262379e-15,
+    1.262379e-15
+   ],
+   "k_rival": [
+    1.262379e-15,
+    1.262379e-15,
+    0.5
+   ],
+   "LambdaV_state11_meV": 172.04999999999959,
+   "LambdaC_state11_meV": 20.351000000000674,
+   "rule": "phi_readout.py: TRIM best vs second best at state11, edge with smaller |Lambda|"
+  },
+  "delta_b_A": 0.010485606400975919,
+  "delta_c_A": 0.04182356612272874
+ },
+ "Layered_NaScInO2": {
+  "group": "A",
+  "H_type": "symsec",
+  "N": 24,
+  "n_network": 18,
+  "drive_share": 2.8964971519198934e-05,
+  "pred_share": 0.0008704606590518256,
+  "actual_share": 0.0005164609360500299,
+  "cos_pred_actual": 0.9999012604344317,
+  "ref_shares": [
+   2.8964971519198934e-05,
+   0.0008704606590518256,
+   0.0005164609360500306
+  ],
+  "ref_cos": 0.9999012604344314,
+  "ref_harmonic_meV": -60.87926926911228,
+  "Hs_vs_saved_rel": 0.0,
+  "shares_match_3sig": true,
+  "u_pred_norm_A": 0.08942407915520967,
+  "ub_norm_A": 0.002633094033868501,
+  "uc_norm_A": 0.08938530499229734,
+  "uc_A_cation_norm_A": 0.005630816395387985,
+  "uc_network_norm_A": 0.08920777239281028,
+  "ub_share_of_upred_sq": 0.0008670093573364235,
+  "ub_dot_uc": -1.981623090125759e-18,
+  "E_b_meV": 0.007737651799810547,
+  "E_c_meV": 60.87153161731248,
+  "E_total_meV": 60.87926926911228,
+  "E_b_plus_E_c_minus_E_total_meV": 6.938893903907228e-15,
+  "harmonic_energy_share_b": 0.00012709830280003577,
+  "ub_sector_leakage": 6.025384236687791e-10,
+  "quadratic_split_meV": {
+   "b": -0.003423485234271962,
+   "c": -60.86721745074693,
+   "cross_ub_H_uc": -0.008628333131073643,
+   "total": -60.87926926911228
+  },
+  "fourstate_rebuild_maxdev_A": {
+   "state00": 8.993421500270944e-16,
+   "state10": 9.000983371855165e-16,
+   "state01": 8.99342150027087e-16,
+   "state11": 2.658892363763706e-16
+  },
+  "fourstate_meta_vs_lev_raff_maxdev_A": 0.0,
+  "fourstate_lattice_vs_lev_lattice": 0.0,
+  "margin": {
+   "edge": "V",
+   "k_edge": [
+    0.5,
+    1.239203e-15,
+    1.263462e-15
+   ],
+   "k_rival": [
+    0.5,
+    1.226337e-15,
+    0.5
+   ],
+   "LambdaV_state11_meV": 4.000999999999699,
+   "LambdaC_state11_meV": 244.34700000000032,
+   "rule": "phi_readout.py: TRIM best vs second best at state11, edge with smaller |Lambda|"
+  },
+  "delta_b_A": 0.0006582735084671253,
+  "delta_c_A": 0.022346326248074335
+ },
+ "CaTiO3": {
+  "group": "A",
+  "H_type": "full",
+  "N": 20,
+  "n_network": 16,
+  "drive_share": 0.10083256534151996,
+  "pred_share": 0.12202367041834712,
+  "actual_share": 0.10802511530451449,
+  "cos_pred_actual": 0.9994024564129921,
+  "ref_shares": [
+   0.1008,
+   0.122,
+   0.108
+  ],
+  "shares_match_3sig": true,
+  "u_pred_norm_A": 0.04618866812399411,
+  "ub_norm_A": 0.015655985714647415,
+  "uc_norm_A": 0.04345438038185825,
+  "uc_A_cation_norm_A": 0.011166258461642035,
+  "uc_network_norm_A": 0.04199521218352201,
+  "ub_share_of_upred_sq": 0.11489204354339709,
+  "ub_dot_uc": -9.126540109008133e-19,
+  "E_b_meV": 0.3110583413811374,
+  "E_c_meV": 3.8887869977222844,
+  "E_total_meV": 4.199845339103422,
+  "E_b_plus_E_c_minus_E_total_meV": 8.673617379884035e-16,
+  "harmonic_energy_share_b": 0.07406423719582535,
+  "quadratic_split_meV": {
+   "b": -0.09600902829987447,
+   "c": -3.673737684641026,
+   "cross_ub_H_uc": -0.4300986261625252,
+   "total": -4.199845339103425
+  },
+  "fourstate_rebuild_maxdev_A": {
+   "state00": 4.230095928980788e-16,
+   "state10": 4.2300959289807876e-16,
+   "state01": 4.2300959289807876e-16,
+   "state11": 4.2300959289807876e-16
+  },
+  "fourstate_meta_vs_lev_raff_maxdev_A": 0.0,
+  "fourstate_lattice_vs_lev_lattice": 0.0,
+  "margin": {
+   "edge": "V",
+   "k_edge": [
+    0,
+    0,
+    0
+   ],
+   "k_rival": [
+    0.5,
+    0,
+    0.5
+   ],
+   "label": "G-U",
+   "rule": "readout_fs.py / readout_trim.py: Lambda = E_V(k1) - E_V(k2)"
+  },
+  "delta_b_A": 0.003913996428661854,
+  "delta_c_A": 0.010863595095464562
+ },
+ "CaSnO3": {
+  "group": "A",
+  "H_type": "full",
+  "N": 20,
+  "n_network": 16,
+  "drive_share": 0.11584511935106885,
+  "pred_share": 0.2703854203103324,
+  "actual_share": 0.2561897292026625,
+  "cos_pred_actual": 0.9995822529810102,
+  "ref_shares": [
+   0.1158,
+   0.2704,
+   0.2562
+  ],
+  "shares_match_3sig": true,
+  "u_pred_norm_A": 0.048577413761766525,
+  "ub_norm_A": 0.02269430577557612,
+  "uc_norm_A": 0.042950362200411256,
+  "uc_A_cation_norm_A": 0.021329793141146504,
+  "uc_network_norm_A": 0.03727966654494667,
+  "ub_share_of_upred_sq": 0.21825541388496905,
+  "ub_dot_uc": 8.999271475181377e-20,
+  "E_b_meV": 0.7396553847242958,
+  "E_c_meV": 4.322291924195583,
+  "E_total_meV": 5.061947308919875,
+  "E_b_plus_E_c_minus_E_total_meV": 2.6020852139652106e-15,
+  "harmonic_energy_share_b": 0.14612071987018055,
+  "quadratic_split_meV": {
+   "b": -0.5380394606213255,
+   "c": -4.120676000092617,
+   "cross_ub_H_uc": -0.4032318482059365,
+   "total": -5.061947308919872
+  },
+  "fourstate_rebuild_maxdev_A": {
+   "state00": 4.389750293317188e-16,
+   "state10": 4.3897502933171884e-16,
+   "state01": 3.3655418749969806e-16,
+   "state11": 4.389750293317188e-16
+  },
+  "fourstate_meta_vs_lev_raff_maxdev_A": 0.0,
+  "fourstate_lattice_vs_lev_lattice": 0.0,
+  "margin": {
+   "edge": "V",
+   "k_edge": [
+    0.5,
+    0,
+    0.5
+   ],
+   "k_rival": [
+    0,
+    0,
+    0.5
+   ],
+   "label": "U-Z",
+   "rule": "readout_fs.py / readout_trim.py: Lambda = E_V(k1) - E_V(k2)"
+  },
+  "delta_b_A": 0.00567357644389403,
+  "delta_c_A": 0.010737590550102814
+ },
+ "Ca2SnTiO6_rs": {
+  "group": "B",
+  "H_type": "symsec",
+  "N": 20,
+  "n_network": 16,
+  "drive_share": 0.0788555566008216,
+  "pred_share": 0.1662095475590833,
+  "actual_share": 0.14523341582540586,
+  "cos_pred_actual": 0.9992910681461398,
+  "ref_shares": [
+   0.0788555566008216,
+   0.1662095475590833,
+   0.14523341582540586
+  ],
+  "ref_cos": 0.9992910681461394,
+  "ref_harmonic_meV": -4.796784232095312,
+  "Hs_vs_saved_rel": 0.0,
+  "shares_match_3sig": true,
+  "u_pred_norm_A": 0.04726181404437638,
+  "ub_norm_A": 0.01804150149746257,
+  "uc_norm_A": 0.04368275735896566,
+  "uc_A_cation_norm_A": 0.01659316802925413,
+  "uc_network_norm_A": 0.04040853950881184,
+  "ub_share_of_upred_sq": 0.145721818826159,
+  "ub_dot_uc": -3.8079536797053204e-19,
+  "E_b_meV": 0.43721748091597484,
+  "E_c_meV": 4.359566751179337,
+  "E_total_meV": 4.7967842320953125,
+  "E_b_plus_E_c_minus_E_total_meV": -1.734723475976807e-15,
+  "harmonic_energy_share_b": 0.09114803997030972,
+  "ub_sector_leakage": 6.662688080770469e-14,
+  "quadratic_split_meV": {
+   "b": -0.22102969426339403,
+   "c": -4.143378964526756,
+   "cross_ub_H_uc": -0.43237557330516047,
+   "total": -4.796784232095312
+  },
+  "fourstate_rebuild_maxdev_A": {
+   "state00": 4.3107862724254957e-16,
+   "state10": 4.3107862724254947e-16,
+   "state01": 4.3115345497108005e-16,
+   "state11": 4.310786272425495e-16
+  },
+  "fourstate_meta_vs_lev_raff_maxdev_A": 0.0,
+  "fourstate_lattice_vs_lev_lattice": 0.0,
+  "margin": {
+   "edge": "V",
+   "k_edge": [
+    1.262379e-15,
+    0.5,
+    0.5
+   ],
+   "k_rival": [
+    0.5,
+    0.5,
+    1.262406e-15
+   ],
+   "LambdaV_state11_meV": 25.876999999999484,
+   "LambdaC_state11_meV": 68.1440000000002,
+   "rule": "phi_readout.py: TRIM best vs second best at state11, edge with smaller |Lambda|"
+  },
+  "delta_b_A": 0.004510375374365642,
+  "delta_c_A": 0.010920689339741415
+ },
+ "Ca8Sn6Ti2O24": {
+  "group": "B",
+  "H_type": "symsec",
+  "N": 40,
+  "n_network": 32,
+  "drive_share": 0.11151022632058888,
+  "pred_share": 0.3230822947894359,
+  "actual_share": 0.3047438525674694,
+  "cos_pred_actual": 0.9995923275162614,
+  "ref_shares": [
+   0.11151022632058888,
+   0.3230822947894359,
+   0.3047438525674694
+  ],
+  "ref_cos": 0.9995923275162614,
+  "ref_harmonic_meV": -10.969711117097802,
+  "Hs_vs_saved_rel": 0.0,
+  "shares_match_3sig": true,
+  "u_pred_norm_A": 0.07470273871763346,
+  "ub_norm_A": 0.03795700181471926,
+  "uc_norm_A": 0.06434100702625362,
+  "uc_A_cation_norm_A": 0.03348370641418538,
+  "uc_network_norm_A": 0.05494184734718206,
+  "ub_share_of_upred_sq": 0.25817295951111074,
+  "ub_dot_uc": -2.47580349485007e-18,
+  "E_b_meV": 1.696335663180054,
+  "E_c_meV": 9.273375453917751,
+  "E_total_meV": 10.969711117097805,
+  "E_b_plus_E_c_minus_E_total_meV": 0.0,
+  "harmonic_energy_share_b": 0.15463813450256508,
+  "ub_sector_leakage": 2.0666134892810006e-15,
+  "quadratic_split_meV": {
+   "b": -0.28280041495057406,
+   "c": -7.859840205688272,
+   "cross_ub_H_uc": -2.827070496458963,
+   "total": -10.969711117097802
+  },
+  "fourstate_rebuild_maxdev_A": {
+   "state00": 6.270518626426952e-16,
+   "state10": 6.273132547802652e-16,
+   "state01": 6.270518626426951e-16,
+   "state11": 6.273132547802652e-16
+  },
+  "fourstate_meta_vs_lev_raff_maxdev_A": 0.0,
+  "fourstate_lattice_vs_lev_lattice": 0.0,
+  "margin": {
+   "edge": "V",
+   "k_edge": [
+    1.262373e-15,
+    1.262379e-15,
+    0.5
+   ],
+   "k_rival": [
+    0.5,
+    1.262379e-15,
+    0.5
+   ],
+   "LambdaV_state11_meV": 72.06400000000014,
+   "LambdaC_state11_meV": 179.04699999999974,
+   "rule": "phi_readout.py: TRIM best vs second best at state11, edge with smaller |Lambda|"
+  },
+  "delta_b_A": 0.009489250453679815,
+  "delta_c_A": 0.016085251756563404
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "description": "Published spinel edge-resolved coordinates (SI Note 7, Eq. sr-7). Pi_S enters with protected-ratio regularizers fitted on the 440 development states and is divided by its development IQR; the outer ratios use 1e-6 x the development upper quartile of the denominator; the margin agreement uses tie-averaged ranks.",
+ "pi_s_fit_on_samples": true,
+ "coordinates": [
+  {
+   "edge": "V",
+   "name": "Pi_V",
+   "ratio_epsilon": 1e-06,
+   "spearman_ranks": "average",
+   "ast": {
+    "op": "add",
+    "left": {
+     "op": "add",
+     "left": {
+      "op": "add",
+      "left": {
+       "op": "rc8"
+      },
+      "right": {
+       "op": "scale",
+       "c": 3.0,
+       "arg": {
+        "op": "mul",
+        "left": {
+         "op": "feature",
+         "name": "lattice_angle_anisotropy"
+        },
+        "right": {
+         "op": "feature",
+         "name": "elem_A_d_electrons"
+        }
+       }
+      }
+     },
+     "right": {
+      "op": "scale",
+      "c": -1.0,
+      "arg": {
+       "op": "ratio",
+       "left": {
+        "op": "feature",
+        "name": "D_BXB_connectivity_disorder_proxy"
+       },
+       "right": {
+        "op": "square",
+        "arg": {
+         "op": "feature",
+         "name": "XX_network_coherence"
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "op": "scale",
+     "c": -0.16666666666666666,
+     "arg": {
+      "op": "mul",
+      "left": {
+       "op": "feature",
+       "name": "alloy_first_ionization_kJmol_variance"
+      },
+      "right": {
+       "op": "square",
+       "arg": {
+        "op": "feature",
+        "name": "B_d_filling_mean"
+       }
+      }
+     }
+    }
+   },
+   "stored": {
+    "auc": 0.8942689889426899,
+    "orientation": -1,
+    "threshold": -9.03775870941055,
+    "bacc": 0.8732504637325047,
+    "tp": 119,
+    "tn": 266,
+    "fp": 37,
+    "fn": 18,
+    "acc": 0.875,
+    "margin_spearman": 0.6489346245489869,
+    "trajectory_auc": 0.6825751563251564,
+    "trajectory_auc_n": 20
+   }
+  },
+  {
+   "edge": "C",
+   "name": "Pi_C",
+   "ratio_epsilon": 1e-06,
+   "spearman_ranks": "average",
+   "ast": {
+    "op": "add",
+    "left": {
+     "op": "add",
+     "left": {
+      "op": "scale",
+      "c": -0.3333333333333333,
+      "arg": {
+       "op": "square",
+       "arg": {
+        "op": "feature",
+        "name": "alloy_Z_variance"
+       }
+      }
+     },
+     "right": {
+      "op": "scale",
+      "c": 2.0,
+      "arg": {
+       "op": "sgeom",
+       "left": {
+        "op": "feature",
+        "name": "BB_graph_shortest_path_mean"
+       },
+       "right": {
+        "op": "sgeom",
+        "left": {
+         "op": "feature",
+         "name": "BB_d2_mean"
+        },
+        "right": {
+         "op": "feature",
+         "name": "BX_d_electrons_mismatch_norm"
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "op": "ratio",
+     "left": {
+      "op": "square",
+      "arg": {
+       "op": "feature",
+       "name": "D_BX6_distortion_RMS"
+      }
+     },
+     "right": {
+      "op": "mul",
+      "left": {
+       "op": "feature",
+       "name": "alloy_Z_variance"
+      },
+      "right": {
+       "op": "feature",
+       "name": "elem_Bmix_Z"
+      }
+     }
+    }
+   },
+   "stored": {
+    "auc": 0.9214444444444444,
+    "orientation": -1,
+    "threshold": 42.36106122183796,
+    "bacc": 0.8665079365079364,
+    "tp": 311,
+    "tn": 76,
+    "fp": 14,
+    "fn": 39,
+    "acc": 0.8795454545454545,
+    "margin_spearman": 0.7803159292058589,
+    "trajectory_auc": 0.7360323993136493,
+    "trajectory_auc_n": 16
+   }
+  }
+ ]
+}

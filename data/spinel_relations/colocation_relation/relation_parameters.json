@@ -1,0 +1,163 @@
+{
+  "authority_version": "1.0.3",
+  "formula_id": "df4013b048a9ece2159ec03c86a8b8789122085218659fe92b34ff664a87c192",
+  "development_n": 440,
+  "total_n": 681,
+  "partition_counts": {
+    "DUAL_DEV_V1": 440,
+    "FROZEN_CHALLENGE_HOLDOUT": 224,
+    "EXCLUDED_UNRELIABLE": 17
+  },
+  "shared_component_dual_IQR": 12.761418045145888,
+  "shared_component_primitive_scales": "shared_19_primitive_scales.csv",
+  "shared_component_ast": "best_performance_formula.json::ast_json",
+  "shared_component_dual_protected_ratio_parameters": {
+    "rLLRs": 1.6897523591149877e-06
+  },
+  "shared_component_dual_input_epsilon": 1e-06,
+  "shared_component_dual_definition": "rc8_apply(same frozen AST, frozen 19/214 scales, ratio eps fitted on 440 dev)/IQR(dev raw component)",
+  "standalone_shared_definition": "same frozen AST/scales; ratio eps=epsilon*Q75(abs(denominator)) over full supplied protocol matrix; no dual IQR division",
+  "standalone_shared_protected_ratio_parameters_full681": {
+    "rLLRs": 2.2195666738553153e-06
+  },
+  "outer_V_eps": 8.49608740774489e-06,
+  "outer_C_eps": 2.619248404618777e-06,
+  "outer_ratio_definition": "a/(abs(b)+eps_e), eps_e=1e-6*Q75_dev(abs(b))",
+  "outer_primitive_scale_definition": "dev IQR; if not finite or <=1e-12, 1.4826*MAD; then dev population std; then 1",
+  "outer_primitive_scaling": "each of the 12 raw primitives is individually divided by its frozen scale before products/powers; no centering",
+  "max_absolute_replay_errors": {
+    "Pi_S_shared": 2.6645352591003757e-15,
+    "Pi_V_raw": 5.684341886080802e-14,
+    "Pi_C_raw": 4.547473508864641e-13
+  },
+  "max_standalone_component_replay_error": 2.842170943040401e-14,
+  "standalone_442_legacy_metrics": {
+    "n": 442,
+    "positive_n": 116,
+    "negative_n": 326,
+    "auc": 0.9243441929342078,
+    "orientation": -1,
+    "threshold": -114.17482623636002,
+    "tp": 105,
+    "tn": 308,
+    "fp": 18,
+    "fn": 11,
+    "acc": 0.9343891402714932,
+    "bacc": 0.9249788449333616,
+    "recall_positive": 0.9051724137931034,
+    "recall_negative": 0.9447852760736196,
+    "f1": 0.8786610878661086
+  },
+  "standalone_442_primitive_canonical_metrics": {
+    "n": 442,
+    "positive_n": 115,
+    "negative_n": 327,
+    "auc": 0.9213136550990559,
+    "orientation": -1,
+    "threshold": -114.17482623636002,
+    "tp": 104,
+    "tn": 308,
+    "fp": 19,
+    "fn": 11,
+    "acc": 0.9321266968325792,
+    "bacc": 0.9231219252758942,
+    "recall_positive": 0.9043478260869565,
+    "recall_negative": 0.9418960244648318,
+    "f1": 0.8739495798319328
+  },
+  "standalone_442_label_changes": 1,
+  "frozen_edge_metrics_replayed": {
+    "DUAL_DEV_V1": {
+      "V": {
+        "n": 440,
+        "positive_n": 137,
+        "negative_n": 303,
+        "auc": 0.8942689889426899,
+        "orientation": -1,
+        "threshold": -9.03775870941055,
+        "tp": 119,
+        "tn": 266,
+        "fp": 37,
+        "fn": 18,
+        "acc": 0.875,
+        "bacc": 0.8732504637325047,
+        "recall_positive": 0.8686131386861314,
+        "recall_negative": 0.8778877887788779,
+        "f1": 0.8122866894197952
+      },
+      "C": {
+        "n": 440,
+        "positive_n": 350,
+        "negative_n": 90,
+        "auc": 0.9214444444444444,
+        "orientation": -1,
+        "threshold": 42.36106122183796,
+        "tp": 311,
+        "tn": 76,
+        "fp": 14,
+        "fn": 39,
+        "acc": 0.8795454545454545,
+        "bacc": 0.8665079365079364,
+        "recall_positive": 0.8885714285714286,
+        "recall_negative": 0.8444444444444444,
+        "f1": 0.9214814814814816
+      }
+    },
+    "FROZEN_CHALLENGE_HOLDOUT": {
+      "V": {
+        "n": 224,
+        "positive_n": 31,
+        "negative_n": 193,
+        "auc": 0.5876650509777703,
+        "orientation": -1,
+        "threshold": -9.03775870941055,
+        "tp": 14,
+        "tn": 135,
+        "fp": 58,
+        "fn": 17,
+        "acc": 0.6651785714285714,
+        "bacc": 0.5755473842553903,
+        "recall_positive": 0.45161290322580644,
+        "recall_negative": 0.6994818652849741,
+        "f1": 0.27184466019417475
+      },
+      "C": {
+        "n": 224,
+        "positive_n": 104,
+        "negative_n": 120,
+        "auc": 0.7489182692307692,
+        "orientation": -1,
+        "threshold": 42.36106122183796,
+        "tp": 45,
+        "tn": 112,
+        "fp": 8,
+        "fn": 59,
+        "acc": 0.7008928571428571,
+        "bacc": 0.6830128205128205,
+        "recall_positive": 0.4326923076923077,
+        "recall_negative": 0.9333333333333333,
+        "f1": 0.5732484076433121
+      }
+    }
+  },
+  "signed_square_equals_ordinary_square_on_all_681_inputs": true,
+  "scaled_square_input_ranges": {
+    "B_d_filling_mean": {
+      "min": 0.0,
+      "max": 1.833810888252149
+    },
+    "alloy_Z_variance": {
+      "min": 0.0,
+      "max": 5.364533117858756
+    },
+    "D_BX6_distortion_RMS": {
+      "min": 0.0,
+      "max": 17.95094027312903
+    }
+  },
+  "frozen_edge_predictions_all_match": true,
+  "V_threshold": -9.03775870941055,
+  "C_threshold": 42.36106122183796,
+  "numeric_semantics": "source nan_to_num(..., nan=0,posinf=1e6,neginf=-1e6); signed square clips absolute base at1e6; preserved, not replaced",
+  "scope": "parameter extraction and score replay only; no search, coefficient refit, threshold optimization, new predictions, DFT, or remote changes"
+}

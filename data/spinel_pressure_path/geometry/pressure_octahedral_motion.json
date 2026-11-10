@@ -1,0 +1,346 @@
+{
+  "method": "Local six-bond least-squares infinitesimal rotation, with exact global periodic shared-ligand compatibility; fixed mapped lattice.",
+  "metric": "Kernel atom fraction uses centered 48-atom Euclidean norm; rotation/angular fractions use sum of 96 B-Se relative-vector squared norms. These metrics differ.",
+  "scope": "Kinematics only, not stiffness or energy. Local best-fit rotations need not be jointly realizable as a globally rigid-octahedral displacement.",
+  "input_sha256": {
+    "pressure_geometry_input_rows.csv": "21f520eeb0b37e3f4c315049358ea658dcc64d365bb68291978eb1a080d18074",
+    "pressure_bond_accommodation.json": "3a8b96f9cd3d6a84ef3d90642ac84e3951daf8052f63288aacb8ac06e8f91b64"
+  },
+  "intervals": [
+    {
+      "initial_GPa": 0.0,
+      "final_GPa": 2.0,
+      "bond_rank": 96,
+      "rigid_octahedra_rank": 141,
+      "rigid_nullity": 3,
+      "rank_tolerance_checks": {
+        "1e-12": 141,
+        "1e-10": 141,
+        "1e-08": 141,
+        "1e-06": 141
+      },
+      "rigid_operator_smallest_nonzero": 0.551891210367591,
+      "rigid_operator_largest": 2.9999759206466345,
+      "rigid_operator_condition": 5.435810290670292,
+      "bond_preserving_atom_squared_fraction": 0.27756970305461154,
+      "kernel_local_rotation_bond_vector_squared_fraction": 0.21873115749625996,
+      "kernel_local_angular_residual_bond_vector_squared_fraction": 0.78126884250374,
+      "kernel_bond_vector_rms_A": 0.006429970841753827,
+      "kernel_rotation_bond_vector_rms_A": 0.0030072139622958805,
+      "kernel_angular_residual_bond_vector_rms_A": 0.0056834135174890395,
+      "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.9173240451193184,
+      "reference_sensitivity": {
+        "midpoint": {
+          "bond_rank": 96,
+          "rigid_octahedra_rank": 141,
+          "rigid_nullity": 3,
+          "rank_tolerance_checks": {
+            "1e-12": 141,
+            "1e-10": 141,
+            "1e-08": 141,
+            "1e-06": 141
+          },
+          "rigid_operator_smallest_nonzero": 0.5529009788062207,
+          "rigid_operator_largest": 2.9999788448120466,
+          "rigid_operator_condition": 5.425888106201873,
+          "bond_preserving_atom_squared_fraction": 0.27632900295149654,
+          "kernel_local_rotation_bond_vector_squared_fraction": 0.21876209226889046,
+          "kernel_local_angular_residual_bond_vector_squared_fraction": 0.7812379077311098,
+          "kernel_bond_vector_rms_A": 0.006413135390372911,
+          "kernel_rotation_bond_vector_rms_A": 0.002999552328326053,
+          "kernel_angular_residual_bond_vector_rms_A": 0.005668420535289109,
+          "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.9174228979401375
+        },
+        "endpoint": {
+          "bond_rank": 96,
+          "rigid_octahedra_rank": 141,
+          "rigid_nullity": 3,
+          "rank_tolerance_checks": {
+            "1e-12": 141,
+            "1e-10": 141,
+            "1e-08": 141,
+            "1e-06": 141
+          },
+          "rigid_operator_smallest_nonzero": 0.5538989222936833,
+          "rigid_operator_largest": 2.9999800612022622,
+          "rigid_operator_condition": 5.416114638352085,
+          "bond_preserving_atom_squared_fraction": 0.275097999342247,
+          "kernel_local_rotation_bond_vector_squared_fraction": 0.21878679150850922,
+          "kernel_local_angular_residual_bond_vector_squared_fraction": 0.7812132084914908,
+          "kernel_bond_vector_rms_A": 0.0063964190543617985,
+          "kernel_rotation_bond_vector_rms_A": 0.002991902647407288,
+          "kernel_angular_residual_bond_vector_rms_A": 0.005653555984284576,
+          "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.9175223392203276
+        }
+      }
+    },
+    {
+      "initial_GPa": 2.0,
+      "final_GPa": 3.0,
+      "bond_rank": 96,
+      "rigid_octahedra_rank": 141,
+      "rigid_nullity": 3,
+      "rank_tolerance_checks": {
+        "1e-12": 141,
+        "1e-10": 141,
+        "1e-08": 141,
+        "1e-06": 141
+      },
+      "rigid_operator_smallest_nonzero": 0.5538645186411792,
+      "rigid_operator_largest": 2.9999800766329177,
+      "rigid_operator_condition": 5.416451091672931,
+      "bond_preserving_atom_squared_fraction": 0.37345229649701633,
+      "kernel_local_rotation_bond_vector_squared_fraction": 0.23307300359229768,
+      "kernel_local_angular_residual_bond_vector_squared_fraction": 0.7669269964077025,
+      "kernel_bond_vector_rms_A": 0.0034889411864527193,
+      "kernel_rotation_bond_vector_rms_A": 0.0016843782894559547,
+      "kernel_angular_residual_bond_vector_rms_A": 0.003055418200596367,
+      "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.842071942863741,
+      "reference_sensitivity": {
+        "midpoint": {
+          "bond_rank": 96,
+          "rigid_octahedra_rank": 141,
+          "rigid_nullity": 3,
+          "rank_tolerance_checks": {
+            "1e-12": 141,
+            "1e-10": 141,
+            "1e-08": 141,
+            "1e-06": 141
+          },
+          "rigid_operator_smallest_nonzero": 0.5543027476724622,
+          "rigid_operator_largest": 2.9999796694232916,
+          "rigid_operator_condition": 5.412168137394803,
+          "bond_preserving_atom_squared_fraction": 0.37280301304233576,
+          "kernel_local_rotation_bond_vector_squared_fraction": 0.2331015592750976,
+          "kernel_local_angular_residual_bond_vector_squared_fraction": 0.7668984407249024,
+          "kernel_bond_vector_rms_A": 0.003485612274800039,
+          "kernel_rotation_bond_vector_rms_A": 0.0016828742515232532,
+          "kernel_angular_residual_bond_vector_rms_A": 0.0030524460984261053,
+          "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.8421230845388462
+        },
+        "endpoint": {
+          "bond_rank": 96,
+          "rigid_octahedra_rank": 141,
+          "rigid_nullity": 3,
+          "rank_tolerance_checks": {
+            "1e-12": 141,
+            "1e-10": 141,
+            "1e-08": 141,
+            "1e-06": 141
+          },
+          "rigid_operator_smallest_nonzero": 0.5547357268286522,
+          "rigid_operator_largest": 2.999978930180149,
+          "rigid_operator_condition": 5.40794253027584,
+          "bond_preserving_atom_squared_fraction": 0.37215543044094873,
+          "kernel_local_rotation_bond_vector_squared_fraction": 0.23312928185819054,
+          "kernel_local_angular_residual_bond_vector_squared_fraction": 0.7668707181418094,
+          "kernel_bond_vector_rms_A": 0.0034822915467609935,
+          "kernel_rotation_bond_vector_rms_A": 0.0016813709574956673,
+          "kernel_angular_residual_bond_vector_rms_A": 0.0030494829266505454,
+          "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.8421745280115397
+        }
+      }
+    },
+    {
+      "initial_GPa": 3.0,
+      "final_GPa": 4.0,
+      "bond_rank": 96,
+      "rigid_octahedra_rank": 141,
+      "rigid_nullity": 3,
+      "rank_tolerance_checks": {
+        "1e-12": 141,
+        "1e-10": 141,
+        "1e-08": 141,
+        "1e-06": 141
+      },
+      "rigid_operator_smallest_nonzero": 0.5546890654692055,
+      "rigid_operator_largest": 2.9999789510800734,
+      "rigid_operator_condition": 5.408397493003442,
+      "bond_preserving_atom_squared_fraction": 0.3246373401902261,
+      "kernel_local_rotation_bond_vector_squared_fraction": 0.2540230920177236,
+      "kernel_local_angular_residual_bond_vector_squared_fraction": 0.7459769079822766,
+      "kernel_bond_vector_rms_A": 0.0034196866671306644,
+      "kernel_rotation_bond_vector_rms_A": 0.0017235461400643857,
+      "kernel_angular_residual_bond_vector_rms_A": 0.0029535818262611904,
+      "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.7737604101851159,
+      "reference_sensitivity": {
+        "midpoint": {
+          "bond_rank": 96,
+          "rigid_octahedra_rank": 141,
+          "rigid_nullity": 3,
+          "rank_tolerance_checks": {
+            "1e-12": 141,
+            "1e-10": 141,
+            "1e-08": 141,
+            "1e-06": 141
+          },
+          "rigid_operator_smallest_nonzero": 0.5550481067843952,
+          "rigid_operator_largest": 2.999977663883912,
+          "rigid_operator_condition": 5.404896669702963,
+          "bond_preserving_atom_squared_fraction": 0.32414975487993636,
+          "kernel_local_rotation_bond_vector_squared_fraction": 0.25400934034791106,
+          "kernel_local_angular_residual_bond_vector_squared_fraction": 0.7459906596520889,
+          "kernel_bond_vector_rms_A": 0.00341671123240578,
+          "kernel_rotation_bond_vector_rms_A": 0.0017219998874646195,
+          "kernel_angular_residual_bond_vector_rms_A": 0.002951039144643741,
+          "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.7737953031265038
+        },
+        "endpoint": {
+          "bond_rank": 96,
+          "rigid_octahedra_rank": 141,
+          "rigid_nullity": 3,
+          "rank_tolerance_checks": {
+            "1e-12": 141,
+            "1e-10": 141,
+            "1e-08": 141,
+            "1e-06": 141
+          },
+          "rigid_operator_smallest_nonzero": 0.5554040094162449,
+          "rigid_operator_largest": 2.9999760603322434,
+          "rigid_operator_condition": 5.401430327241166,
+          "bond_preserving_atom_squared_fraction": 0.3236632776009622,
+          "kernel_local_rotation_bond_vector_squared_fraction": 0.25399453295738667,
+          "kernel_local_angular_residual_bond_vector_squared_fraction": 0.7460054670426133,
+          "kernel_bond_vector_rms_A": 0.003413742067948434,
+          "kernel_rotation_bond_vector_rms_A": 0.0017204532993741802,
+          "kernel_angular_residual_bond_vector_rms_A": 0.0029485039174390374,
+          "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.7738306824831666
+        }
+      }
+    },
+    {
+      "initial_GPa": 4.0,
+      "final_GPa": 5.0,
+      "bond_rank": 96,
+      "rigid_octahedra_rank": 141,
+      "rigid_nullity": 3,
+      "rank_tolerance_checks": {
+        "1e-12": 141,
+        "1e-10": 141,
+        "1e-08": 141,
+        "1e-06": 141
+      },
+      "rigid_operator_smallest_nonzero": 0.5553268262582054,
+      "rigid_operator_largest": 2.9999760906356845,
+      "rigid_operator_condition": 5.4021811099052,
+      "bond_preserving_atom_squared_fraction": 0.3291359408275426,
+      "kernel_local_rotation_bond_vector_squared_fraction": 0.18736884224202655,
+      "kernel_local_angular_residual_bond_vector_squared_fraction": 0.8126311577579736,
+      "kernel_bond_vector_rms_A": 0.004049948784096048,
+      "kernel_rotation_bond_vector_rms_A": 0.0017530658018519545,
+      "kernel_angular_residual_bond_vector_rms_A": 0.0036508691359973754,
+      "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.7095636255784329,
+      "reference_sensitivity": {
+        "midpoint": {
+          "bond_rank": 96,
+          "rigid_octahedra_rank": 141,
+          "rigid_nullity": 3,
+          "rank_tolerance_checks": {
+            "1e-12": 141,
+            "1e-10": 141,
+            "1e-08": 141,
+            "1e-06": 141
+          },
+          "rigid_operator_smallest_nonzero": 0.5556596547965921,
+          "rigid_operator_largest": 2.9999737468601375,
+          "rigid_operator_condition": 5.3989410981409565,
+          "bond_preserving_atom_squared_fraction": 0.3284591642864791,
+          "kernel_local_rotation_bond_vector_squared_fraction": 0.1874459633811377,
+          "kernel_local_angular_residual_bond_vector_squared_fraction": 0.8125540366188623,
+          "kernel_bond_vector_rms_A": 0.004045400686002488,
+          "kernel_rotation_bond_vector_rms_A": 0.0017514574458156861,
+          "kernel_angular_residual_bond_vector_rms_A": 0.0036465961561168506,
+          "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.7095029325799223
+        },
+        "endpoint": {
+          "bond_rank": 96,
+          "rigid_octahedra_rank": 141,
+          "rigid_nullity": 3,
+          "rank_tolerance_checks": {
+            "1e-12": 141,
+            "1e-10": 141,
+            "1e-08": 141,
+            "1e-06": 141
+          },
+          "rigid_operator_smallest_nonzero": 0.5559859701137511,
+          "rigid_operator_largest": 2.999970993260331,
+          "rigid_operator_condition": 5.39576743752465,
+          "bond_preserving_atom_squared_fraction": 0.32778419892013905,
+          "kernel_local_rotation_bond_vector_squared_fraction": 0.18752182230428607,
+          "kernel_local_angular_residual_bond_vector_squared_fraction": 0.812478177695714,
+          "kernel_bond_vector_rms_A": 0.004040861862908005,
+          "kernel_rotation_bond_vector_rms_A": 0.0017498463328210324,
+          "kernel_angular_residual_bond_vector_rms_A": 0.003642334746644951,
+          "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.709443130952283
+        }
+      }
+    },
+    {
+      "initial_GPa": 5.0,
+      "final_GPa": 6.0,
+      "bond_rank": 96,
+      "rigid_octahedra_rank": 141,
+      "rigid_nullity": 3,
+      "rank_tolerance_checks": {
+        "1e-12": 141,
+        "1e-10": 141,
+        "1e-08": 141,
+        "1e-06": 141
+      },
+      "rigid_operator_smallest_nonzero": 0.5558749110241972,
+      "rigid_operator_largest": 2.9999710426865325,
+      "rigid_operator_condition": 5.396845554981243,
+      "bond_preserving_atom_squared_fraction": 0.35078839100456705,
+      "kernel_local_rotation_bond_vector_squared_fraction": 0.36748536129091686,
+      "kernel_local_angular_residual_bond_vector_squared_fraction": 0.6325146387090834,
+      "kernel_bond_vector_rms_A": 0.005111461878311012,
+      "kernel_rotation_bond_vector_rms_A": 0.003098597370562925,
+      "kernel_angular_residual_bond_vector_rms_A": 0.004065185957439987,
+      "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.6103293909399533,
+      "reference_sensitivity": {
+        "midpoint": {
+          "bond_rank": 96,
+          "rigid_octahedra_rank": 141,
+          "rigid_nullity": 3,
+          "rank_tolerance_checks": {
+            "1e-12": 141,
+            "1e-10": 141,
+            "1e-08": 141,
+            "1e-06": 141
+          },
+          "rigid_operator_smallest_nonzero": 0.5561885395643908,
+          "rigid_operator_largest": 2.9999672553623826,
+          "rigid_operator_condition": 5.393795524287446,
+          "bond_preserving_atom_squared_fraction": 0.3505647738512176,
+          "kernel_local_rotation_bond_vector_squared_fraction": 0.3675038440746474,
+          "kernel_local_angular_residual_bond_vector_squared_fraction": 0.6324961559253526,
+          "kernel_bond_vector_rms_A": 0.005108172394130089,
+          "kernel_rotation_bond_vector_rms_A": 0.0030966811377780624,
+          "kernel_angular_residual_bond_vector_rms_A": 0.004062510447873617,
+          "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.6101808291931576
+        },
+        "endpoint": {
+          "bond_rank": 96,
+          "rigid_octahedra_rank": 141,
+          "rigid_nullity": 3,
+          "rank_tolerance_checks": {
+            "1e-12": 141,
+            "1e-10": 141,
+            "1e-08": 141,
+            "1e-06": 141
+          },
+          "rigid_operator_smallest_nonzero": 0.55649832897265,
+          "rigid_operator_largest": 2.9999628095559436,
+          "rigid_operator_condition": 5.390784937475314,
+          "bond_preserving_atom_squared_fraction": 0.35034089197939466,
+          "kernel_local_rotation_bond_vector_squared_fraction": 0.3675177325456847,
+          "kernel_local_angular_residual_bond_vector_squared_fraction": 0.6324822674543151,
+          "kernel_bond_vector_rms_A": 0.0051048955229168365,
+          "kernel_rotation_bond_vector_rms_A": 0.0030947531055987338,
+          "kernel_angular_residual_bond_vector_rms_A": 0.004059859790101544,
+          "total_local_rigid_fit_residual_bond_vector_squared_fraction": 0.610034540180335
+        }
+      }
+    }
+  ]
+}

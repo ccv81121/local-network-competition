@@ -1,0 +1,57 @@
+{
+ "system": "k08",
+ "margin": {
+  "edge": "C",
+  "k_edge": [
+   1.262379e-15,
+   1.262379e-15,
+   1.262379e-15
+  ],
+  "k_rival": [
+   1.262379e-15,
+   1.262379e-15,
+   0.5
+  ],
+  "LambdaV_state11_meV": 172.04999999999959,
+  "LambdaC_state11_meV": 20.351000000000674,
+  "rule": "phi_readout.py: TRIM best vs second best at state11, edge with smaller |Lambda|"
+ },
+ "Lambda_meV": {
+  "bp": 28.089999999999726,
+  "bm": 28.086000000000055,
+  "cp": 26.14300000000025,
+  "cm": 30.18700000000063,
+  "raff": 28.090999999999866
+ },
+ "TOTEN_eV": {
+  "bp": -131.54003303,
+  "bm": -131.53910392,
+  "cp": -131.58797148,
+  "cm": -131.47746357,
+  "raff": -131.5397249
+ },
+ "g_b_meV_per_A": 0.19073765725645797,
+ "g_c_meV_per_A": -48.34594912511173,
+ "dP_b_pred_meV": 0.007999999999341867,
+ "dP_c_pred_meV": -8.088000000000761,
+ "dP_total_pred_meV": -8.08000000000142,
+ "phi_pred": -0.000990099009819364,
+ "phi_pred_abs": 0.0009881422924088148,
+ "E_b_harm_meV": 1.054872548302009,
+ "E_c_harm_meV": 110.91127868020938,
+ "harmonic_energy_share_b": 0.00942135222768462,
+ "dft_dEds_b_meV_per_A": -44.304066186415426,
+ "harm_minus_f_dot_db_meV_per_A": -50.30097964595684,
+ "dft_dEds_c_meV_per_A": -1321.1201272951794,
+ "harm_minus_f_dot_dc_meV_per_A": -1325.9423927977218,
+ "dft_E_b_linear_meV": 0.9291099999870767,
+ "dft_E_c_linear_meV": 110.5079099999955,
+ "Lambda_curvature_check_meV": {
+  "b": -0.0029999999999752447,
+  "c": 0.07400000000057361
+ },
+ "dft_E_second_diff_meV": {
+  "b": 0.3128500000002532,
+  "c": 14.014750000001186
+ }
+}

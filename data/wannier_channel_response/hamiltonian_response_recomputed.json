@@ -1,0 +1,8 @@
+{
+  "directions": 45,
+  "hamiltonians": 13,
+  "opposite_sign_directions": 17,
+  "hamiltonians_with_both_sign_relations": 8,
+  "max_absolute_response_replay_error_eV": 0.0,
+  "reference_convention": "Use explicit fixed a/b columns. Historical gamma_favored field names do not imply every pair contains Gamma."
+}

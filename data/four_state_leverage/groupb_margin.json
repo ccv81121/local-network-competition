@@ -1,0 +1,46 @@
+{
+ "Ca2SnTiO6_rs": {
+  "edge": "V",
+  "k_edge": [
+   1.262379e-15,
+   0.5,
+   0.5
+  ],
+  "k_rival": [
+   0.5,
+   0.5,
+   1.262406e-15
+  ],
+  "LambdaV_state11_meV": 25.876999999999484,
+  "LambdaC_state11_meV": 68.1440000000002,
+  "rule": "phi_readout.py: TRIM best vs second best at state11, edge with smaller |Lambda|",
+  "mesh": [
+   "8",
+   "6",
+   "8"
+  ],
+  "source": "$WORK/PRL_MECHANISM_TEST_20261014/work/Ca2SnTiO6_rs/P0_P5/fourstate/state11/EIGENVAL (relaxed 5-GPa structure, four-state edge mesh; only this file read)"
+ },
+ "Ca8Sn6Ti2O24": {
+  "edge": "V",
+  "k_edge": [
+   1.262373e-15,
+   1.262379e-15,
+   0.5
+  ],
+  "k_rival": [
+   0.5,
+   1.262379e-15,
+   0.5
+  ],
+  "LambdaV_state11_meV": 72.06400000000014,
+  "LambdaC_state11_meV": 179.04699999999974,
+  "rule": "phi_readout.py: TRIM best vs second best at state11, edge with smaller |Lambda|",
+  "mesh": [
+   "4",
+   "6",
+   "8"
+  ],
+  "source": "$WORK/PRL_MECHANISM_TEST_20261014/work/Ca8Sn6Ti2O24/P0_P5/fourstate/state11/EIGENVAL (relaxed 5-GPa structure, four-state edge mesh; only this file read)"
+ }
+}

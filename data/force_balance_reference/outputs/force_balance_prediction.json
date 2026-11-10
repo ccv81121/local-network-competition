@@ -1,0 +1,72 @@
+{
+ "force_constants": {
+  "relative_asymmetry_before_symmetrization": 0.008154457333281616,
+  "acoustic_sum_rule_residual": 0.0003872148425688477,
+  "nontranslational_eigenvalues_eV_A2": {
+   "min": 0.20210187412219768,
+   "max": 17.7752737848823,
+   "n_negative": 0
+  }
+ },
+ "drive": {
+  "rms_force_eV_A": 0.04690787527315876,
+  "max_force_eV_A": 0.05653501785714286
+ },
+ "displacement": {
+  "cosine_pred_vs_actual": 0.8924708574788321,
+  "norm_ratio_pred_over_actual": 1.2045743762961427,
+  "rms_actual_A": 0.012238724047362802,
+  "rms_pred_A": 0.01474245338601265,
+  "rms_error_A": 0.00671352164952555,
+  "by_species": {
+   "Mg": {
+    "rms_actual_A": 0.013683126063865986,
+    "rms_pred_A": 0.01613115786670335,
+    "cosine": 0.9442632577857188
+   },
+   "Sb": {
+    "rms_actual_A": 0.009072253971276683,
+    "rms_pred_A": 0.013120951674953559,
+    "cosine": 0.8338630533755507
+   },
+   "Sc": {
+    "rms_actual_A": 0.013512644130518616,
+    "rms_pred_A": 0.01433712147854452,
+    "cosine": 0.9658082029286795
+   },
+   "Se": {
+    "rms_actual_A": 0.012713400031018344,
+    "rms_pred_A": 0.015001247309147448,
+    "cosine": 0.8865570806957296
+   }
+  },
+  "network_cosine": 0.8814354151770375
+ },
+ "bond_preserving_fraction": {
+  "actual": 0.6823732380805518,
+  "predicted": 0.7876245832604032,
+  "of_the_drive_force": 0.03011638575921424
+ },
+ "bond_length_changes": {
+  "pearson_pred_vs_actual": 0.9703749134448018,
+  "rms_actual_A": 0.0049666545198126895,
+  "rms_pred_A": 0.004865855286618223
+ },
+ "network_stiffness_eV_A2": {
+  "bond_changing_subspace_mean_min_max": [
+   8.464313929149945,
+   3.445499822056532,
+   17.704989770132514
+  ],
+  "bond_preserving_subspace_mean_min_max": [
+   2.470125215035671,
+   0.3855147614160171,
+   7.409033128339978
+  ]
+ },
+ "harmonic_energy_lowering_meV_per_cell": {
+  "predicted": -9.90794453793954,
+  "dft_E5_minus_Eaff": -9.018379999986337
+ },
+ "residual_force_at_actual_5GPa_rms_eV_A": 0.01000494790491376
+}

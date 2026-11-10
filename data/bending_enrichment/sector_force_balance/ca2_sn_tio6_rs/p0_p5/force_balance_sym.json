@@ -1,0 +1,92 @@
+{
+ "material": "Ca2SnTiO6_rs",
+ "interval": "P0_P5",
+ "n_symmetric_dof": 12,
+ "H_asymmetry": 0.00025633602172344327,
+ "n_negative": 0,
+ "drive_symmetry_residual": 0.00016356437434143347,
+ "bond_preserving_share": {
+  "drive": 0.0788555566008216,
+  "predicted": 0.1662095475590833,
+  "actual": 0.14523341582540586
+ },
+ "cosine_pred_vs_actual": 0.9992910681461394,
+ "cosine_drive_vs_actual": 0.856089523062984,
+ "norm_ratio_pred_over_actual": 1.0396100230233989,
+ "harmonic_energy_lowering_meV": -4.796784232095312,
+ "modes_soft_to_stiff": [
+  {
+   "k_eV_A2": 1.5443,
+   "bond_preserving": 0.8549,
+   "drive_share": 0.0144,
+   "response_share": 0.1551
+  },
+  {
+   "k_eV_A2": 3.4099,
+   "bond_preserving": 0.7738,
+   "drive_share": 0.0592,
+   "response_share": 0.1305
+  },
+  {
+   "k_eV_A2": 3.9674,
+   "bond_preserving": 0.1467,
+   "drive_share": 0.3407,
+   "response_share": 0.5551
+  },
+  {
+   "k_eV_A2": 4.9109,
+   "bond_preserving": 0.7265,
+   "drive_share": 0.0163,
+   "response_share": 0.0173
+  },
+  {
+   "k_eV_A2": 7.861,
+   "bond_preserving": 0.6481,
+   "drive_share": 0.0507,
+   "response_share": 0.021
+  },
+  {
+   "k_eV_A2": 8.3265,
+   "bond_preserving": 0.4399,
+   "drive_share": 0.1862,
+   "response_share": 0.0688
+  },
+  {
+   "k_eV_A2": 9.0329,
+   "bond_preserving": 0.5571,
+   "drive_share": 0.14,
+   "response_share": 0.044
+  },
+  {
+   "k_eV_A2": 10.7864,
+   "bond_preserving": 0.2153,
+   "drive_share": 0.0011,
+   "response_share": 0.0002
+  },
+  {
+   "k_eV_A2": 11.1265,
+   "bond_preserving": 0.2022,
+   "drive_share": 0.0008,
+   "response_share": 0.0002
+  },
+  {
+   "k_eV_A2": 15.1254,
+   "bond_preserving": 0.009,
+   "drive_share": 0.0066,
+   "response_share": 0.0007
+  },
+  {
+   "k_eV_A2": 15.9236,
+   "bond_preserving": 0.0383,
+   "drive_share": 0.0365,
+   "response_share": 0.0037
+  },
+  {
+   "k_eV_A2": 33.5181,
+   "bond_preserving": 0.0,
+   "drive_share": 0.1474,
+   "response_share": 0.0034
+  }
+ ],
+ "dft_E_P2_minus_E_aff_meV": -4.700010000021848
+}

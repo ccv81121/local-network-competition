@@ -1,0 +1,22 @@
+mp-10953_Sb Direct [1, 2, 3, 4, 5, 6] ['155.5', '125.0', '114.7', '133.5', '5.1', '17.2'] 155.5
+mp-1104860_Ga Indirect [] [] nan
+mp-1247043_Ga Indirect [15] ['1.7'] 1.7
+mp-14307_Sb Direct [1, 2, 3, 4, 5, 13, 14, 15] ['189.8', '166.2', '156.8', '169.6', '17.3', '135.3', '145.8', '137.5'] 189.8
+mp-19262_Ga Indirect [] [] nan
+mp-19318_Sc Direct [2, 4, 5, 6, 7, 9, 10, 12, 13, 14] ['35.3', '24.2', '49.7', '58.9', '92.3', '0.8', '1.4', '14.4', '38.6', '22.8'] 92.3
+mp-22638_Mg Direct [14] ['18.5'] 18.5
+mp-22961_Cu Direct [2, 7, 8, 9] ['57.0', '32.8', '24.1', '10.9'] 57.0
+mp-3443_Cr Indirect [] [] nan
+mp-36866_Ga Indirect [] [] nan
+mp-3807_Ga Indirect [] [] nan
+mp-3904_Zn Direct [2] ['3.4'] 3.4
+mp-4590_Cr Direct [6] ['7.3'] 7.3
+mp-559200_Ir Indirect [2, 4, 5, 6] ['4.6', '13.2', '29.0', '22.4'] 29.0
+mp-559200_Mo Indirect [10, 14] ['3.9', '5.3'] 5.3
+mp-9993_Ga Indirect [] [] nan
+matched 16 reversal 10
+strongest opposite margin > 1 meV: 10/16
+strongest opposite margin > 2 meV: 9/16
+strongest opposite margin > 5 meV: 8/16
+strongest opposite margin > 10 meV: 6/16
+strongest opposite margin > 20 meV: 5/16

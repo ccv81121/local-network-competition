@@ -1,0 +1,52 @@
+[
+ {
+  "system": "k12 4-5 GPa (full H)",
+  "sector_dof": 165,
+  "dim_p_s": 45,
+  "k_pp_mean": 2.470124740431735,
+  "k_pp_min": 0.38559550675166465,
+  "coupling_fraction": 0.7146935791145757,
+  "direct_fraction": 0.2853064208854241,
+  "model_err": 4.038935972579365e-15,
+  "p_s_share_of_response": 0.2798470787308348
+ },
+ {
+  "system": "k12 0-5 GPa (sector)",
+  "sector_dof": 90,
+  "dim_p_s": 0,
+  "note": "no pure bond-preserving motion inside the sector"
+ },
+ {
+  "system": "k08 0-5 GPa (sector)",
+  "sector_dof": 13,
+  "dim_p_s": 4,
+  "k_pp_mean": 4.2956980486755185,
+  "k_pp_min": 1.5801571651696602,
+  "coupling_fraction": 0.5689489523076163,
+  "direct_fraction": 0.43105104769238295,
+  "model_err": 8.188790237851894e-16,
+  "p_s_share_of_response": 0.05913854801223521
+ },
+ {
+  "system": "Cd(Ga,In)2O4 (sector)",
+  "sector_dof": 13,
+  "dim_p_s": 4,
+  "k_pp_mean": 13.840403608782314,
+  "k_pp_min": 7.100324975324847,
+  "coupling_fraction": 0.2877337205027699,
+  "direct_fraction": 0.7122662794972304,
+  "model_err": 1.816742257382189e-15,
+  "p_s_share_of_response": 0.03459908927944762
+ },
+ {
+  "system": "Na(Sc,In)O2 (sector)",
+  "sector_dof": 20,
+  "dim_p_s": 4,
+  "k_pp_mean": 5.174323157492043,
+  "k_pp_min": 0.7707168143436501,
+  "coupling_fraction": 0.32914280706957544,
+  "direct_fraction": 0.6708571929304484,
+  "model_err": 2.7538694815730587e-14,
+  "p_s_share_of_response": 0.0008670093573364521
+ }
+]

@@ -1,0 +1,9 @@
+R-Gamma-Y
+20
+Line-mode
+Reciprocal
+0.5 0.5 0.5 ! R
+0.0 0.0 0.0 ! G
+
+0.0 0.0 0.0 ! G
+0.0 0.5 0.0 ! Y

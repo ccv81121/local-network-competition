@@ -1,0 +1,34 @@
+{
+ "dir": "runs/Ca2SnTiO6_rs/fourstate",
+ "edge": "V",
+ "k_edge": [
+  1.262379e-15,
+  0.5,
+  0.5
+ ],
+ "k_rival": [
+  0.5,
+  0.5,
+  1.262406e-15
+ ],
+ "Lambda_meV": {
+  "state00": 27.69,
+  "state10": 25.49,
+  "state01": 28.08,
+  "state11": 25.88
+ },
+ "dLambda_perp_meV": -2.2,
+ "dLambda_par_meV": 0.39,
+ "dLambda_total_meV": -1.81,
+ "additivity_residual_meV": -0.0,
+ "phi": 0.8493,
+ "phi_all": 0.5033,
+ "E_rel_meV": {
+  "state00": 0.0,
+  "state10": -0.42,
+  "state01": -4.7,
+  "state11": -5.27
+ },
+ "LambdaV_state11_meV": 25.88,
+ "LambdaC_state11_meV": 68.14
+}

@@ -1,0 +1,98 @@
+{
+ "material": "Spinel_CdGaInO4",
+ "interval": "P0_P5",
+ "n_symmetric_dof": 13,
+ "H_asymmetry": 0.00028753608344958277,
+ "n_negative": 0,
+ "drive_symmetry_residual": 3.9974282348839744e-05,
+ "bond_preserving_share": {
+  "drive": 0.004712563100603771,
+  "predicted": 0.037797259425973104,
+  "actual": 0.04052174944094502
+ },
+ "cosine_pred_vs_actual": 0.9998698833705686,
+ "cosine_drive_vs_actual": 0.909215792987801,
+ "norm_ratio_pred_over_actual": 0.9904163342000811,
+ "harmonic_energy_lowering_meV": -7.816595463167981,
+ "modes_soft_to_stiff": [
+  {
+   "k_eV_A2": 4.7861,
+   "bond_preserving": 0.9406,
+   "drive_share": 0.001,
+   "response_share": 0.0149
+  },
+  {
+   "k_eV_A2": 6.1645,
+   "bond_preserving": 0.4721,
+   "drive_share": 0.0108,
+   "response_share": 0.0955
+  },
+  {
+   "k_eV_A2": 6.9759,
+   "bond_preserving": 0.0944,
+   "drive_share": 0.0211,
+   "response_share": 0.1461
+  },
+  {
+   "k_eV_A2": 8.0364,
+   "bond_preserving": 0.768,
+   "drive_share": 0.0005,
+   "response_share": 0.0025
+  },
+  {
+   "k_eV_A2": 11.6624,
+   "bond_preserving": 0.612,
+   "drive_share": 0.0005,
+   "response_share": 0.0013
+  },
+  {
+   "k_eV_A2": 12.8343,
+   "bond_preserving": 0.1707,
+   "drive_share": 0.106,
+   "response_share": 0.2165
+  },
+  {
+   "k_eV_A2": 16.8694,
+   "bond_preserving": 0.1957,
+   "drive_share": 0.0233,
+   "response_share": 0.0275
+  },
+  {
+   "k_eV_A2": 21.5034,
+   "bond_preserving": 0.8111,
+   "drive_share": 0.0357,
+   "response_share": 0.026
+  },
+  {
+   "k_eV_A2": 22.8692,
+   "bond_preserving": 0.1367,
+   "drive_share": 0.4618,
+   "response_share": 0.2971
+  },
+  {
+   "k_eV_A2": 24.8521,
+   "bond_preserving": 0.0053,
+   "drive_share": 0.2247,
+   "response_share": 0.1224
+  },
+  {
+   "k_eV_A2": 27.1299,
+   "bond_preserving": 0.1618,
+   "drive_share": 0.0935,
+   "response_share": 0.0428
+  },
+  {
+   "k_eV_A2": 30.5694,
+   "bond_preserving": 0.2079,
+   "drive_share": 0.0203,
+   "response_share": 0.0073
+  },
+  {
+   "k_eV_A2": 39.6283,
+   "bond_preserving": 0.0378,
+   "drive_share": 0.0007,
+   "response_share": 0.0001
+  }
+ ],
+ "dft_E_P2_minus_E_aff_meV": -7.823599999994713
+}
